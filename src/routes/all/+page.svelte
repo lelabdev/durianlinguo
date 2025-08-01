@@ -3,40 +3,58 @@
 	import type { Word } from '$lib/types/word';
 	import Table from './Table.svelte';
 
-	function filterByCategory(category: string) {
-		if (category === 'all') {
-			return words;
-		}
-		return words.filter((word) => word.category === category);
-	}
+	const getCategories = (wordList: Word[]): string[] =>
+		[...new Set(wordList.map((w) => w.category).filter(Boolean))] as string[];
 
-	function getCategories(words: Word[]): string[] {
-		const categories = new Set<string>();
-		words.forEach((word) => {
-			if (word.category) {
-				categories.add(word.category);
-			}
-		});
-		return Array.from(categories);
-	}
+	const filterByCategory = (category: string): Word[] =>
+		category === 'all' ? words : words.filter((w) => w.category === category);
 
-	function clickCategory(category: string) {
-		selectedCategory = filterByCategory(category);
-	}
+	// Initialisation
 	const categories: string[] = getCategories(words);
+	let selectedCategory = $state<Word[]>(filterByCategory('all'));
 
-	let selectedCategory = $state(filterByCategory('all'));
+	// Handlers
+	const handleCategory = (category: string): void => {
+		selectedCategory = filterByCategory(category);
+		checked = false;
+	};
+	let checked = $state(false);
 </script>
 
-<div class="overflow-x-auto">
-	<div class="flex flex-row flex-wrap gap-6">
-		<button class=" btn w-40 capitalize">All Words</button>
-		{#each categories as category}
-			<button class=" btn w-40 capitalize" onclick={() => clickCategory(category)}
-				>{category}
-			</button>
-		{/each}
+<div class="flex flex-col lg:flex-row">
+	<div class="drawer lg:drawer-open">
+		<input id="my-drawer" type="checkbox" bind:checked class="drawer-toggle" />
+		<div class="drawer-content">
+			<!-- Page content here -->
+			<label for="my-drawer" class="drawer-button btn btn-primary lg:hidden"
+				>Filter categories</label
+			>
+		</div>
+		<div class="drawer-side">
+			<label for="my-drawer" aria-label="close sidebar" class="drawer-overlay"></label>
+			<ul class="menu min-h-full w-60 bg-base-200 p-4 text-base-content">
+				<li>
+					<button
+						class=" btn mx-auto w-40 capitalize btn-ghost"
+						onclick={() => handleCategory('all')}
+					>
+						All Words</button
+					>
+				</li>
+				{#each categories as category}
+					<li>
+						<button
+							class=" btn mx-auto w-40 capitalize btn-ghost"
+							onclick={() => handleCategory(category)}
+							>{category}
+						</button>
+					</li>
+				{/each}
+			</ul>
+		</div>
 	</div>
 
-	<Table bind:words={selectedCategory} />
+	<div class="overflow-x-auto">
+		<Table bind:words={selectedCategory} />
+	</div>
 </div>
