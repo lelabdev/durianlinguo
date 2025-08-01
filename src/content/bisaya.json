@@ -1,0 +1,4240 @@
+[
+  {
+    "id": 1,
+    "word": "kumusta",
+    "translation": {
+      "en": "hello / how are you"
+    },
+    "difficulty": 1,
+    "category": "greetings",
+    "part_of_speech": "interjection",
+    "tags": [
+      "basic",
+      "essential",
+      "survival"
+    ],
+    "pronunciation": "koo-MOOS-tah"
+  },
+  {
+    "id": 2,
+    "word": "salamat",
+    "translation": {
+      "en": "thank you"
+    },
+    "difficulty": 1,
+    "category": "greetings",
+    "part_of_speech": "interjection",
+    "tags": [
+      "basic",
+      "essential",
+      "polite"
+    ],
+    "pronunciation": "sah-LAH-tam"
+  },
+  {
+    "id": 3,
+    "word": "oo",
+    "translation": {
+      "en": "yes"
+    },
+    "difficulty": 1,
+    "category": "basic_words",
+    "part_of_speech": "particle",
+    "tags": [
+      "basic",
+      "essential"
+    ],
+    "pronunciation": "oh-oh"
+  },
+  {
+    "id": 4,
+    "word": "dili",
+    "translation": {
+      "en": "no / not"
+    },
+    "difficulty": 1,
+    "category": "basic_words",
+    "part_of_speech": "particle",
+    "tags": [
+      "basic",
+      "essential"
+    ],
+    "pronunciation": "DEE-lee"
+  },
+  {
+    "id": 5,
+    "word": "palihug",
+    "translation": {
+      "en": "please"
+    },
+    "difficulty": 1,
+    "category": "greetings",
+    "part_of_speech": "interjection",
+    "tags": [
+      "polite",
+      "essential"
+    ],
+    "pronunciation": "pah-LEE-hoog"
+  },
+  {
+    "id": 6,
+    "word": "pa",
+    "translation": {
+      "en": "please (after verb)"
+    },
+    "difficulty": 2,
+    "category": "greetings",
+    "part_of_speech": "particle",
+    "tags": [
+      "polite"
+    ],
+    "pronunciation": "pah"
+  },
+  {
+    "id": 7,
+    "word": "abi",
+    "translation": {
+      "en": "excuse me / hey"
+    },
+    "difficulty": 2,
+    "category": "greetings",
+    "part_of_speech": "interjection",
+    "tags": [
+      "casual",
+      "attention"
+    ],
+    "pronunciation": "AH-bee"
+  },
+  {
+    "id": 8,
+    "word": "uli",
+    "translation": {
+      "en": "again"
+    },
+    "difficulty": 2,
+    "category": "basic_words",
+    "part_of_speech": "adverb",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "OO-lee"
+  },
+  {
+    "id": 9,
+    "word": "aron",
+    "translation": {
+      "en": "so that / in order to"
+    },
+    "difficulty": 3,
+    "category": "basic_words",
+    "part_of_speech": "conjunction",
+    "tags": [
+      "connector"
+    ],
+    "pronunciation": "ah-RON"
+  },
+  {
+    "id": 10,
+    "word": "tambal",
+    "translation": {
+      "en": "medicine"
+    },
+    "difficulty": 2,
+    "category": "health",
+    "part_of_speech": "noun",
+    "tags": [
+      "survival",
+      "useful"
+    ],
+    "pronunciation": "tam-BAL"
+  },
+  {
+    "id": 11,
+    "word": "doktor",
+    "translation": {
+      "en": "doctor"
+    },
+    "difficulty": 2,
+    "category": "health",
+    "part_of_speech": "noun",
+    "tags": [
+      "survival"
+    ],
+    "pronunciation": "dok-TOR"
+  },
+  {
+    "id": 12,
+    "word": "masakit",
+    "translation": {
+      "en": "it hurts / painful"
+    },
+    "difficulty": 2,
+    "category": "health",
+    "part_of_speech": "adjective",
+    "tags": [
+      "survival"
+    ],
+    "pronunciation": "ma-SAH-keet"
+  },
+  {
+    "id": 13,
+    "word": "sakit",
+    "translation": {
+      "en": "pain / sickness"
+    },
+    "difficulty": 2,
+    "category": "health",
+    "part_of_speech": "noun",
+    "tags": [
+      "survival"
+    ],
+    "pronunciation": "SAH-keet"
+  },
+  {
+    "id": 14,
+    "word": "init",
+    "translation": {
+      "en": "hot (temperature)"
+    },
+    "difficulty": 2,
+    "category": "descriptions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "EE-neet"
+  },
+  {
+    "id": 15,
+    "word": "bugnaw",
+    "translation": {
+      "en": "cold"
+    },
+    "difficulty": 2,
+    "category": "descriptions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "boog-NAW"
+  },
+  {
+    "id": 16,
+    "word": "dagku",
+    "translation": {
+      "en": "big"
+    },
+    "difficulty": 2,
+    "category": "descriptions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "dag-KOO"
+  },
+  {
+    "id": 17,
+    "word": "gamay",
+    "translation": {
+      "en": "small"
+    },
+    "difficulty": 2,
+    "category": "descriptions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "gah-MAY"
+  },
+  {
+    "id": 18,
+    "word": "maayo",
+    "translation": {
+      "en": "good / okay"
+    },
+    "difficulty": 1,
+    "category": "descriptions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "basic",
+      "essential"
+    ],
+    "pronunciation": "mah-YOW"
+  },
+  {
+    "id": 19,
+    "word": "daut",
+    "translation": {
+      "en": "bad"
+    },
+    "difficulty": 2,
+    "category": "descriptions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "DAH-oot"
+  },
+  {
+    "id": 20,
+    "word": "bag-o",
+    "translation": {
+      "en": "new"
+    },
+    "difficulty": 2,
+    "category": "descriptions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "BAH-go"
+  },
+  {
+    "id": 21,
+    "word": "daan",
+    "translation": {
+      "en": "old"
+    },
+    "difficulty": 2,
+    "category": "descriptions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "DAHN"
+  },
+  {
+    "id": 22,
+    "word": "tubig",
+    "translation": {
+      "en": "water"
+    },
+    "difficulty": 1,
+    "category": "food",
+    "part_of_speech": "noun",
+    "tags": [
+      "basic",
+      "essential",
+      "survival"
+    ],
+    "pronunciation": "TOO-big"
+  },
+  {
+    "id": 23,
+    "word": "kan-on",
+    "translation": {
+      "en": "to eat / food"
+    },
+    "difficulty": 1,
+    "category": "food",
+    "part_of_speech": "verb",
+    "tags": [
+      "basic",
+      "essential"
+    ],
+    "pronunciation": "kah-NON"
+  },
+  {
+    "id": 24,
+    "word": "kape",
+    "translation": {
+      "en": "coffee"
+    },
+    "difficulty": 1,
+    "category": "food",
+    "part_of_speech": "noun",
+    "tags": [
+      "basic",
+      "common"
+    ],
+    "pronunciation": "KAH-pe"
+  },
+  {
+    "id": 25,
+    "word": "bugas",
+    "translation": {
+      "en": "rice"
+    },
+    "difficulty": 2,
+    "category": "food",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "BOO-gas"
+  },
+  {
+    "id": 26,
+    "word": "isda",
+    "translation": {
+      "en": "fish"
+    },
+    "difficulty": 2,
+    "category": "food",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "EES-dah"
+  },
+  {
+    "id": 27,
+    "word": "karne",
+    "translation": {
+      "en": "meat"
+    },
+    "difficulty": 2,
+    "category": "food",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "KAR-neh"
+  },
+  {
+    "id": 28,
+    "word": "prutas",
+    "translation": {
+      "en": "fruit"
+    },
+    "difficulty": 2,
+    "category": "food",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "PROO-tas"
+  },
+  {
+    "id": 29,
+    "word": "utot",
+    "translation": {
+      "en": "vegetable"
+    },
+    "difficulty": 2,
+    "category": "food",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "OO-tot"
+  },
+  {
+    "id": 30,
+    "word": "tinapa",
+    "translation": {
+      "en": "smoked fish"
+    },
+    "difficulty": 3,
+    "category": "food",
+    "part_of_speech": "noun",
+    "tags": [
+      "local"
+    ],
+    "pronunciation": "tee-NAH-pah"
+  },
+  {
+    "id": 31,
+    "word": "pila",
+    "translation": {
+      "en": "how much / how many"
+    },
+    "difficulty": 2,
+    "category": "shopping",
+    "part_of_speech": "question_word",
+    "tags": [
+      "essential",
+      "survival"
+    ],
+    "pronunciation": "PEE-lah"
+  },
+  {
+    "id": 32,
+    "word": "pila man",
+    "translation": {
+      "en": "how much is it?"
+    },
+    "difficulty": 2,
+    "category": "shopping",
+    "part_of_speech": "phrase",
+    "tags": [
+      "essential",
+      "survival"
+    ],
+    "pronunciation": "PEE-lah mahn"
+  },
+  {
+    "id": 33,
+    "word": "barato",
+    "translation": {
+      "en": "cheap"
+    },
+    "difficulty": 2,
+    "category": "shopping",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "bah-RAH-to"
+  },
+  {
+    "id": 34,
+    "word": "mahal",
+    "translation": {
+      "en": "expensive / love"
+    },
+    "difficulty": 2,
+    "category": "shopping",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common",
+      "dual_meaning"
+    ],
+    "pronunciation": "MAH-hal"
+  },
+  {
+    "id": 35,
+    "word": "bayran",
+    "translation": {
+      "en": "to pay"
+    },
+    "difficulty": 2,
+    "category": "shopping",
+    "part_of_speech": "verb",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "by-RAN"
+  },
+  {
+    "id": 36,
+    "word": "suroy",
+    "translation": {
+      "en": "to tour / to walk around"
+    },
+    "difficulty": 2,
+    "category": "travel",
+    "part_of_speech": "verb",
+    "tags": [
+      "tourist",
+      "useful"
+    ],
+    "pronunciation": "soo-ROY"
+  },
+  {
+    "id": 37,
+    "word": "lakaw",
+    "translation": {
+      "en": "to walk"
+    },
+    "difficulty": 2,
+    "category": "travel",
+    "part_of_speech": "verb",
+    "tags": [
+      "basic"
+    ],
+    "pronunciation": "lah-KAW"
+  },
+  {
+    "id": 38,
+    "word": "tuo",
+    "translation": {
+      "en": "right"
+    },
+    "difficulty": 1,
+    "category": "directions",
+    "part_of_speech": "noun",
+    "tags": [
+      "basic",
+      "essential"
+    ],
+    "pronunciation": "TOO-oh"
+  },
+  {
+    "id": 39,
+    "word": "wala",
+    "translation": {
+      "en": "left"
+    },
+    "difficulty": 1,
+    "category": "directions",
+    "part_of_speech": "noun",
+    "tags": [
+      "basic",
+      "essential"
+    ],
+    "pronunciation": "WAH-lah"
+  },
+  {
+    "id": 40,
+    "word": "tuo na",
+    "translation": {
+      "en": "turn right"
+    },
+    "difficulty": 2,
+    "category": "directions",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "TOO-oh nah"
+  },
+  {
+    "id": 41,
+    "word": "wala na",
+    "translation": {
+      "en": "turn left"
+    },
+    "difficulty": 2,
+    "category": "directions",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "WAH-lah nah"
+  },
+  {
+    "id": 42,
+    "word": "tuo ug tuo",
+    "translation": {
+      "en": "go straight"
+    },
+    "difficulty": 2,
+    "category": "directions",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "TOO-oh oog TOO-oh"
+  },
+  {
+    "id": 43,
+    "word": "duol",
+    "translation": {
+      "en": "near"
+    },
+    "difficulty": 2,
+    "category": "directions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "DOO-ol"
+  },
+  {
+    "id": 44,
+    "word": "layo",
+    "translation": {
+      "en": "far"
+    },
+    "difficulty": 2,
+    "category": "directions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "LYE-yo"
+  },
+  {
+    "id": 45,
+    "word": "asa",
+    "translation": {
+      "en": "where"
+    },
+    "difficulty": 1,
+    "category": "basic_words",
+    "part_of_speech": "question_word",
+    "tags": [
+      "essential",
+      "survival"
+    ],
+    "pronunciation": "AH-sah"
+  },
+  {
+    "id": 46,
+    "word": "asa ang",
+    "translation": {
+      "en": "where is the..."
+    },
+    "difficulty": 1,
+    "category": "directions",
+    "part_of_speech": "phrase",
+    "tags": [
+      "essential",
+      "survival"
+    ],
+    "pronunciation": "AH-sah ang"
+  },
+  {
+    "id": 47,
+    "word": "didto",
+    "translation": {
+      "en": "there"
+    },
+    "difficulty": 2,
+    "category": "basic_words",
+    "part_of_speech": "adverb",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "DEED-toh"
+  },
+  {
+    "id": 48,
+    "word": "dinhi",
+    "translation": {
+      "en": "here"
+    },
+    "difficulty": 2,
+    "category": "basic_words",
+    "part_of_speech": "adverb",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "DEEN-hee"
+  },
+  {
+    "id": 49,
+    "word": "karon",
+    "translation": {
+      "en": "now"
+    },
+    "difficulty": 2,
+    "category": "time",
+    "part_of_speech": "adverb",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "kah-RON"
+  },
+  {
+    "id": 50,
+    "word": "ugma",
+    "translation": {
+      "en": "tomorrow"
+    },
+    "difficulty": 2,
+    "category": "time",
+    "part_of_speech": "adverb",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "OO-gma"
+  },
+  {
+    "id": 51,
+    "word": "kahapon",
+    "translation": {
+      "en": "yesterday"
+    },
+    "difficulty": 2,
+    "category": "time",
+    "part_of_speech": "adverb",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "kah-HA-pon"
+  },
+  {
+    "id": 52,
+    "word": "buntag",
+    "translation": {
+      "en": "morning"
+    },
+    "difficulty": 2,
+    "category": "time",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "boon-TAG"
+  },
+  {
+    "id": 53,
+    "word": "hapon",
+    "translation": {
+      "en": "afternoon / evening"
+    },
+    "difficulty": 2,
+    "category": "time",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "HA-pon"
+  },
+  {
+    "id": 54,
+    "word": "gabi-i",
+    "translation": {
+      "en": "night"
+    },
+    "difficulty": 2,
+    "category": "time",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "gah-BEE-ee"
+  },
+  {
+    "id": 55,
+    "word": "oras",
+    "translation": {
+      "en": "hour / time"
+    },
+    "difficulty": 2,
+    "category": "time",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "OH-ras"
+  },
+  {
+    "id": 56,
+    "word": "pila ka oras",
+    "translation": {
+      "en": "how many hours?"
+    },
+    "difficulty": 3,
+    "category": "time",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "PEE-lah kah OH-ras"
+  },
+  {
+    "id": 57,
+    "word": "adto",
+    "translation": {
+      "en": "to go"
+    },
+    "difficulty": 1,
+    "category": "verbs",
+    "part_of_speech": "verb",
+    "tags": [
+      "essential",
+      "basic"
+    ],
+    "pronunciation": "AD-to"
+  },
+  {
+    "id": 58,
+    "word": "anhi",
+    "translation": {
+      "en": "to come"
+    },
+    "difficulty": 2,
+    "category": "verbs",
+    "part_of_speech": "verb",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "AN-hee"
+  },
+  {
+    "id": 59,
+    "word": "buhaton",
+    "translation": {
+      "en": "to do / to make"
+    },
+    "difficulty": 2,
+    "category": "verbs",
+    "part_of_speech": "verb",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "boo-HA-ton"
+  },
+  {
+    "id": 60,
+    "word": "sulti",
+    "translation": {
+      "en": "to speak"
+    },
+    "difficulty": 1,
+    "category": "verbs",
+    "part_of_speech": "verb",
+    "tags": [
+      "essential",
+      "core"
+    ],
+    "pronunciation": "SUL-ti"
+  },
+  {
+    "id": 61,
+    "word": "paminaw",
+    "translation": {
+      "en": "to listen"
+    },
+    "difficulty": 2,
+    "category": "verbs",
+    "part_of_speech": "verb",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "pah-mee-NAW"
+  },
+  {
+    "id": 62,
+    "word": "basa",
+    "translation": {
+      "en": "to read"
+    },
+    "difficulty": 2,
+    "category": "verbs",
+    "part_of_speech": "verb",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "BAH-sah"
+  },
+  {
+    "id": 63,
+    "word": "sulat",
+    "translation": {
+      "en": "to write"
+    },
+    "difficulty": 2,
+    "category": "verbs",
+    "part_of_speech": "verb",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "SOO-lat"
+  },
+  {
+    "id": 64,
+    "word": "imo",
+    "translation": {
+      "en": "your"
+    },
+    "difficulty": 2,
+    "category": "pronouns",
+    "part_of_speech": "pronoun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "EE-mo"
+  },
+  {
+    "id": 65,
+    "word": "ako",
+    "translation": {
+      "en": "I / me"
+    },
+    "difficulty": 1,
+    "category": "pronouns",
+    "part_of_speech": "pronoun",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "AH-ko"
+  },
+  {
+    "id": 66,
+    "word": "ikaw",
+    "translation": {
+      "en": "you"
+    },
+    "difficulty": 1,
+    "category": "pronouns",
+    "part_of_speech": "pronoun",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "EE-kaw"
+  },
+  {
+    "id": 67,
+    "word": "siya",
+    "translation": {
+      "en": "he / she / it"
+    },
+    "difficulty": 2,
+    "category": "pronouns",
+    "part_of_speech": "pronoun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "SEE-yah"
+  },
+  {
+    "id": 68,
+    "word": "kita",
+    "translation": {
+      "en": "we (exclusive)"
+    },
+    "difficulty": 3,
+    "category": "pronouns",
+    "part_of_speech": "pronoun",
+    "tags": [
+      "grammar"
+    ],
+    "pronunciation": "KEE-ta"
+  },
+  {
+    "id": 69,
+    "word": "kaming",
+    "translation": {
+      "en": "we (inclusive)"
+    },
+    "difficulty": 3,
+    "category": "pronouns",
+    "part_of_speech": "pronoun",
+    "tags": [
+      "grammar"
+    ],
+    "pronunciation": "KA-ming"
+  },
+  {
+    "id": 70,
+    "word": "nila",
+    "translation": {
+      "en": "they"
+    },
+    "difficulty": 2,
+    "category": "pronouns",
+    "part_of_speech": "pronoun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "NEE-lah"
+  },
+  {
+    "id": 71,
+    "word": "usa",
+    "translation": {
+      "en": "one"
+    },
+    "difficulty": 1,
+    "category": "numbers",
+    "part_of_speech": "number",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "OO-sah"
+  },
+  {
+    "id": 72,
+    "word": "duha",
+    "translation": {
+      "en": "two"
+    },
+    "difficulty": 1,
+    "category": "numbers",
+    "part_of_speech": "number",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "DOO-ha"
+  },
+  {
+    "id": 73,
+    "word": "tulo",
+    "translation": {
+      "en": "three"
+    },
+    "difficulty": 1,
+    "category": "numbers",
+    "part_of_speech": "number",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "TOO-lo"
+  },
+  {
+    "id": 74,
+    "word": "upat",
+    "translation": {
+      "en": "four"
+    },
+    "difficulty": 1,
+    "category": "numbers",
+    "part_of_speech": "number",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "OO-pat"
+  },
+  {
+    "id": 75,
+    "word": "lima",
+    "translation": {
+      "en": "five"
+    },
+    "difficulty": 1,
+    "category": "numbers",
+    "part_of_speech": "number",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "LEE-ma"
+  },
+  {
+    "id": 76,
+    "word": "unom",
+    "translation": {
+      "en": "six"
+    },
+    "difficulty": 2,
+    "category": "numbers",
+    "part_of_speech": "number",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "OO-nom"
+  },
+  {
+    "id": 77,
+    "word": "pito",
+    "translation": {
+      "en": "seven"
+    },
+    "difficulty": 2,
+    "category": "numbers",
+    "part_of_speech": "number",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "PEE-to"
+  },
+  {
+    "id": 78,
+    "word": "walo",
+    "translation": {
+      "en": "eight"
+    },
+    "difficulty": 2,
+    "category": "numbers",
+    "part_of_speech": "number",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "WA-lo"
+  },
+  {
+    "id": 79,
+    "word": "siyam",
+    "translation": {
+      "en": "nine"
+    },
+    "difficulty": 2,
+    "category": "numbers",
+    "part_of_speech": "number",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "SEE-yam"
+  },
+  {
+    "id": 80,
+    "word": "napulo",
+    "translation": {
+      "en": "ten"
+    },
+    "difficulty": 1,
+    "category": "numbers",
+    "part_of_speech": "number",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "nah-POO-lo"
+  },
+  {
+    "id": 81,
+    "word": "napulog usa",
+    "translation": {
+      "en": "eleven"
+    },
+    "difficulty": 3,
+    "category": "numbers",
+    "part_of_speech": "number",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "nah-POO-log OO-sah"
+  },
+  {
+    "id": 82,
+    "word": "kan-on",
+    "translation": {
+      "en": "meal / food"
+    },
+    "difficulty": 2,
+    "category": "food",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "kah-NON"
+  },
+  {
+    "id": 83,
+    "word": "pan",
+    "translation": {
+      "en": "bread"
+    },
+    "difficulty": 2,
+    "category": "food",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "pan"
+  },
+  {
+    "id": 84,
+    "word": "gatas",
+    "translation": {
+      "en": "milk"
+    },
+    "difficulty": 2,
+    "category": "food",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "GA-tas"
+  },
+  {
+    "id": 85,
+    "word": "itlog",
+    "translation": {
+      "en": "egg"
+    },
+    "difficulty": 2,
+    "category": "food",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "EET-log"
+  },
+  {
+    "id": 86,
+    "word": "asin",
+    "translation": {
+      "en": "salt"
+    },
+    "difficulty": 2,
+    "category": "food",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "AH-sin"
+  },
+  {
+    "id": 87,
+    "word": "suka",
+    "translation": {
+      "en": "vinegar"
+    },
+    "difficulty": 3,
+    "category": "food",
+    "part_of_speech": "noun",
+    "tags": [
+      "local"
+    ],
+    "pronunciation": "SOO-kah"
+  },
+  {
+    "id": 88,
+    "word": "toyo",
+    "translation": {
+      "en": "soy sauce"
+    },
+    "difficulty": 3,
+    "category": "food",
+    "part_of_speech": "noun",
+    "tags": [
+      "local"
+    ],
+    "pronunciation": "TOH-yo"
+  },
+  {
+    "id": 89,
+    "word": "saging",
+    "translation": {
+      "en": "banana"
+    },
+    "difficulty": 1,
+    "category": "food",
+    "part_of_speech": "noun",
+    "tags": [
+      "basic",
+      "iconic"
+    ],
+    "pronunciation": "sah-GING"
+  },
+  {
+    "id": 90,
+    "word": "mangga",
+    "translation": {
+      "en": "mango"
+    },
+    "difficulty": 1,
+    "category": "food",
+    "part_of_speech": "noun",
+    "tags": [
+      "basic",
+      "iconic"
+    ],
+    "pronunciation": "mang-GAH"
+  },
+  {
+    "id": 91,
+    "word": "pinya",
+    "translation": {
+      "en": "pineapple"
+    },
+    "difficulty": 2,
+    "category": "food",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "PEE-nya"
+  },
+  {
+    "id": 92,
+    "word": "durian",
+    "translation": {
+      "en": "durian"
+    },
+    "difficulty": 2,
+    "category": "food",
+    "part_of_speech": "noun",
+    "tags": [
+      "iconic",
+      "fun"
+    ],
+    "pronunciation": "DOO-ree-an"
+  },
+  {
+    "id": 93,
+    "word": "tabang",
+    "translation": {
+      "en": "help"
+    },
+    "difficulty": 1,
+    "category": "basic_words",
+    "part_of_speech": "noun",
+    "tags": [
+      "essential",
+      "survival"
+    ],
+    "pronunciation": "TAH-bang"
+  },
+  {
+    "id": 94,
+    "word": "tabangi ko",
+    "translation": {
+      "en": "help me"
+    },
+    "difficulty": 2,
+    "category": "basic_words",
+    "part_of_speech": "phrase",
+    "tags": [
+      "survival"
+    ],
+    "pronunciation": "TAH-bang-ee ko"
+  },
+  {
+    "id": 95,
+    "word": "wala koy kahibalo",
+    "translation": {
+      "en": "I don't know"
+    },
+    "difficulty": 3,
+    "category": "basic_words",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "WAH-la ko-ee kah-ee-BAH-lo"
+  },
+  {
+    "id": 96,
+    "word": "wala koy kuwarta",
+    "translation": {
+      "en": "I don't have money"
+    },
+    "difficulty": 3,
+    "category": "shopping",
+    "part_of_speech": "phrase",
+    "tags": [
+      "survival"
+    ],
+    "pronunciation": "WAH-la ko-ee koo-WAR-ta"
+  },
+  {
+    "id": 97,
+    "word": "gusto",
+    "translation": {
+      "en": "want"
+    },
+    "difficulty": 1,
+    "category": "verbs",
+    "part_of_speech": "verb",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "GOS-to"
+  },
+  {
+    "id": 98,
+    "word": "gusto ko",
+    "translation": {
+      "en": "I want"
+    },
+    "difficulty": 1,
+    "category": "phrases",
+    "part_of_speech": "phrase",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "GOS-to ko"
+  },
+  {
+    "id": 99,
+    "word": "gusto ko’g",
+    "translation": {
+      "en": "I want some..."
+    },
+    "difficulty": 2,
+    "category": "phrases",
+    "part_of_speech": "phrase",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "GOS-to ko-eg"
+  },
+  {
+    "id": 100,
+    "word": "ngano",
+    "translation": {
+      "en": "why"
+    },
+    "difficulty": 2,
+    "category": "basic_words",
+    "part_of_speech": "question_word",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "NGA-no"
+  },
+  {
+    "id": 101,
+    "word": "tama",
+    "translation": {
+      "en": "correct / yes (agreement)"
+    },
+    "difficulty": 2,
+    "category": "basic_words",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "TAH-ma"
+  },
+  {
+    "id": 102,
+    "word": "sayop",
+    "translation": {
+      "en": "wrong"
+    },
+    "difficulty": 2,
+    "category": "basic_words",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "SY-op"
+  },
+  {
+    "id": 103,
+    "word": "unsay ngalan nimo",
+    "translation": {
+      "en": "what is your name?"
+    },
+    "difficulty": 2,
+    "category": "greetings",
+    "part_of_speech": "phrase",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "OON-say NGAH-lan NEE-mo"
+  },
+  {
+    "id": 104,
+    "word": "ako si",
+    "translation": {
+      "en": "I am"
+    },
+    "difficulty": 2,
+    "category": "greetings",
+    "part_of_speech": "phrase",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "AH-ko see"
+  },
+  {
+    "id": 105,
+    "word": "naa",
+    "translation": {
+      "en": "there is / have"
+    },
+    "difficulty": 3,
+    "category": "verbs",
+    "part_of_speech": "verb",
+    "tags": [
+      "grammar"
+    ],
+    "pronunciation": "NAH-ah"
+  },
+  {
+    "id": 106,
+    "word": "wala",
+    "translation": {
+      "en": "there is not / don't have"
+    },
+    "difficulty": 3,
+    "category": "verbs",
+    "part_of_speech": "verb",
+    "tags": [
+      "grammar"
+    ],
+    "pronunciation": "WAH-lah"
+  },
+  {
+    "id": 107,
+    "word": "giinom",
+    "translation": {
+      "en": "drink"
+    },
+    "difficulty": 2,
+    "category": "food",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "gee-ee-NOM"
+  },
+  {
+    "id": 108,
+    "word": "kaon",
+    "translation": {
+      "en": "eat!"
+    },
+    "difficulty": 1,
+    "category": "food",
+    "part_of_speech": "verb",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "KAW-on"
+  },
+  {
+    "id": 109,
+    "word": "gutom",
+    "translation": {
+      "en": "hungry"
+    },
+    "difficulty": 2,
+    "category": "food",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "GOO-tom"
+  },
+  {
+    "id": 110,
+    "word": "uhaw",
+    "translation": {
+      "en": "thirsty"
+    },
+    "difficulty": 2,
+    "category": "food",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "OO-how"
+  },
+  {
+    "id": 111,
+    "word": "palengke",
+    "translation": {
+      "en": "market"
+    },
+    "difficulty": 2,
+    "category": "shopping",
+    "part_of_speech": "noun",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "pah-LENG-ke"
+  },
+  {
+    "id": 112,
+    "word": "tindahan",
+    "translation": {
+      "en": "store"
+    },
+    "difficulty": 2,
+    "category": "shopping",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "teen-DAH-an"
+  },
+  {
+    "id": 113,
+    "word": "kwarta",
+    "translation": {
+      "en": "money"
+    },
+    "difficulty": 2,
+    "category": "shopping",
+    "part_of_speech": "noun",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "KWAR-ta"
+  },
+  {
+    "id": 114,
+    "word": "peso",
+    "translation": {
+      "en": "peso"
+    },
+    "difficulty": 1,
+    "category": "shopping",
+    "part_of_speech": "noun",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "PEH-so"
+  },
+  {
+    "id": 115,
+    "word": "bus",
+    "translation": {
+      "en": "bus"
+    },
+    "difficulty": 1,
+    "category": "transport",
+    "part_of_speech": "noun",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "boos"
+  },
+  {
+    "id": 116,
+    "word": "jeepney",
+    "translation": {
+      "en": "jeepney"
+    },
+    "difficulty": 1,
+    "category": "transport",
+    "part_of_speech": "noun",
+    "tags": [
+      "iconic"
+    ],
+    "pronunciation": "JEEP-nee"
+  },
+  {
+    "id": 117,
+    "word": "tricycle",
+    "translation": {
+      "en": "tricycle"
+    },
+    "difficulty": 2,
+    "category": "transport",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "TRY-sik-el"
+  },
+  {
+    "id": 118,
+    "word": "ticket",
+    "translation": {
+      "en": "ticket"
+    },
+    "difficulty": 2,
+    "category": "transport",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "TIK-et"
+  },
+  {
+    "id": 119,
+    "word": "estasyon",
+    "translation": {
+      "en": "station"
+    },
+    "difficulty": 3,
+    "category": "transport",
+    "part_of_speech": "noun",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "es-TA-shon"
+  },
+  {
+    "id": 120,
+    "word": "biyahe",
+    "translation": {
+      "en": "trip / journey"
+    },
+    "difficulty": 2,
+    "category": "travel",
+    "part_of_speech": "noun",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "bee-YAH-he"
+  },
+  {
+    "id": 121,
+    "word": "hotel",
+    "translation": {
+      "en": "hotel"
+    },
+    "difficulty": 1,
+    "category": "travel",
+    "part_of_speech": "noun",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "ho-TEL"
+  },
+  {
+    "id": 122,
+    "word": "kwarto",
+    "translation": {
+      "en": "room"
+    },
+    "difficulty": 2,
+    "category": "travel",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "KWAR-to"
+  },
+  {
+    "id": 123,
+    "word": "reserbasyon",
+    "translation": {
+      "en": "reservation"
+    },
+    "difficulty": 3,
+    "category": "travel",
+    "part_of_speech": "noun",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "re-ser-BA-shon"
+  },
+  {
+    "id": 124,
+    "word": "turista",
+    "translation": {
+      "en": "tourist"
+    },
+    "difficulty": 2,
+    "category": "travel",
+    "part_of_speech": "noun",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "too-REES-ta"
+  },
+  {
+    "id": 125,
+    "word": "pasaporte",
+    "translation": {
+      "en": "passport"
+    },
+    "difficulty": 2,
+    "category": "travel",
+    "part_of_speech": "noun",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "pah-sa-POR-te"
+  },
+  {
+    "id": 126,
+    "word": "visa",
+    "translation": {
+      "en": "visa"
+    },
+    "difficulty": 2,
+    "category": "travel",
+    "part_of_speech": "noun",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "VEE-sa"
+  },
+  {
+    "id": 127,
+    "word": "airport",
+    "translation": {
+      "en": "airport"
+    },
+    "difficulty": 2,
+    "category": "travel",
+    "part_of_speech": "noun",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "AIR-port"
+  },
+  {
+    "id": 128,
+    "word": "balik",
+    "translation": {
+      "en": "return"
+    },
+    "difficulty": 2,
+    "category": "travel",
+    "part_of_speech": "verb",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "BAH-lik"
+  },
+  {
+    "id": 129,
+    "word": "gikan",
+    "translation": {
+      "en": "from"
+    },
+    "difficulty": 3,
+    "category": "prepositions",
+    "part_of_speech": "preposition",
+    "tags": [
+      "grammar"
+    ],
+    "pronunciation": "GEE-kan"
+  },
+  {
+    "id": 130,
+    "word": "padulong",
+    "translation": {
+      "en": "towards"
+    },
+    "difficulty": 3,
+    "category": "prepositions",
+    "part_of_speech": "preposition",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "pah-DOONG-long"
+  },
+  {
+    "id": 131,
+    "word": "uban",
+    "translation": {
+      "en": "with"
+    },
+    "difficulty": 2,
+    "category": "prepositions",
+    "part_of_speech": "preposition",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "OO-ban"
+  },
+  {
+    "id": 132,
+    "word": "walay",
+    "translation": {
+      "en": "without"
+    },
+    "difficulty": 3,
+    "category": "prepositions",
+    "part_of_speech": "preposition",
+    "tags": [
+      "grammar"
+    ],
+    "pronunciation": "WAH-lay"
+  },
+  {
+    "id": 133,
+    "word": "taliwala",
+    "translation": {
+      "en": "between"
+    },
+    "difficulty": 3,
+    "category": "prepositions",
+    "part_of_speech": "preposition",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "tah-lee-WA-la"
+  },
+  {
+    "id": 134,
+    "word": "ilan",
+    "translation": {
+      "en": "how many"
+    },
+    "difficulty": 3,
+    "category": "question_words",
+    "part_of_speech": "question_word",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "EE-lan"
+  },
+  {
+    "id": 135,
+    "word": "kinsa",
+    "translation": {
+      "en": "who"
+    },
+    "difficulty": 2,
+    "category": "question_words",
+    "part_of_speech": "question_word",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "KEEN-sa"
+  },
+  {
+    "id": 136,
+    "word": "unsa",
+    "translation": {
+      "en": "what"
+    },
+    "difficulty": 2,
+    "category": "question_words",
+    "part_of_speech": "question_word",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "OON-sa"
+  },
+  {
+    "id": 137,
+    "word": "kanus-a",
+    "translation": {
+      "en": "when"
+    },
+    "difficulty": 3,
+    "category": "question_words",
+    "part_of_speech": "question_word",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "KA-noo-sah"
+  },
+  {
+    "id": 138,
+    "word": "ngano",
+    "translation": {
+      "en": "why"
+    },
+    "difficulty": 2,
+    "category": "question_words",
+    "part_of_speech": "question_word",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "NGA-no"
+  },
+  {
+    "id": 139,
+    "word": "diin",
+    "translation": {
+      "en": "where"
+    },
+    "difficulty": 2,
+    "category": "question_words",
+    "part_of_speech": "question_word",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "DEE-in"
+  },
+  {
+    "id": 140,
+    "word": "pila",
+    "translation": {
+      "en": "how much"
+    },
+    "difficulty": 2,
+    "category": "question_words",
+    "part_of_speech": "question_word",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "PEE-lah"
+  },
+  {
+    "id": 141,
+    "word": "giunsa",
+    "translation": {
+      "en": "how"
+    },
+    "difficulty": 3,
+    "category": "question_words",
+    "part_of_speech": "question_word",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "gee-OON-sah"
+  },
+  {
+    "id": 142,
+    "word": "kalipay",
+    "translation": {
+      "en": "happiness / joy"
+    },
+    "difficulty": 3,
+    "category": "emotions",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "kah-LEE-pie"
+  },
+  {
+    "id": 143,
+    "word": "malipayon",
+    "translation": {
+      "en": "happy"
+    },
+    "difficulty": 2,
+    "category": "emotions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "mah-lee-PI-yon"
+  },
+  {
+    "id": 144,
+    "word": "sad",
+    "translation": {
+      "en": "sad"
+    },
+    "difficulty": 1,
+    "category": "emotions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "sad"
+  },
+  {
+    "id": 145,
+    "word": "gusto",
+    "translation": {
+      "en": "like / love"
+    },
+    "difficulty": 2,
+    "category": "emotions",
+    "part_of_speech": "verb",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "GOS-to"
+  },
+  {
+    "id": 146,
+    "word": "dili ganahan",
+    "translation": {
+      "en": "don't like"
+    },
+    "difficulty": 3,
+    "category": "emotions",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "DEE-lee ga-NA-han"
+  },
+  {
+    "id": 147,
+    "word": "gibati",
+    "translation": {
+      "en": "feel"
+    },
+    "difficulty": 3,
+    "category": "emotions",
+    "part_of_speech": "verb",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "gee-BAH-ti"
+  },
+  {
+    "id": 148,
+    "word": "gibati ko",
+    "translation": {
+      "en": "I feel"
+    },
+    "difficulty": 3,
+    "category": "emotions",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "gee-BAH-ti ko"
+  },
+  {
+    "id": 149,
+    "word": "gutom",
+    "translation": {
+      "en": "hungry"
+    },
+    "difficulty": 2,
+    "category": "emotions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "GOO-tom"
+  },
+  {
+    "id": 150,
+    "word": "uhaw",
+    "translation": {
+      "en": "thirsty"
+    },
+    "difficulty": 2,
+    "category": "emotions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "OO-how"
+  },
+  {
+    "id": 151,
+    "word": "pamilya",
+    "translation": {
+      "en": "family"
+    },
+    "difficulty": 2,
+    "category": "family",
+    "part_of_speech": "noun",
+    "tags": [
+      "basic",
+      "common"
+    ],
+    "pronunciation": "pah-MIL-ya"
+  },
+  {
+    "id": 152,
+    "word": "tatay",
+    "translation": {
+      "en": "father"
+    },
+    "difficulty": 1,
+    "category": "family",
+    "part_of_speech": "noun",
+    "tags": [
+      "basic",
+      "essential"
+    ],
+    "pronunciation": "tah-TAY"
+  },
+  {
+    "id": 153,
+    "word": "nanay",
+    "translation": {
+      "en": "mother"
+    },
+    "difficulty": 1,
+    "category": "family",
+    "part_of_speech": "noun",
+    "tags": [
+      "basic",
+      "essential"
+    ],
+    "pronunciation": "nah-NAY"
+  },
+  {
+    "id": 154,
+    "word": "igsoon",
+    "translation": {
+      "en": "sibling / brother or sister"
+    },
+    "difficulty": 2,
+    "category": "family",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "ig-SO-on"
+  },
+  {
+    "id": 155,
+    "word": "lalaki",
+    "translation": {
+      "en": "male / man"
+    },
+    "difficulty": 2,
+    "category": "people",
+    "part_of_speech": "noun",
+    "tags": [
+      "basic"
+    ],
+    "pronunciation": "lah-LA-kee"
+  },
+  {
+    "id": 156,
+    "word": "babaye",
+    "translation": {
+      "en": "female / woman"
+    },
+    "difficulty": 2,
+    "category": "people",
+    "part_of_speech": "noun",
+    "tags": [
+      "basic"
+    ],
+    "pronunciation": "bah-BAY-ye"
+  },
+  {
+    "id": 157,
+    "word": "bata",
+    "translation": {
+      "en": "child"
+    },
+    "difficulty": 1,
+    "category": "people",
+    "part_of_speech": "noun",
+    "tags": [
+      "basic",
+      "common"
+    ],
+    "pronunciation": "BA-ta"
+  },
+  {
+    "id": 158,
+    "word": "tigulang",
+    "translation": {
+      "en": "elder / old person"
+    },
+    "difficulty": 3,
+    "category": "people",
+    "part_of_speech": "noun",
+    "tags": [
+      "respect",
+      "cultural"
+    ],
+    "pronunciation": "tee-GOO-lang"
+  },
+  {
+    "id": 159,
+    "word": "higala",
+    "translation": {
+      "en": "friend"
+    },
+    "difficulty": 1,
+    "category": "people",
+    "part_of_speech": "noun",
+    "tags": [
+      "basic",
+      "essential"
+    ],
+    "pronunciation": "hee-GA-la"
+  },
+  {
+    "id": 160,
+    "word": "kauban",
+    "translation": {
+      "en": "companion / someone with you"
+    },
+    "difficulty": 3,
+    "category": "people",
+    "part_of_speech": "noun",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "kow-BOON"
+  },
+  {
+    "id": 161,
+    "word": "langit",
+    "translation": {
+      "en": "sky / heaven"
+    },
+    "difficulty": 2,
+    "category": "nature",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "LAN-git"
+  },
+  {
+    "id": 162,
+    "word": "yuta",
+    "translation": {
+      "en": "earth / ground"
+    },
+    "difficulty": 2,
+    "category": "nature",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "YOO-ta"
+  },
+  {
+    "id": 163,
+    "word": "tubig",
+    "translation": {
+      "en": "water (body)"
+    },
+    "difficulty": 2,
+    "category": "nature",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "TOO-big"
+  },
+  {
+    "id": 164,
+    "word": "dagat",
+    "translation": {
+      "en": "sea"
+    },
+    "difficulty": 2,
+    "category": "nature",
+    "part_of_speech": "noun",
+    "tags": [
+      "common",
+      "coastal"
+    ],
+    "pronunciation": "dah-GAT"
+  },
+  {
+    "id": 165,
+    "word": "suba",
+    "translation": {
+      "en": "river"
+    },
+    "difficulty": 2,
+    "category": "nature",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "SOO-ba"
+  },
+  {
+    "id": 166,
+    "word": "bukid",
+    "translation": {
+      "en": "mountain / hill"
+    },
+    "difficulty": 2,
+    "category": "nature",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "BOO-kid"
+  },
+  {
+    "id": 167,
+    "word": "kahoy",
+    "translation": {
+      "en": "tree / wood"
+    },
+    "difficulty": 2,
+    "category": "nature",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "KAH-hoy"
+  },
+  {
+    "id": 168,
+    "word": "dahon",
+    "translation": {
+      "en": "leaf"
+    },
+    "difficulty": 3,
+    "category": "nature",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "dah-HON"
+  },
+  {
+    "id": 169,
+    "word": "adlaw",
+    "translation": {
+      "en": "sun / day"
+    },
+    "difficulty": 2,
+    "category": "nature",
+    "part_of_speech": "noun",
+    "tags": [
+      "common",
+      "dual_meaning"
+    ],
+    "pronunciation": "ad-LAW"
+  },
+  {
+    "id": 170,
+    "word": "bitoon",
+    "translation": {
+      "en": "star"
+    },
+    "difficulty": 3,
+    "category": "nature",
+    "part_of_speech": "noun",
+    "tags": [
+      "poetic"
+    ],
+    "pronunciation": "bee-TO-on"
+  },
+  {
+    "id": 171,
+    "word": "ulan",
+    "translation": {
+      "en": "rain"
+    },
+    "difficulty": 2,
+    "category": "nature",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "OO-lan"
+  },
+  {
+    "id": 172,
+    "word": "hangin",
+    "translation": {
+      "en": "wind"
+    },
+    "difficulty": 3,
+    "category": "nature",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "hah-NGEEN"
+  },
+  {
+    "id": 173,
+    "word": "init",
+    "translation": {
+      "en": "fire / heat"
+    },
+    "difficulty": 2,
+    "category": "nature",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "EE-neet"
+  },
+  {
+    "id": 174,
+    "word": "bagyo",
+    "translation": {
+      "en": "typhoon"
+    },
+    "difficulty": 3,
+    "category": "nature",
+    "part_of_speech": "noun",
+    "tags": [
+      "local",
+      "important"
+    ],
+    "pronunciation": "BAH-gyoh"
+  },
+  {
+    "id": 175,
+    "word": "panganod",
+    "translation": {
+      "en": "cloud"
+    },
+    "difficulty": 3,
+    "category": "nature",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "pang-a-NOD"
+  },
+  {
+    "id": 176,
+    "word": "balay",
+    "translation": {
+      "en": "house"
+    },
+    "difficulty": 1,
+    "category": "places",
+    "part_of_speech": "noun",
+    "tags": [
+      "basic",
+      "essential"
+    ],
+    "pronunciation": "BAH-lay"
+  },
+  {
+    "id": 177,
+    "word": "eskwela",
+    "translation": {
+      "en": "school"
+    },
+    "difficulty": 2,
+    "category": "places",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "es-KEH-la"
+  },
+  {
+    "id": 178,
+    "word": "simbahan",
+    "translation": {
+      "en": "church"
+    },
+    "difficulty": 2,
+    "category": "places",
+    "part_of_speech": "noun",
+    "tags": [
+      "cultural"
+    ],
+    "pronunciation": "sim-BA-han"
+  },
+  {
+    "id": 179,
+    "word": "hospital",
+    "translation": {
+      "en": "hospital"
+    },
+    "difficulty": 2,
+    "category": "places",
+    "part_of_speech": "noun",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "hos-PI-tal"
+  },
+  {
+    "id": 180,
+    "word": "merkado",
+    "translation": {
+      "en": "market"
+    },
+    "difficulty": 2,
+    "category": "places",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "mer-KA-do"
+  },
+  {
+    "id": 181,
+    "word": "tindahan",
+    "translation": {
+      "en": "store"
+    },
+    "difficulty": 2,
+    "category": "places",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "teen-DA-han"
+  },
+  {
+    "id": 182,
+    "word": "restrawhan",
+    "translation": {
+      "en": "restaurant"
+    },
+    "difficulty": 2,
+    "category": "places",
+    "part_of_speech": "noun",
+    "tags": [
+      "tourist"
+    ],
+    "pronunciation": "res-traw-HAN"
+  },
+  {
+    "id": 183,
+    "word": "palip-iran",
+    "translation": {
+      "en": "airport"
+    },
+    "difficulty": 3,
+    "category": "places",
+    "part_of_speech": "noun",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "pa-lip-EE-ran"
+  },
+  {
+    "id": 184,
+    "word": "estasyon",
+    "translation": {
+      "en": "station"
+    },
+    "difficulty": 3,
+    "category": "places",
+    "part_of_speech": "noun",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "es-TA-shon"
+  },
+  {
+    "id": 185,
+    "word": "barko",
+    "translation": {
+      "en": "ship / boat"
+    },
+    "difficulty": 3,
+    "category": "transport",
+    "part_of_speech": "noun",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "BAR-ko"
+  },
+  {
+    "id": 186,
+    "word": "byahe",
+    "translation": {
+      "en": "travel / trip"
+    },
+    "difficulty": 2,
+    "category": "travel",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "BYA-he"
+  },
+  {
+    "id": 187,
+    "word": "turista",
+    "translation": {
+      "en": "tourist"
+    },
+    "difficulty": 2,
+    "category": "travel",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "too-REES-ta"
+  },
+  {
+    "id": 188,
+    "word": "biyahe",
+    "translation": {
+      "en": "journey"
+    },
+    "difficulty": 2,
+    "category": "travel",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "bee-YA-he"
+  },
+  {
+    "id": 189,
+    "word": "lakaw",
+    "translation": {
+      "en": "walk"
+    },
+    "difficulty": 2,
+    "category": "travel",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "lah-KAW"
+  },
+  {
+    "id": 190,
+    "word": "direksyon",
+    "translation": {
+      "en": "direction"
+    },
+    "difficulty": 3,
+    "category": "directions",
+    "part_of_speech": "noun",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "dee-rek-SYON"
+  },
+  {
+    "id": 191,
+    "word": "mapa",
+    "translation": {
+      "en": "map"
+    },
+    "difficulty": 2,
+    "category": "directions",
+    "part_of_speech": "noun",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "MA-pa"
+  },
+  {
+    "id": 192,
+    "word": "tuo",
+    "translation": {
+      "en": "right"
+    },
+    "difficulty": 1,
+    "category": "directions",
+    "part_of_speech": "adverb",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "TOO-oh"
+  },
+  {
+    "id": 193,
+    "word": "wala",
+    "translation": {
+      "en": "left"
+    },
+    "difficulty": 1,
+    "category": "directions",
+    "part_of_speech": "adverb",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "WAH-lah"
+  },
+  {
+    "id": 194,
+    "word": "tuo ug tuo",
+    "translation": {
+      "en": "go straight"
+    },
+    "difficulty": 2,
+    "category": "directions",
+    "part_of_speech": "phrase",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "TOO-oh oog TOO-oh"
+  },
+  {
+    "id": 195,
+    "word": "duol",
+    "translation": {
+      "en": "near"
+    },
+    "difficulty": 2,
+    "category": "directions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "DOO-ol"
+  },
+  {
+    "id": 196,
+    "word": "layo",
+    "translation": {
+      "en": "far"
+    },
+    "difficulty": 2,
+    "category": "directions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "LYE-yo"
+  },
+  {
+    "id": 197,
+    "word": "gawas",
+    "translation": {
+      "en": "exit / outside"
+    },
+    "difficulty": 2,
+    "category": "directions",
+    "part_of_speech": "adverb",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "GA-was"
+  },
+  {
+    "id": 198,
+    "word": "sulod",
+    "translation": {
+      "en": "inside"
+    },
+    "difficulty": 2,
+    "category": "directions",
+    "part_of_speech": "adverb",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "SOO-lod"
+  },
+  {
+    "id": 199,
+    "word": "ibabaw",
+    "translation": {
+      "en": "above / on top"
+    },
+    "difficulty": 3,
+    "category": "directions",
+    "part_of_speech": "adverb",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "ee-ba-BAW"
+  },
+  {
+    "id": 200,
+    "word": "ibaba",
+    "translation": {
+      "en": "below / underneath"
+    },
+    "difficulty": 3,
+    "category": "directions",
+    "part_of_speech": "adverb",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "ee-BA-ba"
+  },
+  {
+    "id": 201,
+    "word": "taliwala",
+    "translation": {
+      "en": "between"
+    },
+    "difficulty": 3,
+    "category": "directions",
+    "part_of_speech": "preposition",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "tah-lee-WA-la"
+  },
+  {
+    "id": 202,
+    "word": "uban",
+    "translation": {
+      "en": "with"
+    },
+    "difficulty": 2,
+    "category": "prepositions",
+    "part_of_speech": "preposition",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "OO-ban"
+  },
+  {
+    "id": 203,
+    "word": "gikan",
+    "translation": {
+      "en": "from"
+    },
+    "difficulty": 3,
+    "category": "prepositions",
+    "part_of_speech": "preposition",
+    "tags": [
+      "grammar"
+    ],
+    "pronunciation": "GEE-kan"
+  },
+  {
+    "id": 204,
+    "word": "padulong",
+    "translation": {
+      "en": "towards"
+    },
+    "difficulty": 3,
+    "category": "prepositions",
+    "part_of_speech": "preposition",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "pah-DOONG-long"
+  },
+  {
+    "id": 205,
+    "word": "walay",
+    "translation": {
+      "en": "without"
+    },
+    "difficulty": 3,
+    "category": "prepositions",
+    "part_of_speech": "preposition",
+    "tags": [
+      "grammar"
+    ],
+    "pronunciation": "WAH-lay"
+  },
+  {
+    "id": 206,
+    "word": "sulod sa",
+    "translation": {
+      "en": "inside of"
+    },
+    "difficulty": 3,
+    "category": "prepositions",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "SOO-lod sa"
+  },
+  {
+    "id": 207,
+    "word": "ibabaw sa",
+    "translation": {
+      "en": "on top of"
+    },
+    "difficulty": 3,
+    "category": "prepositions",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "ee-ba-BAW sa"
+  },
+  {
+    "id": 208,
+    "word": "ilalom sa",
+    "translation": {
+      "en": "underneath"
+    },
+    "difficulty": 3,
+    "category": "prepositions",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "ee-LA-lom sa"
+  },
+  {
+    "id": 209,
+    "word": "mata",
+    "translation": {
+      "en": "eye"
+    },
+    "difficulty": 2,
+    "category": "body",
+    "part_of_speech": "noun",
+    "tags": [
+      "basic"
+    ],
+    "pronunciation": "MA-ta"
+  },
+  {
+    "id": 210,
+    "word": "ilong",
+    "translation": {
+      "en": "nose"
+    },
+    "difficulty": 2,
+    "category": "body",
+    "part_of_speech": "noun",
+    "tags": [
+      "basic"
+    ],
+    "pronunciation": "ee-LONG"
+  },
+  {
+    "id": 211,
+    "word": "dila",
+    "translation": {
+      "en": "tongue"
+    },
+    "difficulty": 2,
+    "category": "body",
+    "part_of_speech": "noun",
+    "tags": [
+      "basic"
+    ],
+    "pronunciation": "DEE-la"
+  },
+  {
+    "id": 212,
+    "word": "baba",
+    "translation": {
+      "en": "chin / jaw"
+    },
+    "difficulty": 3,
+    "category": "body",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "BA-ba"
+  },
+  {
+    "id": 213,
+    "word": "dunggan",
+    "translation": {
+      "en": "ear"
+    },
+    "difficulty": 3,
+    "category": "body",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "dung-GAN"
+  },
+  {
+    "id": 214,
+    "word": "baba",
+    "translation": {
+      "en": "mouth"
+    },
+    "difficulty": 2,
+    "category": "body",
+    "part_of_speech": "noun",
+    "tags": [
+      "basic"
+    ],
+    "pronunciation": "BA-ba"
+  },
+  {
+    "id": 215,
+    "word": "kamot",
+    "translation": {
+      "en": "hand"
+    },
+    "difficulty": 2,
+    "category": "body",
+    "part_of_speech": "noun",
+    "tags": [
+      "basic"
+    ],
+    "pronunciation": "KA-mot"
+  },
+  {
+    "id": 216,
+    "word": "tiil",
+    "translation": {
+      "en": "foot"
+    },
+    "difficulty": 2,
+    "category": "body",
+    "part_of_speech": "noun",
+    "tags": [
+      "basic"
+    ],
+    "pronunciation": "TEEL"
+  },
+  {
+    "id": 217,
+    "word": "ulo",
+    "translation": {
+      "en": "head"
+    },
+    "difficulty": 2,
+    "category": "body",
+    "part_of_speech": "noun",
+    "tags": [
+      "basic"
+    ],
+    "pronunciation": "OO-lo"
+  },
+  {
+    "id": 218,
+    "word": "lawas",
+    "translation": {
+      "en": "body"
+    },
+    "difficulty": 2,
+    "category": "body",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "LA-was"
+  },
+  {
+    "id": 219,
+    "word": "dughan",
+    "translation": {
+      "en": "heart"
+    },
+    "difficulty": 3,
+    "category": "body",
+    "part_of_speech": "noun",
+    "tags": [
+      "emotional"
+    ],
+    "pronunciation": "DOO-gan"
+  },
+  {
+    "id": 220,
+    "word": "panimalay",
+    "translation": {
+      "en": "home / household"
+    },
+    "difficulty": 3,
+    "category": "places",
+    "part_of_speech": "noun",
+    "tags": [
+      "cultural"
+    ],
+    "pronunciation": "pa-nee-MA-lay"
+  },
+  {
+    "id": 221,
+    "word": "pultahan",
+    "translation": {
+      "en": "door"
+    },
+    "difficulty": 3,
+    "category": "places",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "pool-TA-han"
+  },
+  {
+    "id": 222,
+    "word": "bintana",
+    "translation": {
+      "en": "window"
+    },
+    "difficulty": 3,
+    "category": "places",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "bin-TA-na"
+  },
+  {
+    "id": 223,
+    "word": "lamesa",
+    "translation": {
+      "en": "table"
+    },
+    "difficulty": 2,
+    "category": "places",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "la-ME-sa"
+  },
+  {
+    "id": 224,
+    "word": "lingkoranan",
+    "translation": {
+      "en": "chair"
+    },
+    "difficulty": 3,
+    "category": "places",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "ling-kor-a-NAN"
+  },
+  {
+    "id": 225,
+    "word": "kama",
+    "translation": {
+      "en": "bed"
+    },
+    "difficulty": 2,
+    "category": "places",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "KA-ma"
+  },
+  {
+    "id": 226,
+    "word": "sidsid",
+    "translation": {
+      "en": "edge / side"
+    },
+    "difficulty": 3,
+    "category": "descriptions",
+    "part_of_speech": "noun",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "SEED-seed"
+  },
+  {
+    "id": 227,
+    "word": "tibuok",
+    "translation": {
+      "en": "whole / complete"
+    },
+    "difficulty": 3,
+    "category": "descriptions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "tee-BWOK"
+  },
+  {
+    "id": 228,
+    "word": "kalahi",
+    "translation": {
+      "en": "kind / type"
+    },
+    "difficulty": 3,
+    "category": "descriptions",
+    "part_of_speech": "noun",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "ka-LA-hee"
+  },
+  {
+    "id": 229,
+    "word": "pareho",
+    "translation": {
+      "en": "same"
+    },
+    "difficulty": 3,
+    "category": "descriptions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "pa-RE-ho"
+  },
+  {
+    "id": 230,
+    "word": "lain",
+    "translation": {
+      "en": "different"
+    },
+    "difficulty": 2,
+    "category": "descriptions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "LYNE"
+  },
+  {
+    "id": 231,
+    "word": "daku",
+    "translation": {
+      "en": "big"
+    },
+    "difficulty": 2,
+    "category": "descriptions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "DA-koo"
+  },
+  {
+    "id": 232,
+    "word": "gamay",
+    "translation": {
+      "en": "small"
+    },
+    "difficulty": 2,
+    "category": "descriptions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "gah-MAY"
+  },
+  {
+    "id": 233,
+    "word": "taas",
+    "translation": {
+      "en": "tall / high"
+    },
+    "difficulty": 2,
+    "category": "descriptions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "TAH-as"
+  },
+  {
+    "id": 234,
+    "word": "habog",
+    "translation": {
+      "en": "high / elevated"
+    },
+    "difficulty": 3,
+    "category": "descriptions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "HA-bog"
+  },
+  {
+    "id": 235,
+    "word": "mubo",
+    "translation": {
+      "en": "short / low"
+    },
+    "difficulty": 2,
+    "category": "descriptions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "MOO-bo"
+  },
+  {
+    "id": 236,
+    "word": "bug-at",
+    "translation": {
+      "en": "heavy"
+    },
+    "difficulty": 3,
+    "category": "descriptions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "BOO-gat"
+  },
+  {
+    "id": 237,
+    "word": "gaan",
+    "translation": {
+      "en": "light (weight)"
+    },
+    "difficulty": 3,
+    "category": "descriptions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "GA-an"
+  },
+  {
+    "id": 238,
+    "word": "matahum",
+    "translation": {
+      "en": "beautiful"
+    },
+    "difficulty": 2,
+    "category": "descriptions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "ma-TA-hoom"
+  },
+  {
+    "id": 239,
+    "word": "daku ang kasingkasing",
+    "translation": {
+      "en": "big-hearted"
+    },
+    "difficulty": 4,
+    "category": "emotions",
+    "part_of_speech": "phrase",
+    "tags": [
+      "cultural"
+    ],
+    "pronunciation": "DA-koo ang ka-sing-ka-SING"
+  },
+  {
+    "id": 240,
+    "word": "malipayon",
+    "translation": {
+      "en": "happy"
+    },
+    "difficulty": 2,
+    "category": "emotions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "mah-lee-PI-yon"
+  },
+  {
+    "id": 241,
+    "word": "sad",
+    "translation": {
+      "en": "sad"
+    },
+    "difficulty": 1,
+    "category": "emotions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "sad"
+  },
+  {
+    "id": 242,
+    "word": "gibati",
+    "translation": {
+      "en": "feel"
+    },
+    "difficulty": 3,
+    "category": "emotions",
+    "part_of_speech": "verb",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "gee-BAH-ti"
+  },
+  {
+    "id": 243,
+    "word": "gibati ko",
+    "translation": {
+      "en": "I feel"
+    },
+    "difficulty": 3,
+    "category": "emotions",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "gee-BAH-ti ko"
+  },
+  {
+    "id": 244,
+    "word": "gutom",
+    "translation": {
+      "en": "hungry"
+    },
+    "difficulty": 2,
+    "category": "emotions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "GOO-tom"
+  },
+  {
+    "id": 245,
+    "word": "uhaw",
+    "translation": {
+      "en": "thirsty"
+    },
+    "difficulty": 2,
+    "category": "emotions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "OO-how"
+  },
+  {
+    "id": 246,
+    "word": "gusto",
+    "translation": {
+      "en": "like / want"
+    },
+    "difficulty": 1,
+    "category": "emotions",
+    "part_of_speech": "verb",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "GOS-to"
+  },
+  {
+    "id": 247,
+    "word": "dili ganahan",
+    "translation": {
+      "en": "don't like"
+    },
+    "difficulty": 3,
+    "category": "emotions",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "DEE-lee ga-NA-han"
+  },
+  {
+    "id": 248,
+    "word": "nahibaw-an",
+    "translation": {
+      "en": "known / found out"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "verb",
+    "tags": [
+      "grammar"
+    ],
+    "pronunciation": "na-hee-BA-wan"
+  },
+  {
+    "id": 249,
+    "word": "nakakita",
+    "translation": {
+      "en": "I saw"
+    },
+    "difficulty": 3,
+    "category": "verbs",
+    "part_of_speech": "verb",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "na-ka-KEE-ta"
+  },
+  {
+    "id": 250,
+    "word": "nagpangutana",
+    "translation": {
+      "en": "asked"
+    },
+    "difficulty": 3,
+    "category": "verbs",
+    "part_of_speech": "verb",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-pang-oo-TA-na"
+  },
+  {
+    "id": 251,
+    "word": "nagbuhat",
+    "translation": {
+      "en": "did / made"
+    },
+    "difficulty": 3,
+    "category": "verbs",
+    "part_of_speech": "verb",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "nag-BOO-hot"
+  },
+  {
+    "id": 252,
+    "word": "naglakaw",
+    "translation": {
+      "en": "walked"
+    },
+    "difficulty": 3,
+    "category": "verbs",
+    "part_of_speech": "verb",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "nag-lah-KAW"
+  },
+  {
+    "id": 253,
+    "word": "nagbiyahe",
+    "translation": {
+      "en": "traveled"
+    },
+    "difficulty": 3,
+    "category": "verbs",
+    "part_of_speech": "verb",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-bee-YA-he"
+  },
+  {
+    "id": 254,
+    "word": "nagkan-on",
+    "translation": {
+      "en": "ate"
+    },
+    "difficulty": 3,
+    "category": "verbs",
+    "part_of_speech": "verb",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "nag-kah-NON"
+  },
+  {
+    "id": 255,
+    "word": "nag-inom",
+    "translation": {
+      "en": "drank"
+    },
+    "difficulty": 3,
+    "category": "verbs",
+    "part_of_speech": "verb",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "nag-ee-NOM"
+  },
+  {
+    "id": 256,
+    "word": "nagtrabaho",
+    "translation": {
+      "en": "worked"
+    },
+    "difficulty": 3,
+    "category": "verbs",
+    "part_of_speech": "verb",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "nag-tra-BA-ho"
+  },
+  {
+    "id": 257,
+    "word": "nag-eskwela",
+    "translation": {
+      "en": "studied"
+    },
+    "difficulty": 3,
+    "category": "verbs",
+    "part_of_speech": "verb",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "nag-es-KEH-la"
+  },
+  {
+    "id": 258,
+    "word": "naglingkod",
+    "translation": {
+      "en": "sat down"
+    },
+    "difficulty": 3,
+    "category": "verbs",
+    "part_of_speech": "verb",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-leen-GOK"
+  },
+  {
+    "id": 259,
+    "word": "nagtindog",
+    "translation": {
+      "en": "stood up"
+    },
+    "difficulty": 3,
+    "category": "verbs",
+    "part_of_speech": "verb",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-tin-DOG"
+  },
+  {
+    "id": 260,
+    "word": "naglibot",
+    "translation": {
+      "en": "walked around"
+    },
+    "difficulty": 3,
+    "category": "verbs",
+    "part_of_speech": "verb",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-lee-BOT"
+  },
+  {
+    "id": 261,
+    "word": "nagpabilin",
+    "translation": {
+      "en": "stayed"
+    },
+    "difficulty": 3,
+    "category": "verbs",
+    "part_of_speech": "verb",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-pa-BEE-leen"
+  },
+  {
+    "id": 262,
+    "word": "nagbiya",
+    "translation": {
+      "en": "left (a place)"
+    },
+    "difficulty": 3,
+    "category": "verbs",
+    "part_of_speech": "verb",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-BEE-ya"
+  },
+  {
+    "id": 263,
+    "word": "nag-una",
+    "translation": {
+      "en": "went ahead"
+    },
+    "difficulty": 3,
+    "category": "verbs",
+    "part_of_speech": "verb",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-OO-na"
+  },
+  {
+    "id": 264,
+    "word": "nagpahulay",
+    "translation": {
+      "en": "rested"
+    },
+    "difficulty": 3,
+    "category": "verbs",
+    "part_of_speech": "verb",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-pa-HOO-lay"
+  },
+  {
+    "id": 265,
+    "word": "nagbuhat ug",
+    "translation": {
+      "en": "made / did something"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "grammar"
+    ],
+    "pronunciation": "nag-BOO-hot oog"
+  },
+  {
+    "id": 266,
+    "word": "nagpabilin sa",
+    "translation": {
+      "en": "stayed at"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-pa-BEE-leen sa"
+  },
+  {
+    "id": 267,
+    "word": "naglakaw palibot",
+    "translation": {
+      "en": "walked around"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-lah-KAW pa-LEE-bot"
+  },
+  {
+    "id": 268,
+    "word": "nagbiyahe gikan sa",
+    "translation": {
+      "en": "traveled from"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-bee-YA-he GEE-kan sa"
+  },
+  {
+    "id": 269,
+    "word": "nagkan-on sa",
+    "translation": {
+      "en": "ate at"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-kah-NON sa"
+  },
+  {
+    "id": 270,
+    "word": "nag-inom ug",
+    "translation": {
+      "en": "drank (something)"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-ee-NOM oog"
+  },
+  {
+    "id": 271,
+    "word": "nagtrabaho sa",
+    "translation": {
+      "en": "worked at"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-tra-BA-ho sa"
+  },
+  {
+    "id": 272,
+    "word": "nag-eskwela sa",
+    "translation": {
+      "en": "studied at"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-es-KEH-la sa"
+  },
+  {
+    "id": 273,
+    "word": "naglingkod sa",
+    "translation": {
+      "en": "sat on"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-leen-GOK sa"
+  },
+  {
+    "id": 274,
+    "word": "nagtindog sa",
+    "translation": {
+      "en": "stood on"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-tin-DOG sa"
+  },
+  {
+    "id": 275,
+    "word": "naglibot sa",
+    "translation": {
+      "en": "walked around (a place)"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-lee-BOT sa"
+  },
+  {
+    "id": 276,
+    "word": "nagpabilin sa hotel",
+    "translation": {
+      "en": "stayed at the hotel"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-pa-BEE-leen sa ho-TEL"
+  },
+  {
+    "id": 277,
+    "word": "nagbiya sa balay",
+    "translation": {
+      "en": "left the house"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-BEE-ya sa BA-lay"
+  },
+  {
+    "id": 278,
+    "word": "nag-una sa inyo",
+    "translation": {
+      "en": "went ahead of you"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-OO-na sa EE-nyo"
+  },
+  {
+    "id": 279,
+    "word": "nagpahulay sa kama",
+    "translation": {
+      "en": "rested on the bed"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-pa-HOO-lay sa KA-ma"
+  },
+  {
+    "id": 280,
+    "word": "nagbuhat ug kaon",
+    "translation": {
+      "en": "cooked food"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-BOO-hot oog kah-NON"
+  },
+  {
+    "id": 281,
+    "word": "nag-inom ug tubig",
+    "translation": {
+      "en": "drank water"
+    },
+    "difficulty": 3,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "nag-ee-NOM oog TOO-big"
+  },
+  {
+    "id": 282,
+    "word": "nagkan-on ug saging",
+    "translation": {
+      "en": "ate a banana"
+    },
+    "difficulty": 3,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "nag-kah-NON oog sa-GING"
+  },
+  {
+    "id": 283,
+    "word": "naglakaw sa palengke",
+    "translation": {
+      "en": "walked to the market"
+    },
+    "difficulty": 3,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-lah-KAW sa pah-LENG-ke"
+  },
+  {
+    "id": 284,
+    "word": "nagbiyahe sa Davao",
+    "translation": {
+      "en": "traveled to Davao"
+    },
+    "difficulty": 3,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-bee-YA-he sa dah-VAH-o"
+  },
+  {
+    "id": 285,
+    "word": "nag-eskwela sa unibersidad",
+    "translation": {
+      "en": "studied at the university"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-es-KEH-la sa oo-nee-ber-see-DAD"
+  },
+  {
+    "id": 286,
+    "word": "nagtrabaho sa opisina",
+    "translation": {
+      "en": "worked at the office"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-tra-BA-ho sa o-pee-SEE-na"
+  },
+  {
+    "id": 287,
+    "word": "naglingkod sa lingkoranan",
+    "translation": {
+      "en": "sat on the chair"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-leen-GOK sa ling-kor-a-NAN"
+  },
+  {
+    "id": 288,
+    "word": "nagtindog sa bus",
+    "translation": {
+      "en": "stood on the bus"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-tin-DOG sa boos"
+  },
+  {
+    "id": 289,
+    "word": "naglibot sa siyudad",
+    "translation": {
+      "en": "walked around the city"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-lee-BOT sa see-YOO-dad"
+  },
+  {
+    "id": 290,
+    "word": "nagpabilin sa hotel",
+    "translation": {
+      "en": "stayed at the hotel"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-pa-BEE-leen sa ho-TEL"
+  },
+  {
+    "id": 291,
+    "word": "nagbiya sa simbahan",
+    "translation": {
+      "en": "left the church"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-BEE-ya sa sim-BA-han"
+  },
+  {
+    "id": 292,
+    "word": "nag-una sa grupo",
+    "translation": {
+      "en": "went ahead of the group"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-OO-na sa GRO-po"
+  },
+  {
+    "id": 293,
+    "word": "nagpahulay sa balay",
+    "translation": {
+      "en": "rested at home"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-pa-HOO-lay sa BA-lay"
+  },
+  {
+    "id": 294,
+    "word": "nagbuhat ug panihapon",
+    "translation": {
+      "en": "cooked dinner"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-BOO-hot oog pa-nee-HA-pon"
+  },
+  {
+    "id": 295,
+    "word": "nag-inom ug kape",
+    "translation": {
+      "en": "drank coffee"
+    },
+    "difficulty": 3,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "nag-ee-NOM oog KA-pe"
+  },
+  {
+    "id": 296,
+    "word": "nagkan-on ug bugas",
+    "translation": {
+      "en": "ate rice"
+    },
+    "difficulty": 3,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "nag-kah-NON oog BOO-gas"
+  },
+  {
+    "id": 297,
+    "word": "naglakaw sa baybayon",
+    "translation": {
+      "en": "walked on the beach"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-lah-KAW sa bay-BAY-on"
+  },
+  {
+    "id": 298,
+    "word": "nagbiyahe pinaagi sa bus",
+    "translation": {
+      "en": "traveled by bus"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-bee-YA-he pee-NAH-gee sa boos"
+  },
+  {
+    "id": 299,
+    "word": "nag-eskwela pinaagi sa online",
+    "translation": {
+      "en": "studied online"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "modern"
+    ],
+    "pronunciation": "nag-es-KEH-la pee-NAH-gee sa o-LINE"
+  },
+  {
+    "id": 300,
+    "word": "nagtrabaho gikan sa balay",
+    "translation": {
+      "en": "worked from home"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "modern"
+    ],
+    "pronunciation": "nag-tra-BA-ho GEE-kan sa BA-lay"
+  }
+]
