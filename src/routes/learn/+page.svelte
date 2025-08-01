@@ -59,10 +59,15 @@
 	resetState();
 </script>
 
-<div class="mx-auto flex min-h-screen max-w-md flex-col border border-base-200 bg-base-100 p-6">
+<svelte:head>
+	<title>Learning | Sulti</title>
+</svelte:head>
+<div
+	class="mx-auto flex min-h-screen max-w-md flex-col rounded-2xl border-2 border-base-300 bg-base-100 p-6"
+>
 	<!-- Barre de progression -->
 	<div class="mb-6 text-center">
-		<p class="text-sm text-gray-600">Learn new words</p>
+		<p class="text-content-base text-sm">Learn new words</p>
 		<div class="mt-1 h-2.5 w-full rounded-full bg-gray-200">
 			<div
 				class="h-2.5 rounded-full bg-deepGreen transition-all"
