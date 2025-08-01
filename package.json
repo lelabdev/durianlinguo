@@ -48,6 +48,7 @@
     "@inlang/paraglide-js": "^2.0.0",
     "@lucide/svelte": "^0.534.0",
     "clsx": "^2.1.1",
+    "lucide-svelte": "^0.535.0",
     "sveltekit-superforms": "^2.27.1",
     "tailwind-merge": "^3.3.1",
     "uuid": "^11.1.0",

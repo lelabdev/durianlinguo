@@ -1,12 +1,42 @@
 <script lang="ts">
-	import dico from '$content/bisaya.json';
+	import words from '$content/bisaya.json';
+	import type { Word } from '$lib/types/word';
+	import Table from './Table.svelte';
+
+	function filterByCategory(category: string) {
+		if (category === 'all') {
+			return words;
+		}
+		return words.filter((word) => word.category === category);
+	}
+
+	function getCategories(words: Word[]): string[] {
+		const categories = new Set<string>();
+		words.forEach((word) => {
+			if (word.category) {
+				categories.add(word.category);
+			}
+		});
+		return Array.from(categories);
+	}
+
+	function clickCategory(category: string) {
+		selectedCategory = filterByCategory(category);
+	}
+	const categories: string[] = getCategories(words);
+
+	let selectedCategory = $state(filterByCategory('all'));
 </script>
 
-list all words :
+<div class="overflow-x-auto">
+	<div class="flex flex-row flex-wrap gap-6">
+		<button class=" btn w-40 capitalize">All Words</button>
+		{#each categories as category}
+			<button class=" btn w-40 capitalize" onclick={() => clickCategory(category)}
+				>{category}
+			</button>
+		{/each}
+	</div>
 
-<div class="mx-auto grid w-xl grid-cols-2 text-black">
-	{#each dico as word, index (index)}
-		<p>{word.word}</p>
-		<p class="text-lime-800">{word.translation.en}</p>
-	{/each}
+	<Table bind:words={selectedCategory} />
 </div>

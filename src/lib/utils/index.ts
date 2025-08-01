@@ -1,3 +1,3 @@
-export * from "./core.ts";
-export * from "./utils";
-export * from "./loadBlogImg.ts";
+export * from './core';
+export * from './loadBlogImg';
+export * from './icons';
