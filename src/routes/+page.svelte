@@ -4,8 +4,6 @@
 	import Head from './Head.svelte';
 	import Why from '$content/why.svx';
 
-	console.log(Why);
-
 	let { data }: PageProps = $props();
 </script>
 
@@ -27,7 +25,7 @@
 	<!-- Features Section -->
 	<section class="bg-white py-12">
 		<div class="container mx-auto px-4">
-			<h2 class="mb-12 text-center text-3xl font-bold text-woodBrown">Why Sulti?</h2>
+			<h2 class="mb-12 text-center text-3xl font-bold text-woodBrown">Why Gyud?</h2>
 			<div class="grid grid-cols-1 gap-8 md:grid-cols-3">
 				<div class="feature-card rounded-xl border border-warmYellow bg-gray-50 p-6 shadow-sm">
 					<div class="mb-4 text-3xl text-primaryRed">
@@ -59,7 +57,7 @@
 		<div class="container mx-auto px-4">
 			<h2 class="mb-4 text-3xl font-bold">Start Learning Bisaya Today</h2>
 			<p class="mx-auto mb-8 max-w-xl text-lg">
-				Free, no ads, and open source. Access Sulti directly from your browser.
+				Free, no ads, and open source. Access Gyud directly from your browser.
 			</p>
 			<a href="/learn" class="btn btn-lg">Start now!</a>
 		</div>

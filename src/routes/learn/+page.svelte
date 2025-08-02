@@ -1,5 +1,9 @@
 <script lang="ts">
-	import words from '$content/bisaya.json';
+	import { getTodayWords } from '$lib/learning';
+
+	const words = getTodayWords();
+
+	console.log(words);
 
 	// --- État ---
 	let currentIndex = $state(0);
@@ -60,7 +64,7 @@
 </script>
 
 <svelte:head>
-	<title>Learning | Sulti</title>
+	<title>Learning | Gyud</title>
 </svelte:head>
 <div
 	class="mx-auto flex min-h-screen max-w-md flex-col rounded-2xl border-2 border-base-300 bg-base-100 p-6"

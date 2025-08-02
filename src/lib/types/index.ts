@@ -1,2 +1,2 @@
-export * from './dico';
-export * from './item';
+export * from './word';
+export * from './store';
