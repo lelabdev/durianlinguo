@@ -1,0 +1,45 @@
+### **Learn Bisaya, the Way It’s Spoken in Davao**
+
+**Why I’m Building This App**
+
+I’m not from here. I’m French. When I moved to **Davao**, I didn’t just want to live in the city — I wanted to *belong*. And that meant learning the language people actually speak every day: **Bisaya**.
+
+But I quickly realized there's almost no learning material for Bisaya - no apps, no structured courses, nothing made for beginners. Even in bookstores or libraries, all i found were a few old dictionaries, often hard to use if you're starting from zero.
+
+So I decided to build something simple: a free app to help people learn basic Bisaya from English — the kind of words you actually need when you’re buying *taho*, asking for directions, or just saying “thank you” the right way.
+
+It’s not about becoming fluent.
+It’s about learning **300 core words** — enough to connect, to show respect, and to feel a little more at home.
+
+The app uses simple flashcards, repetition, and small interactive lessons — nothing fancy, but effective. Think of it like a friendly language buddy in your pocket.
+
+Right now, it’s still in development. I’m building it step by step, between work and life, because I believe this should exist. It’s not open source *yet* — I want to get the first version right — but that’s the goal. One day, I hope others can help improve it, adapt it, or even build their own tools from it.
+
+And who knows — maybe later, we can add the reverse: helping Bisaya speakers learn basic English too. But for now, let’s start with the basics.
+
+Because if you live here, if you love this place, you should be able to speak its language — not just survive in it.
+
+This app is for Davao.
+For newcomers.
+For curious minds.
+For anyone who wants to say *“Durian gyud!”* and actually know what it means.
+
+---
+
+### **Want to help shape it?**
+
+This is more than just an app — it’s a small project born from respect for the language and culture of Mindanao. And I can’t do it alone.
+
+I’m looking for:
+- 🎨 **Designers** to help refine the look (yes, even the durian logo can improve),
+- 🗣️ **Native Bisaya speakers** to record words or check translations,
+- 💬 **Teachers or language lovers** who want to help structure the basics,
+
+If you’re passionate about Bisaya and want to help make learning it easier for others — **I’d love to hear from you**.
+
+📩 Email me at:  contact@lelab.dev
+Let’s grow this thing — one thorny fruit at a time.
+
+— Ludo Loops
+
+*P.S. “Durian gyud!” doesn’t mean “I love durian.” (Though I do.) It means something like “Seriously!” or “For real!” — the kind of phrase you’ll actually use. Just like the app.*

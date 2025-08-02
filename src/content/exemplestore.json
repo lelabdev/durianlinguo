@@ -1,0 +1,27 @@
+{
+  "version": "1.0",
+  "progress": {
+    "lastSession": 1715432890123,
+    "nextNewWordId": 26
+  },
+  "words": {
+    "1": {
+      "status": "known",
+      "streak": 5,
+      "mistakes": 0,
+      "nextReview": 1715700000000
+    },
+    "2": {
+      "status": "learning",
+      "streak": 2,
+      "mistakes": 3,
+      "nextReview": 1715500000000
+    },
+    "3": {
+      "status": "new",
+      "streak": 0,
+      "mistakes": 1,
+      "nextReview": 1715432890123
+    }
+  }
+}

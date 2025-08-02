@@ -51,6 +51,7 @@
     "@sveltejs/enhanced-img": "^0.7.0",
     "clsx": "^2.1.1",
     "lucide-svelte": "^0.535.0",
+    "mdsvex": "^0.12.6",
     "sveltekit-superforms": "^2.27.1",
     "tailwind-merge": "^3.3.1",
     "uuid": "^11.1.0",

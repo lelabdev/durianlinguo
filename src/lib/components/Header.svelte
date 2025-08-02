@@ -6,6 +6,6 @@
 	<a href="/" class="flex items-center gap-4">
 		<enhanced:img src={logo} alt="Durian logo" class="h-18 w-18" />
 
-		<h2 class="text-2xl font-bold text-woodBrown">Sulti ta!</h2>
+		<h2 class="text-2xl font-bold text-woodBrown">Pagsulti gyud ta!</h2>
 	</a>
 </header>

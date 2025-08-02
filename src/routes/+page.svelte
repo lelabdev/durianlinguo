@@ -1,7 +1,11 @@
 <script lang="ts">
 	import type { PageProps } from './$types';
-	import Head from './Head.svelte';
 	import { icons } from '$utils';
+	import Head from './Head.svelte';
+	import Why from '$content/why.svx';
+
+	console.log(Why);
+
 	let { data }: PageProps = $props();
 </script>
 
@@ -20,7 +24,6 @@
 		</p>
 		<a href="/learn" class="btn btn-lg">Get Started</a>
 	</section>
-
 	<!-- Features Section -->
 	<section class="bg-white py-12">
 		<div class="container mx-auto px-4">
@@ -61,13 +64,16 @@
 			<a href="/learn" class="btn btn-lg">Start now!</a>
 		</div>
 	</section>
-
+	<section class="mx-auto prose">
+		<Why />
+	</section>
 	<!-- Footer -->
 	<footer class="py-6 text-center text-sm text-gray-600">
 		<p>
 			Made with ❤️ by
 			<a href="https://lelab.dev" class="link link-hover"> Lelab.dev </a>
-			| Sulti - 2025 | <a href="https://github.com/sulti-app" class="link link-hover">GitHub</a>
+			| gyud.lelab.dev - 2025 |
+			<a href="https://github.com/sulti-app" class="link link-hover">GitHub</a>
 		</p>
 	</footer>
 </div>
