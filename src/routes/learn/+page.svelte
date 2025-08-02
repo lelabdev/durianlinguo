@@ -1,20 +1,23 @@
 <script lang="ts">
-	import { getTodayWords } from '$lib/learning';
+	import { getTodayWords, updateProgress } from '$lib/learning';
 
 	const words = getTodayWords();
 
-	console.log(words);
+	// console.log($inspect(words));
 
 	// --- État ---
 	let currentIndex = $state(0);
 	let selectedChoice = $state<null | string>(null);
-	let feedback = $state<null | string>(null);
+	let feedback = $state<null | 'correct' | 'wrong'>(null);
 	let completed = $state(false);
 
 	let currentWord = $derived(words[currentIndex]);
-	//
+
+	// console.log($inspect(currentWord));
+
 	// Générer 4 choix : 1 vrai, 3 faux
 	let choices = $state<string[]>([]);
+
 	$effect(() => {
 		choices = (function () {
 			const opts = [currentWord.translation.en];
@@ -34,7 +37,9 @@
 		selectedChoice = choice;
 		if (choice === currentWord.translation.en) {
 			feedback = 'correct';
+			updateProgress(currentWord, true);
 		} else {
+			updateProgress(currentWord, false);
 			feedback = 'wrong';
 		}
 	}
@@ -42,21 +47,16 @@
 	function nextWord() {
 		if (currentIndex < words.length - 1) {
 			currentIndex += 1;
+
 			resetState();
 		} else {
 			completed = true;
-			saveProgress();
 		}
 	}
 
 	function resetState() {
 		selectedChoice = null;
 		feedback = null;
-	}
-
-	function saveProgress() {
-		const today = new Date().toDateString();
-		localStorage.setItem('learnProgress', today);
 	}
 
 	// Démarrer avec le premier mot

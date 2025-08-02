@@ -1,4 +1,4 @@
-import appStore from '$lib/store/appStore.svelte';
+import { appStore } from '$lib/store/appStore.svelte';
 import type { Word } from '$lib/types';
 
 function calculateNextReview(streak: number): number {
@@ -12,6 +12,7 @@ export function updateProgress(word: Word, success: boolean) {
 
 	if (!storeWord) {
 		appStore.add(word.id);
+		updateProgress(word, success);
 		return;
 	}
 
