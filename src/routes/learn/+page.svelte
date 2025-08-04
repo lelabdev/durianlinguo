@@ -13,9 +13,7 @@
 
 	let currentWord = $derived(words[currentIndex]);
 
-	// console.log($inspect(currentWord));
-
-	// Générer 4 choix : 1 vrai, 3 faux
+	// Generate 4 choices : 1 correct, 3 wrong
 	let choices = $state<string[]>([]);
 
 	$effect(() => {

@@ -1,25 +1,45 @@
 <script lang="ts">
-    import type { PageProps } from "./$types";
-    const { title, children, description }: PageProps = $props();
+	interface SeoProps {
+		title?: string;
+		description?: string;
+	}
 
-    const siteName = "LudoApex";
-    const fullTitle = title ? `${title} | ${siteName}` : siteName;
-    const defaultDescription =
-        "Design dynamique, performance, et présence en ligne à votre image. VTT, gravel, accrobranche, escalade : un site sur mesure pour les pros de l’outdoor.";
+	const { seo, children } = $props<{ seo?: SeoProps }>();
 
-    const fullDescription = description ? description : defaultDescription;
+	const siteName = 'Durianlinguo';
+
+	const seoData = {
+		title: seo?.title ? `${seo?.title} | ${siteName}` : 'Durianlinguo - Learn Bisaya',
+		description:
+			seo?.description ??
+			'Learn essential Bisaya words in minutes. Durianlinguo helps travelers speak basic Filipino (Cebuano) with 300 key phrases — fun, fast, and perfect for tourists.',
+		url: 'https://durianlinguo.lelab.dev',
+		image: '%sveltekit.assets%/og-image.png',
+		locale: 'en'
+	};
 </script>
 
 <svelte:head>
-    <title>{fullTitle}</title>
-    <meta property="og:title" content={fullTitle} />
-    <meta name="twitter:title" content={fullTitle} />
+	<title>{seoData.title}</title>
+	<meta property="og:title" content={seoData.title} />
+	<meta name="twitter:title" content={seoData.title} />
 
-    <meta property="og:description" content={fullDescription} />
-    <meta name="description" content={fullDescription} />
-    <meta name="twitter:description" content={fullDescription} />
+	<meta property="og:description" content={seoData.description} />
 
-    {#if children}
-        {@render children()}
-    {/if}
+	<meta name="description" content={seoData.description} />
+	<meta name="twitter:description" content={seoData.description} />
+
+	<meta property="og:image" content={seoData.image} />
+	<meta property="og:url" content={seoData.url} />
+	<meta property="og:site_name" content={siteName} />
+	<meta property="og:locale" content={seoData.locale} />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content={seoData.title} />
+	<meta name="twitter:description" content={seoData.description} />
+	<meta name="twitter:image" content={seoData.image} />
+
+	{#if children}
+		{@render children()}
+	{/if}
 </svelte:head>
