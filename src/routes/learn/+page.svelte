@@ -1,8 +1,9 @@
 <script lang="ts">
+	import Head from '$components/Head.svelte';
 	import { getTodayWords, updateProgress } from '$lib/learning';
 
 	const words = getTodayWords();
-
+	// console.log('words', $inspect(words));
 	// console.log($inspect(words));
 
 	// --- État ---
@@ -13,8 +14,10 @@
 
 	let currentWord = $derived(words[currentIndex]);
 
+	// console.log('current ', $inspect(currentWord));
 	// Generate 4 choices : 1 correct, 3 wrong
 	let choices = $state<string[]>([]);
+	// console.log($inspect(choices));
 
 	$effect(() => {
 		choices = (function () {
@@ -57,13 +60,11 @@
 		feedback = null;
 	}
 
-	// Démarrer avec le premier mot
 	resetState();
 </script>
 
-<svelte:head>
-	<title>Learning | Gyud</title>
-</svelte:head>
+<Head title="Learn" />
+
 <div
 	class="mx-auto flex min-h-screen max-w-md flex-col rounded-2xl border-2 border-base-300 bg-base-100 p-6"
 >

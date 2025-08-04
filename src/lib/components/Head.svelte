@@ -1,17 +1,12 @@
 <script lang="ts">
-	interface SeoProps {
-		title?: string;
-		description?: string;
-	}
-
-	const { seo, children } = $props<{ seo?: SeoProps }>();
+	const { title, description, children } = $props<{ title?: string; description?: string }>();
 
 	const siteName = 'Durianlinguo';
 
 	const seoData = {
-		title: seo?.title ? `${seo?.title} | ${siteName}` : 'Durianlinguo - Learn Bisaya',
+		title: title ? `${title} | ${siteName}` : 'Durianlinguo - Learn Bisaya',
 		description:
-			seo?.description ??
+			description ??
 			'Learn essential Bisaya words in minutes. Durianlinguo helps travelers speak basic Filipino (Cebuano) with 300 key phrases — fun, fast, and perfect for tourists.',
 		url: 'https://durianlinguo.lelab.dev',
 		image: '%sveltekit.assets%/og-image.png',

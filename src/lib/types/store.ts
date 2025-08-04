@@ -8,6 +8,7 @@ export type Store = {
 };
 
 export type StoreWord = {
+	word: string;
 	status: 'new' | 'learning' | 'known';
 	streak: number;
 	mistakes: number;
