@@ -11,10 +11,3 @@ declare global {
 }
 
 export {};
-
-declare module '*.svx' {
-	// You might need to adjust this depending on the content of your .svx files
-	// For example, if they export components, you might need to declare them as such.
-	const content: any; // Or a more specific type if known
-	export default content;
-}

@@ -1,8 +1,7 @@
 <script lang="ts">
-	import type { PageProps } from './$types';
 	import { icons } from '$utils';
 	import Head from '$components/Head.svelte';
-	import Why from '$content/Why';
+	import Why from '$content/Why.svx';
 </script>
 
 <Head />
