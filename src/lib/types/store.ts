@@ -4,13 +4,16 @@ export type Store = {
 		lastSession: number;
 		nextNewWordId: number;
 	};
-	words?: { [wordId: string]: StoreWord };
+	words: StoreWord[];
 };
 
 export type StoreWord = {
+	id: number;
 	word: string;
 	status: 'new' | 'learning' | 'known';
 	streak: number;
 	mistakes: number;
+	seen: number;
+	mastery: number;
 	nextReview: number;
 };

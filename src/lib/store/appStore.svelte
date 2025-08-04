@@ -1,11 +1,11 @@
 <script module lang="ts">
 	import { LocalStorage } from './localStorage.svelte';
 	import type { Store, StoreWord } from '$lib/types';
-	import type { Word } from '$lib/types';
+	import type { Lexicon } from '$lib/types';
 
-	import rawDictionary from '$content/bisaya.json' assert { type: 'json' };
+	import rawLexicon from '$content/bisaya.json' assert { type: 'json' };
 
-	const dictionary: Word[] = rawDictionary;
+	const lexicon: Lexicon[] = rawLexicon;
 
 	function createAppStore() {
 		const store = new LocalStorage<Store>('app-store', {
@@ -14,29 +14,43 @@
 				lastSession: Date.now(),
 				nextNewWordId: 10
 			},
-			words: {}
+			words: []
 		});
 
-		function add(wordId: string | number) {
-			const word = getWord(wordId)?.word;
-			if (word == null) return;
+		// ———————————————————————
+		// ✅ Private function
+		// ———————————————————————
 
-			const newWord = {
-				word,
-				status: 'new' as const,
+		function getRawWords(): StoreWord[] {
+			return Array.isArray(store.value.words) ? store.value.words : [];
+		}
+
+		function getLexiconWord(wordId: number): Lexicon | undefined {
+			return lexicon.find((w) => w.id === wordId);
+		}
+
+		// ———————————————————————
+		// ✅ State change
+		// ———————————————————————
+
+		function add(wordId: number) {
+			const lexiconWord = getLexiconWord(wordId);
+			if (!lexiconWord) return;
+
+			const newWord: StoreWord = {
+				id: wordId,
+				word: lexiconWord.word,
+				status: 'new',
 				streak: 0,
 				mistakes: 0,
-				nextReview: Date.now() + 86400000
+				seen: 0,
+				mastery: 0,
+				nextReview: Date.now() + 86_400_000 // 24h
 			};
-
-			console.log('newWord', newWord);
 
 			store.value = {
 				...store.value,
-				words: {
-					...store.value.words,
-					[wordId]: newWord
-				},
+				words: [...getRawWords(), newWord],
 				progress: {
 					...store.value.progress,
 					lastSession: Date.now()
@@ -44,21 +58,17 @@
 			};
 		}
 
-		function update(wordId: string | number, updates: Partial<StoreWord>) {
-			if (!store.value.words?.[wordId]) {
+		function update(wordId: number, updates: Partial<StoreWord>) {
+			const words = getRawWords();
+
+			if (!words.find((w) => w.id === wordId)) {
 				add(wordId);
 				return;
 			}
 
 			store.value = {
 				...store.value,
-				words: {
-					...store.value.words,
-					[wordId]: {
-						...store.value.words[wordId],
-						...updates
-					}
-				},
+				words: words.map((word) => (word.id === wordId ? { ...word, ...updates } : word)),
 				progress: {
 					...store.value.progress,
 					lastSession: Date.now()
@@ -66,28 +76,30 @@
 			};
 		}
 
-		function getWord(wordId: string | number) {
-			return dictionary && dictionary[+wordId] ? dictionary[+wordId] : null;
-		}
-
-		function getDueWords() {
-			const words = store.value.words || {};
-
-			return Object.entries(words)
-				.filter(([_, data]) => data.status !== 'known')
-				.map(([id, data]) => ({ id, ...data }));
-		}
+		// ———————————————————————
+		// ✅ public
+		// ———————————————————————
 
 		return {
+			// Actions
 			add,
 			update,
-			getWord,
-			getDueWords,
-			get words() {
-				return store.value.words;
+
+			get storeWords(): StoreWord[] {
+				return getRawWords();
 			},
+
+			get dueWords(): StoreWord[] {
+				return this.storeWords.filter((word) => word.status !== 'known');
+			},
+
 			get progress() {
 				return store.value.progress;
+			},
+
+			getLexiconWord,
+			getStoreWord(wordId: number): StoreWord | undefined {
+				return this.storeWords.find((w) => w.id === wordId);
 			}
 		};
 	}

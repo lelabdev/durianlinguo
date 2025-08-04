@@ -1,18 +1,18 @@
 <script lang="ts">
 	import words from '$content/bisaya.json';
-	import type { Word } from '$lib/types/word';
+	import type { Lexicon } from '$lib/types/lexicon';
 	import Table from './Table.svelte';
 
-	const getCategories = (wordList: Word[]): string[] =>
+	const getCategories = (wordList: Lexicon[]): string[] =>
 		[...new Set(wordList.map((w) => w.category).filter(Boolean))].sort((a, b) =>
 			(a as string).localeCompare(b as string)
 		) as string[];
 
-	const filterByCategory = (category: string): Word[] =>
+	const filterByCategory = (category: string): Lexicon[] =>
 		category === 'all' ? words : words.filter((w) => w.category === category);
 
 	const categories: string[] = getCategories(words);
-	let selectedCategory = $state<Word[]>(filterByCategory('all'));
+	let selectedCategory = $state<Lexicon[]>(filterByCategory('all'));
 
 	const handleCategory = (category: string): void => {
 		selectedCategory = filterByCategory(category);

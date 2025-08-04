@@ -2,35 +2,28 @@
 	import Head from '$components/Head.svelte';
 	import { getTodayWords, updateProgress } from '$lib/learning';
 
-	const words = getTodayWords();
-	// console.log('words', $inspect(words));
-	// console.log($inspect(words));
+	const initialWords = getTodayWords();
 
-	// --- État ---
+	const words = $state([...initialWords]);
+
 	let currentIndex = $state(0);
-	let selectedChoice = $state<null | string>(null);
+	let selectedChoice = $state<string | null>(null);
 	let feedback = $state<null | 'correct' | 'wrong'>(null);
-	let completed = $state(false);
+	let completed = $state<boolean>(false);
 
-	let currentWord = $derived(words[currentIndex]);
+	let currentWord = $derived.by(() => words[currentIndex]);
 
-	// console.log('current ', $inspect(currentWord));
-	// Generate 4 choices : 1 correct, 3 wrong
-	let choices = $state<string[]>([]);
-	// console.log($inspect(choices));
-
-	$effect(() => {
-		choices = (function () {
-			const opts = [currentWord.translation.en];
-			while (opts.length < 4) {
-				const randomWord = words[Math.floor(Math.random() * words.length)];
-				const translation = randomWord.translation.en;
-				if (!opts.includes(translation)) {
-					opts.push(translation);
-				}
+	let choices = $derived.by(() => {
+		if (!currentWord) return [];
+		const opts: string[] = [currentWord.translation.en];
+		while (opts.length < 4) {
+			const randomWord = words[Math.floor(Math.random() * words.length)];
+			const translation: string = randomWord.translation.en;
+			if (!opts.includes(translation)) {
+				opts.push(translation);
 			}
-			return opts.sort(() => Math.random() - 0.5);
-		})();
+		}
+		return opts.sort(() => Math.random() - 0.5);
 	});
 
 	// --- Actions ---
@@ -38,10 +31,10 @@
 		selectedChoice = choice;
 		if (choice === currentWord.translation.en) {
 			feedback = 'correct';
-			updateProgress(currentWord, true);
+			updateProgress(currentWord.id, true);
 		} else {
-			updateProgress(currentWord, false);
 			feedback = 'wrong';
+			updateProgress(currentWord.id, false);
 		}
 	}
 

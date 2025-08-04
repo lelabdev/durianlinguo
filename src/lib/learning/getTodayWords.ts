@@ -1,5 +1,5 @@
 import { appStore } from '$lib/store/appStore.svelte';
-import type { Word } from '$lib/types';
+import type { Lexicon } from '$lib/types';
 import words from '$content/bisaya.json';
 
 /**
@@ -15,19 +15,16 @@ function shuffle<T>(array: T[]): T[] {
 	return array;
 }
 
-export function getTodayWords(limit: number = 10): Word[] {
-	const allWords: Word[] = words;
+export function getTodayWords(limit: number = 10): Lexicon[] {
+	const lexicon: Lexicon[] = words;
 
 	// This returns progress data {id, status, streak}, not full word objects.
-	const dueWordsFromStore = appStore.getDueWords();
-
-	console.log(dueWordsFromStore);
+	const dueWordsFromStore = appStore.dueWords;
 
 	// We need to find the full word objects from bisaya.json using the IDs.
-	const dueWordIds = new Set(dueWordsFromStore.map((w) => +w.id));
-	console.log(dueWordIds);
+	const dueWordIds = new Set(dueWordsFromStore.map((w) => w.id));
 
-	const dueWords: Word[] = allWords.filter((word) => dueWordIds.has(word.id));
+	const dueWords: Lexicon[] = lexicon.filter((word) => dueWordIds.has(word.id));
 
 	console.log('dueWords', dueWords);
 
@@ -37,18 +34,12 @@ export function getTodayWords(limit: number = 10): Word[] {
 
 	// 2. If we don't have enough due words, fill the rest with new words.
 	const remainingSlots = limit - dueWords.length;
-	let newWords: Word[] = [];
-	if (remainingSlots > 0) {
-		const nextNewWordId = appStore.progress?.nextNewWordId ?? 10;
+	const nextNewWordId = appStore.progress?.nextNewWordId ?? 10;
+	console.log(remainingSlots);
 
-		newWords = allWords
-			.filter((word) => {
-				// A new word is one that is not in the store yet
-				// and is within the range of words to be introduced.
-				return !appStore.getWord(word.id) && Number(word.id) < nextNewWordId;
-			})
-			.slice(0, remainingSlots);
-	}
+	let newWords: Lexicon[] = lexicon.filter((word) => {
+		return !appStore.getStoreWord(word.id) && Number(word.id) < nextNewWordId;
+	});
 
 	// 3. Combine due and new words, then shuffle them for a mixed learning session.
 	return shuffle([...dueWords, ...newWords]);

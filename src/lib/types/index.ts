@@ -1,2 +1,2 @@
-export * from './word';
+export * from './lexicon';
 export * from './store';

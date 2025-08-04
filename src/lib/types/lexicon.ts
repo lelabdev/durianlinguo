@@ -1,5 +1,5 @@
-export type Word = {
-	id: string | number;
+export type Lexicon = {
+	id: number;
 	word: string;
 	translation: {
 		en: string;

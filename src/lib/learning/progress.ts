@@ -1,5 +1,4 @@
 import { appStore } from '$lib/store/appStore.svelte';
-import type { Word } from '$lib/types';
 
 function calculateNextReview(streak: number): number {
 	const intervals = [1, 1, 3, 7, 16, 30];
@@ -7,24 +6,43 @@ function calculateNextReview(streak: number): number {
 	return Date.now() + days * 86_400_000;
 }
 
-export function updateProgress(word: Word, success: boolean) {
-	const storeWord = appStore.getWord(word.id);
+function calculateMastery(mastery: number, success: boolean): number {
+	const maxMastery = 100;
+	if (mastery >= maxMastery) {
+		return maxMastery;
+	}
+
+	if (success) {
+		const gain = 10 * (1 - mastery / maxMastery);
+		return Math.min(maxMastery, mastery + Math.max(1, gain));
+	} else {
+		const loss = 5 * (mastery / maxMastery);
+		return Math.max(0, mastery - Math.max(1.5, loss));
+	}
+}
+
+export function updateProgress(wordId: number, success: boolean) {
+	const storeWord = appStore.getStoreWord(wordId);
 
 	if (!storeWord) {
-		appStore.add(word.id);
-		updateProgress(word, success);
+		appStore.add(wordId);
+		updateProgress(wordId, success);
 		return;
 	}
 
-	const newStreak = success ? storeWord.streak + 1 : 0;
+	const streak = success ? storeWord.streak + 1 : 0;
 	const newMistakes = success ? storeWord.mistakes : storeWord.mistakes + 1;
-	const nextReview = calculateNextReview(newStreak);
 
-	const status = newStreak >= 5 ? 'known' : 'learning';
+	const mastery = calculateMastery(storeWord.mastery, success);
 
-	appStore.update(word.id, {
-		streak: newStreak,
+	const nextReview = calculateNextReview(streak);
+
+	const status = streak >= 5 ? 'known' : 'learning';
+
+	appStore.update(wordId, {
+		streak,
 		mistakes: newMistakes,
+		mastery,
 		nextReview,
 		status
 	});
