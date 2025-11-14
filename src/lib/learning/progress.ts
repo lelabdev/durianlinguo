@@ -42,6 +42,7 @@ export function updateProgress(wordId: number, success: boolean) {
 	appStore.update(wordId, {
 		streak,
 		mistakes: newMistakes,
+		seen: storeWord.seen + 1,
 		mastery,
 		nextReview,
 		status

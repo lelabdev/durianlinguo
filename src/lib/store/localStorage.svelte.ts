@@ -6,15 +6,17 @@ export class LocalStorage<T> {
 
 	constructor(key: string, value: T) {
 		this.key = key;
-		this.#value = value;
 
 		if (browser) {
 			const item = localStorage.getItem(key);
 			if (item) {
 				this.#value = this.deserialize(item);
 			} else {
+				this.#value = value;
 				localStorage.setItem(this.key, this.serialize(this.#value));
 			}
+		} else {
+			this.#value = value;
 		}
 	}
 
