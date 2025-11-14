@@ -7,7 +7,7 @@
 **Creator:** Ludo Loops (French developer based in Davao)
 **Contact:** contact@lelab.dev
 **Status:** In active development
-**Repository:** gyud.dev
+**Repository:** lelabdev/durianlinguo
 
 ## Tech Stack
 
@@ -46,7 +46,7 @@
 ## Project Structure
 
 ```
-/home/user/gyud.dev/
+/home/user/durianlinguo/
 ├── src/
 │   ├── routes/                    # SvelteKit routing
 │   │   ├── +layout.svelte         # Main layout with Header/Navbar

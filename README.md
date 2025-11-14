@@ -47,8 +47,8 @@ As we say in Davao: **"Durian gyud!"** (For real!)
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
-cd gyud.dev
+git clone https://github.com/lelabdev/durianlinguo
+cd durianlinguo
 
 # Install dependencies
 pnpm install
