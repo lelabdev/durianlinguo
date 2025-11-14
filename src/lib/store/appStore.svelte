@@ -53,7 +53,8 @@
 				words: [...getRawWords(), newWord],
 				progress: {
 					...store.value.progress,
-					lastSession: Date.now()
+					lastSession: Date.now(),
+					nextNewWordId: Math.max(store.value.progress.nextNewWordId, wordId + 1)
 				}
 			};
 		}
