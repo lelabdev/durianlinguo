@@ -30,6 +30,7 @@
   - Soft Cream: `#f4f1de`
 
 ### Features & Plugins
+- **vite-plugin-pwa** - Progressive Web App support with service worker
 - **mdsvex** - MDX support for Svelte (`.svx` files)
 - **@inlang/paraglide-js** - Type-safe i18n (en/es locales)
 - **@sveltejs/enhanced-img** - Optimized image handling
@@ -59,7 +60,8 @@
 │   ├── lib/
 │   │   ├── components/            # UI components
 │   │   │   ├── FlashCard.svelte   # 🎯 Main flashcard component
-│   │   │   ├── Header.svelte      # App header
+│   │   │   ├── Header.svelte      # App header (with PWA install button)
+│   │   │   ├── InstallButton.svelte # PWA installation button
 │   │   │   ├── Navbar.svelte      # Bottom navigation
 │   │   │   └── Head.svelte        # SEO/meta tags
 │   │   ├── data/
@@ -209,7 +211,28 @@ greetings (7), basic_words (13), pronouns (7), question_words (8), numbers (11),
 - Card flip animation on answer
 - Progress tracked in appStore
 
-### 5. Internationalization (i18n)
+### 5. Progressive Web App (PWA)
+
+**File:** `src/lib/components/InstallButton.svelte`
+
+- Full PWA support with offline capabilities
+- Service worker auto-generation via `vite-plugin-pwa`
+- Native install prompt on mobile devices (Chrome, Edge, Safari)
+- Manifest configuration: `static/site.webmanifest`
+- InstallButton component features:
+  - Listens for `beforeinstallprompt` event
+  - Shows install button when app is installable
+  - Handles native installation flow
+  - Auto-hides when app is already installed or after successful installation
+  - Displays in header for easy access on mobile
+
+**PWA Configuration (vite.config.ts):**
+- Auto-update service worker registration
+- Caches all static assets (JS, CSS, images, fonts)
+- Runtime caching for Google Fonts and CDN resources
+- Offline-first architecture
+
+### 6. Internationalization (i18n)
 
 - Using `@inlang/paraglide-js` for type-safe translations
 - Configured locales: `en` (default), `es`

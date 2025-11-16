@@ -32,6 +32,7 @@ As we say in Davao: **"Durian gyud!"** (For real!)
 - **Pronunciation Guides** - Phonetic guides for every word
 - **Progress Tracking** - Track your learning journey with mastery scores and streaks
 - **Categories** - Greetings, food, family, numbers, directions, and more
+- **Progressive Web App (PWA)** - Install on your phone for a native app experience with offline support
 - **Offline-First** - All progress saved locally in your browser
 
 ---
@@ -92,6 +93,7 @@ pnpm test
 - **Language:** TypeScript 5
 - **Styling:** Tailwind CSS 4 + DaisyUI 5
 - **Build Tool:** Vite 7
+- **PWA:** vite-plugin-pwa with Workbox
 - **Testing:** Vitest 3 + Playwright
 - **Deployment:** Netlify
 - **Internationalization:** @inlang/paraglide-js (en/es)
@@ -173,13 +175,13 @@ This project is in active development and contributions are welcome! We're looki
 
 ## 📝 Roadmap
 
+- [x] **Progressive Web App support** - Install on mobile with native app experience
 - [ ] Complete 300 word database with audio
 - [ ] Add audio pronunciations by native speakers
 - [ ] Implement daily streak system
 - [ ] Add achievement badges
 - [ ] Create lesson modules (beyond flashcards)
 - [ ] Reverse learning direction (Bisaya → English)
-- [ ] Mobile app (React Native or native)
 - [ ] Community features (share progress, compete)
 
 ---
