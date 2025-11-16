@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-**Durianlinguo** (also known as "Sulti") is a free, open-source language learning web application designed to teach **Bisaya (Cebuano)** to English speakers. The app targets newcomers to Davao, Philippines, helping them learn 300 core words through interactive flashcards and spaced repetition.
+**Durianlinguo** is a free, open-source language learning web application designed to teach **Bisaya (Cebuano)** to English speakers. The app targets newcomers to Davao, Philippines, helping them learn 300 core words through interactive flashcards and spaced repetition.
 
 **Creator:** Ludo Loops (French developer based in Davao)
 **Contact:** contact@lelab.dev

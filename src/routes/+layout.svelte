@@ -9,7 +9,7 @@
 </script>
 
 <svelte:head>
-	<title>Sulti - Learn Bisaya</title>
+	<title>Durianlinguo - Learn Bisaya</title>
 
 	<link
 		rel="stylesheet"
