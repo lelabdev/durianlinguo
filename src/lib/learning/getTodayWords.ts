@@ -26,8 +26,6 @@ export function getTodayWords(limit: number = 10): Lexicon[] {
 		.map((w) => getWordById(w.id))
 		.filter((word): word is Lexicon => word !== undefined);
 
-	console.log('dueWords', dueWords);
-
 	if (dueWords.length >= limit) {
 		return shuffle(dueWords).slice(0, limit);
 	}
@@ -35,12 +33,13 @@ export function getTodayWords(limit: number = 10): Lexicon[] {
 	// 2. If we don't have enough due words, fill the rest with new words.
 	const remainingSlots = limit - dueWords.length;
 	const nextLearningOrder = appStore.progress?.nextLearningOrder ?? 10;
-	console.log(remainingSlots);
 
-	let newWords: Lexicon[] = lexicon.filter((word) => {
-		const order = getLearningOrder(word.id);
-		return !appStore.getStoreWord(word.id) && order >= 0 && order < nextLearningOrder;
-	});
+	let newWords: Lexicon[] = lexicon
+		.filter((word) => {
+			const order = getLearningOrder(word.id);
+			return !appStore.getStoreWord(word.id) && order >= 0 && order < nextLearningOrder;
+		})
+		.slice(0, remainingSlots);
 
 	// 3. Combine due and new words, then shuffle them for a mixed learning session.
 	return shuffle([...dueWords, ...newWords]);
