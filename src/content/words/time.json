@@ -1,0 +1,114 @@
+[
+  {
+    "id": "buntag",
+    "word": "buntag",
+    "translation": {
+      "en": "morning"
+    },
+    "difficulty": 2,
+    "category": "time",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "boon-TAG"
+  },
+  {
+    "id": "gabi-i",
+    "word": "gabi-i",
+    "translation": {
+      "en": "night"
+    },
+    "difficulty": 2,
+    "category": "time",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "gah-BEE-ee"
+  },
+  {
+    "id": "hapon",
+    "word": "hapon",
+    "translation": {
+      "en": "afternoon / evening"
+    },
+    "difficulty": 2,
+    "category": "time",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "HA-pon"
+  },
+  {
+    "id": "kahapon",
+    "word": "kahapon",
+    "translation": {
+      "en": "yesterday"
+    },
+    "difficulty": 2,
+    "category": "time",
+    "part_of_speech": "adverb",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "kah-HA-pon"
+  },
+  {
+    "id": "karon",
+    "word": "karon",
+    "translation": {
+      "en": "now"
+    },
+    "difficulty": 2,
+    "category": "time",
+    "part_of_speech": "adverb",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "kah-RON"
+  },
+  {
+    "id": "oras",
+    "word": "oras",
+    "translation": {
+      "en": "hour / time"
+    },
+    "difficulty": 2,
+    "category": "time",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "OH-ras"
+  },
+  {
+    "id": "ugma",
+    "word": "ugma",
+    "translation": {
+      "en": "tomorrow"
+    },
+    "difficulty": 2,
+    "category": "time",
+    "part_of_speech": "adverb",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "OO-gma"
+  },
+  {
+    "id": "pila-ka-oras",
+    "word": "pila ka oras",
+    "translation": {
+      "en": "how many hours?"
+    },
+    "difficulty": 3,
+    "category": "time",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "PEE-lah kah OH-ras"
+  }
+]

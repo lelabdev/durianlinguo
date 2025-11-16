@@ -1,0 +1,61 @@
+[
+  {
+    "id": "nanay",
+    "word": "nanay",
+    "translation": {
+      "en": "mother"
+    },
+    "difficulty": 1,
+    "category": "family",
+    "part_of_speech": "noun",
+    "tags": [
+      "basic",
+      "essential"
+    ],
+    "pronunciation": "nah-NAY"
+  },
+  {
+    "id": "tatay",
+    "word": "tatay",
+    "translation": {
+      "en": "father"
+    },
+    "difficulty": 1,
+    "category": "family",
+    "part_of_speech": "noun",
+    "tags": [
+      "basic",
+      "essential"
+    ],
+    "pronunciation": "tah-TAY"
+  },
+  {
+    "id": "pamilya",
+    "word": "pamilya",
+    "translation": {
+      "en": "family"
+    },
+    "difficulty": 2,
+    "category": "family",
+    "part_of_speech": "noun",
+    "tags": [
+      "basic",
+      "common"
+    ],
+    "pronunciation": "pah-MIL-ya"
+  },
+  {
+    "id": "igsoon",
+    "word": "igsoon",
+    "translation": {
+      "en": "sibling / brother or sister"
+    },
+    "difficulty": 2,
+    "category": "family",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "ig-SO-on"
+  }
+]

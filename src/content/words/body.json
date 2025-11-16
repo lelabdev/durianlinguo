@@ -1,0 +1,156 @@
+[
+  {
+    "id": "baba",
+    "word": "baba",
+    "translation": {
+      "en": "mouth"
+    },
+    "difficulty": 2,
+    "category": "body",
+    "part_of_speech": "noun",
+    "tags": [
+      "basic"
+    ],
+    "pronunciation": "BA-ba"
+  },
+  {
+    "id": "dila",
+    "word": "dila",
+    "translation": {
+      "en": "tongue"
+    },
+    "difficulty": 2,
+    "category": "body",
+    "part_of_speech": "noun",
+    "tags": [
+      "basic"
+    ],
+    "pronunciation": "DEE-la"
+  },
+  {
+    "id": "ilong",
+    "word": "ilong",
+    "translation": {
+      "en": "nose"
+    },
+    "difficulty": 2,
+    "category": "body",
+    "part_of_speech": "noun",
+    "tags": [
+      "basic"
+    ],
+    "pronunciation": "ee-LONG"
+  },
+  {
+    "id": "kamot",
+    "word": "kamot",
+    "translation": {
+      "en": "hand"
+    },
+    "difficulty": 2,
+    "category": "body",
+    "part_of_speech": "noun",
+    "tags": [
+      "basic"
+    ],
+    "pronunciation": "KA-mot"
+  },
+  {
+    "id": "mata",
+    "word": "mata",
+    "translation": {
+      "en": "eye"
+    },
+    "difficulty": 2,
+    "category": "body",
+    "part_of_speech": "noun",
+    "tags": [
+      "basic"
+    ],
+    "pronunciation": "MA-ta"
+  },
+  {
+    "id": "tiil",
+    "word": "tiil",
+    "translation": {
+      "en": "foot"
+    },
+    "difficulty": 2,
+    "category": "body",
+    "part_of_speech": "noun",
+    "tags": [
+      "basic"
+    ],
+    "pronunciation": "TEEL"
+  },
+  {
+    "id": "ulo",
+    "word": "ulo",
+    "translation": {
+      "en": "head"
+    },
+    "difficulty": 2,
+    "category": "body",
+    "part_of_speech": "noun",
+    "tags": [
+      "basic"
+    ],
+    "pronunciation": "OO-lo"
+  },
+  {
+    "id": "lawas",
+    "word": "lawas",
+    "translation": {
+      "en": "body"
+    },
+    "difficulty": 2,
+    "category": "body",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "LA-was"
+  },
+  {
+    "id": "baba-2",
+    "word": "baba",
+    "translation": {
+      "en": "chin / jaw"
+    },
+    "difficulty": 3,
+    "category": "body",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "BA-ba"
+  },
+  {
+    "id": "dughan",
+    "word": "dughan",
+    "translation": {
+      "en": "heart"
+    },
+    "difficulty": 3,
+    "category": "body",
+    "part_of_speech": "noun",
+    "tags": [
+      "emotional"
+    ],
+    "pronunciation": "DOO-gan"
+  },
+  {
+    "id": "dunggan",
+    "word": "dunggan",
+    "translation": {
+      "en": "ear"
+    },
+    "difficulty": 3,
+    "category": "body",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "dung-GAN"
+  }
+]

@@ -1,0 +1,213 @@
+[
+  {
+    "id": "hotel",
+    "word": "hotel",
+    "translation": {
+      "en": "hotel"
+    },
+    "difficulty": 1,
+    "category": "travel",
+    "part_of_speech": "noun",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "ho-TEL"
+  },
+  {
+    "id": "airport",
+    "word": "airport",
+    "translation": {
+      "en": "airport"
+    },
+    "difficulty": 2,
+    "category": "travel",
+    "part_of_speech": "noun",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "AIR-port"
+  },
+  {
+    "id": "lakaw",
+    "word": "lakaw",
+    "translation": {
+      "en": "to walk"
+    },
+    "difficulty": 2,
+    "category": "travel",
+    "part_of_speech": "verb",
+    "tags": [
+      "basic"
+    ],
+    "pronunciation": "lah-KAW"
+  },
+  {
+    "id": "pasaporte",
+    "word": "pasaporte",
+    "translation": {
+      "en": "passport"
+    },
+    "difficulty": 2,
+    "category": "travel",
+    "part_of_speech": "noun",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "pah-sa-POR-te"
+  },
+  {
+    "id": "visa",
+    "word": "visa",
+    "translation": {
+      "en": "visa"
+    },
+    "difficulty": 2,
+    "category": "travel",
+    "part_of_speech": "noun",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "VEE-sa"
+  },
+  {
+    "id": "balik",
+    "word": "balik",
+    "translation": {
+      "en": "return"
+    },
+    "difficulty": 2,
+    "category": "travel",
+    "part_of_speech": "verb",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "BAH-lik"
+  },
+  {
+    "id": "biyahe",
+    "word": "biyahe",
+    "translation": {
+      "en": "trip / journey"
+    },
+    "difficulty": 2,
+    "category": "travel",
+    "part_of_speech": "noun",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "bee-YAH-he"
+  },
+  {
+    "id": "biyahe-2",
+    "word": "biyahe",
+    "translation": {
+      "en": "journey"
+    },
+    "difficulty": 2,
+    "category": "travel",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "bee-YA-he"
+  },
+  {
+    "id": "byahe",
+    "word": "byahe",
+    "translation": {
+      "en": "travel / trip"
+    },
+    "difficulty": 2,
+    "category": "travel",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "BYA-he"
+  },
+  {
+    "id": "kwarto",
+    "word": "kwarto",
+    "translation": {
+      "en": "room"
+    },
+    "difficulty": 2,
+    "category": "travel",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "KWAR-to"
+  },
+  {
+    "id": "lakaw-2",
+    "word": "lakaw",
+    "translation": {
+      "en": "walk"
+    },
+    "difficulty": 2,
+    "category": "travel",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "lah-KAW"
+  },
+  {
+    "id": "suroy",
+    "word": "suroy",
+    "translation": {
+      "en": "to tour / to walk around"
+    },
+    "difficulty": 2,
+    "category": "travel",
+    "part_of_speech": "verb",
+    "tags": [
+      "tourist",
+      "useful"
+    ],
+    "pronunciation": "soo-ROY"
+  },
+  {
+    "id": "turista",
+    "word": "turista",
+    "translation": {
+      "en": "tourist"
+    },
+    "difficulty": 2,
+    "category": "travel",
+    "part_of_speech": "noun",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "too-REES-ta"
+  },
+  {
+    "id": "turista-2",
+    "word": "turista",
+    "translation": {
+      "en": "tourist"
+    },
+    "difficulty": 2,
+    "category": "travel",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "too-REES-ta"
+  },
+  {
+    "id": "reserbasyon",
+    "word": "reserbasyon",
+    "translation": {
+      "en": "reservation"
+    },
+    "difficulty": 3,
+    "category": "travel",
+    "part_of_speech": "noun",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "re-ser-BA-shon"
+  }
+]

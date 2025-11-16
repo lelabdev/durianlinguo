@@ -1,0 +1,30 @@
+[
+  {
+    "id": "gusto-ko",
+    "word": "gusto ko",
+    "translation": {
+      "en": "I want"
+    },
+    "difficulty": 1,
+    "category": "phrases",
+    "part_of_speech": "phrase",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "GOS-to ko"
+  },
+  {
+    "id": "gusto-kog",
+    "word": "gusto ko’g",
+    "translation": {
+      "en": "I want some..."
+    },
+    "difficulty": 2,
+    "category": "phrases",
+    "part_of_speech": "phrase",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "GOS-to ko-eg"
+  }
+]

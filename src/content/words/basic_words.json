@@ -1,0 +1,188 @@
+[
+  {
+    "id": "asa",
+    "word": "asa",
+    "translation": {
+      "en": "where"
+    },
+    "difficulty": 1,
+    "category": "basic_words",
+    "part_of_speech": "question_word",
+    "tags": [
+      "essential",
+      "survival"
+    ],
+    "pronunciation": "AH-sah"
+  },
+  {
+    "id": "dili",
+    "word": "dili",
+    "translation": {
+      "en": "no / not"
+    },
+    "difficulty": 1,
+    "category": "basic_words",
+    "part_of_speech": "particle",
+    "tags": [
+      "basic",
+      "essential"
+    ],
+    "pronunciation": "DEE-lee"
+  },
+  {
+    "id": "oo",
+    "word": "oo",
+    "translation": {
+      "en": "yes"
+    },
+    "difficulty": 1,
+    "category": "basic_words",
+    "part_of_speech": "particle",
+    "tags": [
+      "basic",
+      "essential"
+    ],
+    "pronunciation": "oh-oh"
+  },
+  {
+    "id": "tabang",
+    "word": "tabang",
+    "translation": {
+      "en": "help"
+    },
+    "difficulty": 1,
+    "category": "basic_words",
+    "part_of_speech": "noun",
+    "tags": [
+      "essential",
+      "survival"
+    ],
+    "pronunciation": "TAH-bang"
+  },
+  {
+    "id": "tabangi-ko",
+    "word": "tabangi ko",
+    "translation": {
+      "en": "help me"
+    },
+    "difficulty": 2,
+    "category": "basic_words",
+    "part_of_speech": "phrase",
+    "tags": [
+      "survival"
+    ],
+    "pronunciation": "TAH-bang-ee ko"
+  },
+  {
+    "id": "didto",
+    "word": "didto",
+    "translation": {
+      "en": "there"
+    },
+    "difficulty": 2,
+    "category": "basic_words",
+    "part_of_speech": "adverb",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "DEED-toh"
+  },
+  {
+    "id": "dinhi",
+    "word": "dinhi",
+    "translation": {
+      "en": "here"
+    },
+    "difficulty": 2,
+    "category": "basic_words",
+    "part_of_speech": "adverb",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "DEEN-hee"
+  },
+  {
+    "id": "ngano",
+    "word": "ngano",
+    "translation": {
+      "en": "why"
+    },
+    "difficulty": 2,
+    "category": "basic_words",
+    "part_of_speech": "question_word",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "NGA-no"
+  },
+  {
+    "id": "sayop",
+    "word": "sayop",
+    "translation": {
+      "en": "wrong"
+    },
+    "difficulty": 2,
+    "category": "basic_words",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "SY-op"
+  },
+  {
+    "id": "tama",
+    "word": "tama",
+    "translation": {
+      "en": "correct / yes (agreement)"
+    },
+    "difficulty": 2,
+    "category": "basic_words",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "TAH-ma"
+  },
+  {
+    "id": "uli",
+    "word": "uli",
+    "translation": {
+      "en": "again"
+    },
+    "difficulty": 2,
+    "category": "basic_words",
+    "part_of_speech": "adverb",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "OO-lee"
+  },
+  {
+    "id": "aron",
+    "word": "aron",
+    "translation": {
+      "en": "so that / in order to"
+    },
+    "difficulty": 3,
+    "category": "basic_words",
+    "part_of_speech": "conjunction",
+    "tags": [
+      "connector"
+    ],
+    "pronunciation": "ah-RON"
+  },
+  {
+    "id": "wala-koy-kahibalo",
+    "word": "wala koy kahibalo",
+    "translation": {
+      "en": "I don't know"
+    },
+    "difficulty": 3,
+    "category": "basic_words",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "WAH-la ko-ee kah-ee-BAH-lo"
+  }
+]

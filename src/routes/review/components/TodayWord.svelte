@@ -1,6 +1,6 @@
 <script lang="ts">
 	import FlashCard from '$components/FlashCard.svelte';
-	import words from '$content/bisaya.json';
+	import { getWordByOrder, getTotalWords } from '$lib/data/lexicon';
 
 	function getDayOfYear() {
 		const now = new Date();
@@ -11,8 +11,9 @@
 	}
 
 	const dayOfYear = getDayOfYear();
-	const wordIndex = (dayOfYear - 1) % words.length;
-	const todayWord = words[wordIndex];
+	const totalWords = getTotalWords();
+	const wordIndex = (dayOfYear - 1) % totalWords;
+	const todayWord = getWordByOrder(wordIndex);
 	console.log(todayWord);
 </script>
 

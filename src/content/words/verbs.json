@@ -1,0 +1,886 @@
+[
+  {
+    "id": "adto",
+    "word": "adto",
+    "translation": {
+      "en": "to go"
+    },
+    "difficulty": 1,
+    "category": "verbs",
+    "part_of_speech": "verb",
+    "tags": [
+      "essential",
+      "basic"
+    ],
+    "pronunciation": "AD-to"
+  },
+  {
+    "id": "gusto",
+    "word": "gusto",
+    "translation": {
+      "en": "want"
+    },
+    "difficulty": 1,
+    "category": "verbs",
+    "part_of_speech": "verb",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "GOS-to"
+  },
+  {
+    "id": "sulti",
+    "word": "sulti",
+    "translation": {
+      "en": "to speak"
+    },
+    "difficulty": 1,
+    "category": "verbs",
+    "part_of_speech": "verb",
+    "tags": [
+      "essential",
+      "core"
+    ],
+    "pronunciation": "SUL-ti"
+  },
+  {
+    "id": "nag-inom-ug-kape",
+    "word": "nag-inom ug kape",
+    "translation": {
+      "en": "drank coffee"
+    },
+    "difficulty": 3,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "nag-ee-NOM oog KA-pe"
+  },
+  {
+    "id": "nag-inom-ug-tubig",
+    "word": "nag-inom ug tubig",
+    "translation": {
+      "en": "drank water"
+    },
+    "difficulty": 3,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "nag-ee-NOM oog TOO-big"
+  },
+  {
+    "id": "nagkan-on-ug-bugas",
+    "word": "nagkan-on ug bugas",
+    "translation": {
+      "en": "ate rice"
+    },
+    "difficulty": 3,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "nag-kah-NON oog BOO-gas"
+  },
+  {
+    "id": "anhi",
+    "word": "anhi",
+    "translation": {
+      "en": "to come"
+    },
+    "difficulty": 2,
+    "category": "verbs",
+    "part_of_speech": "verb",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "AN-hee"
+  },
+  {
+    "id": "basa",
+    "word": "basa",
+    "translation": {
+      "en": "to read"
+    },
+    "difficulty": 2,
+    "category": "verbs",
+    "part_of_speech": "verb",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "BAH-sah"
+  },
+  {
+    "id": "buhaton",
+    "word": "buhaton",
+    "translation": {
+      "en": "to do / to make"
+    },
+    "difficulty": 2,
+    "category": "verbs",
+    "part_of_speech": "verb",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "boo-HA-ton"
+  },
+  {
+    "id": "paminaw",
+    "word": "paminaw",
+    "translation": {
+      "en": "to listen"
+    },
+    "difficulty": 2,
+    "category": "verbs",
+    "part_of_speech": "verb",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "pah-mee-NAW"
+  },
+  {
+    "id": "sulat",
+    "word": "sulat",
+    "translation": {
+      "en": "to write"
+    },
+    "difficulty": 2,
+    "category": "verbs",
+    "part_of_speech": "verb",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "SOO-lat"
+  },
+  {
+    "id": "naa",
+    "word": "naa",
+    "translation": {
+      "en": "there is / have"
+    },
+    "difficulty": 3,
+    "category": "verbs",
+    "part_of_speech": "verb",
+    "tags": [
+      "grammar"
+    ],
+    "pronunciation": "NAH-ah"
+  },
+  {
+    "id": "nag-eskwela",
+    "word": "nag-eskwela",
+    "translation": {
+      "en": "studied"
+    },
+    "difficulty": 3,
+    "category": "verbs",
+    "part_of_speech": "verb",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "nag-es-KEH-la"
+  },
+  {
+    "id": "nag-inom",
+    "word": "nag-inom",
+    "translation": {
+      "en": "drank"
+    },
+    "difficulty": 3,
+    "category": "verbs",
+    "part_of_speech": "verb",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "nag-ee-NOM"
+  },
+  {
+    "id": "nag-una",
+    "word": "nag-una",
+    "translation": {
+      "en": "went ahead"
+    },
+    "difficulty": 3,
+    "category": "verbs",
+    "part_of_speech": "verb",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-OO-na"
+  },
+  {
+    "id": "nagbiya",
+    "word": "nagbiya",
+    "translation": {
+      "en": "left (a place)"
+    },
+    "difficulty": 3,
+    "category": "verbs",
+    "part_of_speech": "verb",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-BEE-ya"
+  },
+  {
+    "id": "nagbiyahe",
+    "word": "nagbiyahe",
+    "translation": {
+      "en": "traveled"
+    },
+    "difficulty": 3,
+    "category": "verbs",
+    "part_of_speech": "verb",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-bee-YA-he"
+  },
+  {
+    "id": "nagbiyahe-sa-davao",
+    "word": "nagbiyahe sa Davao",
+    "translation": {
+      "en": "traveled to Davao"
+    },
+    "difficulty": 3,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-bee-YA-he sa dah-VAH-o"
+  },
+  {
+    "id": "nagbuhat",
+    "word": "nagbuhat",
+    "translation": {
+      "en": "did / made"
+    },
+    "difficulty": 3,
+    "category": "verbs",
+    "part_of_speech": "verb",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "nag-BOO-hot"
+  },
+  {
+    "id": "nagkan-on",
+    "word": "nagkan-on",
+    "translation": {
+      "en": "ate"
+    },
+    "difficulty": 3,
+    "category": "verbs",
+    "part_of_speech": "verb",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "nag-kah-NON"
+  },
+  {
+    "id": "nagkan-on-ug-saging",
+    "word": "nagkan-on ug saging",
+    "translation": {
+      "en": "ate a banana"
+    },
+    "difficulty": 3,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "nag-kah-NON oog sa-GING"
+  },
+  {
+    "id": "naglakaw",
+    "word": "naglakaw",
+    "translation": {
+      "en": "walked"
+    },
+    "difficulty": 3,
+    "category": "verbs",
+    "part_of_speech": "verb",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "nag-lah-KAW"
+  },
+  {
+    "id": "naglakaw-sa-palengke",
+    "word": "naglakaw sa palengke",
+    "translation": {
+      "en": "walked to the market"
+    },
+    "difficulty": 3,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-lah-KAW sa pah-LENG-ke"
+  },
+  {
+    "id": "naglibot",
+    "word": "naglibot",
+    "translation": {
+      "en": "walked around"
+    },
+    "difficulty": 3,
+    "category": "verbs",
+    "part_of_speech": "verb",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-lee-BOT"
+  },
+  {
+    "id": "naglingkod",
+    "word": "naglingkod",
+    "translation": {
+      "en": "sat down"
+    },
+    "difficulty": 3,
+    "category": "verbs",
+    "part_of_speech": "verb",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-leen-GOK"
+  },
+  {
+    "id": "nagpabilin",
+    "word": "nagpabilin",
+    "translation": {
+      "en": "stayed"
+    },
+    "difficulty": 3,
+    "category": "verbs",
+    "part_of_speech": "verb",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-pa-BEE-leen"
+  },
+  {
+    "id": "nagpahulay",
+    "word": "nagpahulay",
+    "translation": {
+      "en": "rested"
+    },
+    "difficulty": 3,
+    "category": "verbs",
+    "part_of_speech": "verb",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-pa-HOO-lay"
+  },
+  {
+    "id": "nagpangutana",
+    "word": "nagpangutana",
+    "translation": {
+      "en": "asked"
+    },
+    "difficulty": 3,
+    "category": "verbs",
+    "part_of_speech": "verb",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-pang-oo-TA-na"
+  },
+  {
+    "id": "nagtindog",
+    "word": "nagtindog",
+    "translation": {
+      "en": "stood up"
+    },
+    "difficulty": 3,
+    "category": "verbs",
+    "part_of_speech": "verb",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-tin-DOG"
+  },
+  {
+    "id": "nagtrabaho",
+    "word": "nagtrabaho",
+    "translation": {
+      "en": "worked"
+    },
+    "difficulty": 3,
+    "category": "verbs",
+    "part_of_speech": "verb",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "nag-tra-BA-ho"
+  },
+  {
+    "id": "nakakita",
+    "word": "nakakita",
+    "translation": {
+      "en": "I saw"
+    },
+    "difficulty": 3,
+    "category": "verbs",
+    "part_of_speech": "verb",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "na-ka-KEE-ta"
+  },
+  {
+    "id": "wala",
+    "word": "wala",
+    "translation": {
+      "en": "there is not / don't have"
+    },
+    "difficulty": 3,
+    "category": "verbs",
+    "part_of_speech": "verb",
+    "tags": [
+      "grammar"
+    ],
+    "pronunciation": "WAH-lah"
+  },
+  {
+    "id": "nag-eskwela-pinaagi-sa-online",
+    "word": "nag-eskwela pinaagi sa online",
+    "translation": {
+      "en": "studied online"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "modern"
+    ],
+    "pronunciation": "nag-es-KEH-la pee-NAH-gee sa o-LINE"
+  },
+  {
+    "id": "nag-eskwela-sa",
+    "word": "nag-eskwela sa",
+    "translation": {
+      "en": "studied at"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-es-KEH-la sa"
+  },
+  {
+    "id": "nag-eskwela-sa-unibersidad",
+    "word": "nag-eskwela sa unibersidad",
+    "translation": {
+      "en": "studied at the university"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-es-KEH-la sa oo-nee-ber-see-DAD"
+  },
+  {
+    "id": "nag-inom-ug",
+    "word": "nag-inom ug",
+    "translation": {
+      "en": "drank (something)"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-ee-NOM oog"
+  },
+  {
+    "id": "nag-una-sa-grupo",
+    "word": "nag-una sa grupo",
+    "translation": {
+      "en": "went ahead of the group"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-OO-na sa GRO-po"
+  },
+  {
+    "id": "nag-una-sa-inyo",
+    "word": "nag-una sa inyo",
+    "translation": {
+      "en": "went ahead of you"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-OO-na sa EE-nyo"
+  },
+  {
+    "id": "nagbiya-sa-balay",
+    "word": "nagbiya sa balay",
+    "translation": {
+      "en": "left the house"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-BEE-ya sa BA-lay"
+  },
+  {
+    "id": "nagbiya-sa-simbahan",
+    "word": "nagbiya sa simbahan",
+    "translation": {
+      "en": "left the church"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-BEE-ya sa sim-BA-han"
+  },
+  {
+    "id": "nagbiyahe-gikan-sa",
+    "word": "nagbiyahe gikan sa",
+    "translation": {
+      "en": "traveled from"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-bee-YA-he GEE-kan sa"
+  },
+  {
+    "id": "nagbiyahe-pinaagi-sa-bus",
+    "word": "nagbiyahe pinaagi sa bus",
+    "translation": {
+      "en": "traveled by bus"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-bee-YA-he pee-NAH-gee sa boos"
+  },
+  {
+    "id": "nagbuhat-ug",
+    "word": "nagbuhat ug",
+    "translation": {
+      "en": "made / did something"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "grammar"
+    ],
+    "pronunciation": "nag-BOO-hot oog"
+  },
+  {
+    "id": "nagbuhat-ug-kaon",
+    "word": "nagbuhat ug kaon",
+    "translation": {
+      "en": "cooked food"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-BOO-hot oog kah-NON"
+  },
+  {
+    "id": "nagbuhat-ug-panihapon",
+    "word": "nagbuhat ug panihapon",
+    "translation": {
+      "en": "cooked dinner"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-BOO-hot oog pa-nee-HA-pon"
+  },
+  {
+    "id": "nagkan-on-sa",
+    "word": "nagkan-on sa",
+    "translation": {
+      "en": "ate at"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-kah-NON sa"
+  },
+  {
+    "id": "naglakaw-palibot",
+    "word": "naglakaw palibot",
+    "translation": {
+      "en": "walked around"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-lah-KAW pa-LEE-bot"
+  },
+  {
+    "id": "naglakaw-sa-baybayon",
+    "word": "naglakaw sa baybayon",
+    "translation": {
+      "en": "walked on the beach"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-lah-KAW sa bay-BAY-on"
+  },
+  {
+    "id": "naglibot-sa",
+    "word": "naglibot sa",
+    "translation": {
+      "en": "walked around (a place)"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-lee-BOT sa"
+  },
+  {
+    "id": "naglibot-sa-siyudad",
+    "word": "naglibot sa siyudad",
+    "translation": {
+      "en": "walked around the city"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-lee-BOT sa see-YOO-dad"
+  },
+  {
+    "id": "naglingkod-sa",
+    "word": "naglingkod sa",
+    "translation": {
+      "en": "sat on"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-leen-GOK sa"
+  },
+  {
+    "id": "naglingkod-sa-lingkoranan",
+    "word": "naglingkod sa lingkoranan",
+    "translation": {
+      "en": "sat on the chair"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-leen-GOK sa ling-kor-a-NAN"
+  },
+  {
+    "id": "nagpabilin-sa",
+    "word": "nagpabilin sa",
+    "translation": {
+      "en": "stayed at"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-pa-BEE-leen sa"
+  },
+  {
+    "id": "nagpabilin-sa-hotel",
+    "word": "nagpabilin sa hotel",
+    "translation": {
+      "en": "stayed at the hotel"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-pa-BEE-leen sa ho-TEL"
+  },
+  {
+    "id": "nagpabilin-sa-hotel-2",
+    "word": "nagpabilin sa hotel",
+    "translation": {
+      "en": "stayed at the hotel"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-pa-BEE-leen sa ho-TEL"
+  },
+  {
+    "id": "nagpahulay-sa-balay",
+    "word": "nagpahulay sa balay",
+    "translation": {
+      "en": "rested at home"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-pa-HOO-lay sa BA-lay"
+  },
+  {
+    "id": "nagpahulay-sa-kama",
+    "word": "nagpahulay sa kama",
+    "translation": {
+      "en": "rested on the bed"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-pa-HOO-lay sa KA-ma"
+  },
+  {
+    "id": "nagtindog-sa",
+    "word": "nagtindog sa",
+    "translation": {
+      "en": "stood on"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-tin-DOG sa"
+  },
+  {
+    "id": "nagtindog-sa-bus",
+    "word": "nagtindog sa bus",
+    "translation": {
+      "en": "stood on the bus"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-tin-DOG sa boos"
+  },
+  {
+    "id": "nagtrabaho-gikan-sa-balay",
+    "word": "nagtrabaho gikan sa balay",
+    "translation": {
+      "en": "worked from home"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "modern"
+    ],
+    "pronunciation": "nag-tra-BA-ho GEE-kan sa BA-lay"
+  },
+  {
+    "id": "nagtrabaho-sa",
+    "word": "nagtrabaho sa",
+    "translation": {
+      "en": "worked at"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-tra-BA-ho sa"
+  },
+  {
+    "id": "nagtrabaho-sa-opisina",
+    "word": "nagtrabaho sa opisina",
+    "translation": {
+      "en": "worked at the office"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "nag-tra-BA-ho sa o-pee-SEE-na"
+  },
+  {
+    "id": "nahibaw-an",
+    "word": "nahibaw-an",
+    "translation": {
+      "en": "known / found out"
+    },
+    "difficulty": 4,
+    "category": "verbs",
+    "part_of_speech": "verb",
+    "tags": [
+      "grammar"
+    ],
+    "pronunciation": "na-hee-BA-wan"
+  }
+]

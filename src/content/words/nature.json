@@ -1,0 +1,215 @@
+[
+  {
+    "id": "adlaw",
+    "word": "adlaw",
+    "translation": {
+      "en": "sun / day"
+    },
+    "difficulty": 2,
+    "category": "nature",
+    "part_of_speech": "noun",
+    "tags": [
+      "common",
+      "dual_meaning"
+    ],
+    "pronunciation": "ad-LAW"
+  },
+  {
+    "id": "bukid",
+    "word": "bukid",
+    "translation": {
+      "en": "mountain / hill"
+    },
+    "difficulty": 2,
+    "category": "nature",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "BOO-kid"
+  },
+  {
+    "id": "dagat",
+    "word": "dagat",
+    "translation": {
+      "en": "sea"
+    },
+    "difficulty": 2,
+    "category": "nature",
+    "part_of_speech": "noun",
+    "tags": [
+      "common",
+      "coastal"
+    ],
+    "pronunciation": "dah-GAT"
+  },
+  {
+    "id": "init-2",
+    "word": "init",
+    "translation": {
+      "en": "fire / heat"
+    },
+    "difficulty": 2,
+    "category": "nature",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "EE-neet"
+  },
+  {
+    "id": "kahoy",
+    "word": "kahoy",
+    "translation": {
+      "en": "tree / wood"
+    },
+    "difficulty": 2,
+    "category": "nature",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "KAH-hoy"
+  },
+  {
+    "id": "langit",
+    "word": "langit",
+    "translation": {
+      "en": "sky / heaven"
+    },
+    "difficulty": 2,
+    "category": "nature",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "LAN-git"
+  },
+  {
+    "id": "suba",
+    "word": "suba",
+    "translation": {
+      "en": "river"
+    },
+    "difficulty": 2,
+    "category": "nature",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "SOO-ba"
+  },
+  {
+    "id": "tubig-2",
+    "word": "tubig",
+    "translation": {
+      "en": "water (body)"
+    },
+    "difficulty": 2,
+    "category": "nature",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "TOO-big"
+  },
+  {
+    "id": "ulan",
+    "word": "ulan",
+    "translation": {
+      "en": "rain"
+    },
+    "difficulty": 2,
+    "category": "nature",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "OO-lan"
+  },
+  {
+    "id": "yuta",
+    "word": "yuta",
+    "translation": {
+      "en": "earth / ground"
+    },
+    "difficulty": 2,
+    "category": "nature",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "YOO-ta"
+  },
+  {
+    "id": "bagyo",
+    "word": "bagyo",
+    "translation": {
+      "en": "typhoon"
+    },
+    "difficulty": 3,
+    "category": "nature",
+    "part_of_speech": "noun",
+    "tags": [
+      "local",
+      "important"
+    ],
+    "pronunciation": "BAH-gyoh"
+  },
+  {
+    "id": "bitoon",
+    "word": "bitoon",
+    "translation": {
+      "en": "star"
+    },
+    "difficulty": 3,
+    "category": "nature",
+    "part_of_speech": "noun",
+    "tags": [
+      "poetic"
+    ],
+    "pronunciation": "bee-TO-on"
+  },
+  {
+    "id": "dahon",
+    "word": "dahon",
+    "translation": {
+      "en": "leaf"
+    },
+    "difficulty": 3,
+    "category": "nature",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "dah-HON"
+  },
+  {
+    "id": "hangin",
+    "word": "hangin",
+    "translation": {
+      "en": "wind"
+    },
+    "difficulty": 3,
+    "category": "nature",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "hah-NGEEN"
+  },
+  {
+    "id": "panganod",
+    "word": "panganod",
+    "translation": {
+      "en": "cloud"
+    },
+    "difficulty": 3,
+    "category": "nature",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "pang-a-NOD"
+  }
+]

@@ -1,0 +1,254 @@
+[
+  {
+    "id": "gusto-2",
+    "word": "gusto",
+    "translation": {
+      "en": "like / want"
+    },
+    "difficulty": 1,
+    "category": "emotions",
+    "part_of_speech": "verb",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "GOS-to"
+  },
+  {
+    "id": "sad",
+    "word": "sad",
+    "translation": {
+      "en": "sad"
+    },
+    "difficulty": 1,
+    "category": "emotions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "sad"
+  },
+  {
+    "id": "sad-2",
+    "word": "sad",
+    "translation": {
+      "en": "sad"
+    },
+    "difficulty": 1,
+    "category": "emotions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "sad"
+  },
+  {
+    "id": "gusto-3",
+    "word": "gusto",
+    "translation": {
+      "en": "like / love"
+    },
+    "difficulty": 2,
+    "category": "emotions",
+    "part_of_speech": "verb",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "GOS-to"
+  },
+  {
+    "id": "gutom-2",
+    "word": "gutom",
+    "translation": {
+      "en": "hungry"
+    },
+    "difficulty": 2,
+    "category": "emotions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "GOO-tom"
+  },
+  {
+    "id": "gutom-3",
+    "word": "gutom",
+    "translation": {
+      "en": "hungry"
+    },
+    "difficulty": 2,
+    "category": "emotions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "GOO-tom"
+  },
+  {
+    "id": "malipayon",
+    "word": "malipayon",
+    "translation": {
+      "en": "happy"
+    },
+    "difficulty": 2,
+    "category": "emotions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "mah-lee-PI-yon"
+  },
+  {
+    "id": "malipayon-2",
+    "word": "malipayon",
+    "translation": {
+      "en": "happy"
+    },
+    "difficulty": 2,
+    "category": "emotions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "mah-lee-PI-yon"
+  },
+  {
+    "id": "uhaw-2",
+    "word": "uhaw",
+    "translation": {
+      "en": "thirsty"
+    },
+    "difficulty": 2,
+    "category": "emotions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "OO-how"
+  },
+  {
+    "id": "uhaw-3",
+    "word": "uhaw",
+    "translation": {
+      "en": "thirsty"
+    },
+    "difficulty": 2,
+    "category": "emotions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "OO-how"
+  },
+  {
+    "id": "dili-ganahan",
+    "word": "dili ganahan",
+    "translation": {
+      "en": "don't like"
+    },
+    "difficulty": 3,
+    "category": "emotions",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "DEE-lee ga-NA-han"
+  },
+  {
+    "id": "dili-ganahan-2",
+    "word": "dili ganahan",
+    "translation": {
+      "en": "don't like"
+    },
+    "difficulty": 3,
+    "category": "emotions",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "DEE-lee ga-NA-han"
+  },
+  {
+    "id": "gibati",
+    "word": "gibati",
+    "translation": {
+      "en": "feel"
+    },
+    "difficulty": 3,
+    "category": "emotions",
+    "part_of_speech": "verb",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "gee-BAH-ti"
+  },
+  {
+    "id": "gibati-2",
+    "word": "gibati",
+    "translation": {
+      "en": "feel"
+    },
+    "difficulty": 3,
+    "category": "emotions",
+    "part_of_speech": "verb",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "gee-BAH-ti"
+  },
+  {
+    "id": "gibati-ko",
+    "word": "gibati ko",
+    "translation": {
+      "en": "I feel"
+    },
+    "difficulty": 3,
+    "category": "emotions",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "gee-BAH-ti ko"
+  },
+  {
+    "id": "gibati-ko-2",
+    "word": "gibati ko",
+    "translation": {
+      "en": "I feel"
+    },
+    "difficulty": 3,
+    "category": "emotions",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "gee-BAH-ti ko"
+  },
+  {
+    "id": "kalipay",
+    "word": "kalipay",
+    "translation": {
+      "en": "happiness / joy"
+    },
+    "difficulty": 3,
+    "category": "emotions",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "kah-LEE-pie"
+  },
+  {
+    "id": "daku-ang-kasingkasing",
+    "word": "daku ang kasingkasing",
+    "translation": {
+      "en": "big-hearted"
+    },
+    "difficulty": 4,
+    "category": "emotions",
+    "part_of_speech": "phrase",
+    "tags": [
+      "cultural"
+    ],
+    "pronunciation": "DA-koo ang ka-sing-ka-SING"
+  }
+]

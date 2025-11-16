@@ -1,0 +1,297 @@
+[
+  {
+    "id": "maayo",
+    "word": "maayo",
+    "translation": {
+      "en": "good / okay"
+    },
+    "difficulty": 1,
+    "category": "descriptions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "basic",
+      "essential"
+    ],
+    "pronunciation": "mah-YOW"
+  },
+  {
+    "id": "bag-o",
+    "word": "bag-o",
+    "translation": {
+      "en": "new"
+    },
+    "difficulty": 2,
+    "category": "descriptions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "BAH-go"
+  },
+  {
+    "id": "bugnaw",
+    "word": "bugnaw",
+    "translation": {
+      "en": "cold"
+    },
+    "difficulty": 2,
+    "category": "descriptions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "boog-NAW"
+  },
+  {
+    "id": "daan",
+    "word": "daan",
+    "translation": {
+      "en": "old"
+    },
+    "difficulty": 2,
+    "category": "descriptions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "DAHN"
+  },
+  {
+    "id": "dagku",
+    "word": "dagku",
+    "translation": {
+      "en": "big"
+    },
+    "difficulty": 2,
+    "category": "descriptions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "dag-KOO"
+  },
+  {
+    "id": "daku",
+    "word": "daku",
+    "translation": {
+      "en": "big"
+    },
+    "difficulty": 2,
+    "category": "descriptions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "DA-koo"
+  },
+  {
+    "id": "daut",
+    "word": "daut",
+    "translation": {
+      "en": "bad"
+    },
+    "difficulty": 2,
+    "category": "descriptions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "DAH-oot"
+  },
+  {
+    "id": "gamay",
+    "word": "gamay",
+    "translation": {
+      "en": "small"
+    },
+    "difficulty": 2,
+    "category": "descriptions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "gah-MAY"
+  },
+  {
+    "id": "gamay-2",
+    "word": "gamay",
+    "translation": {
+      "en": "small"
+    },
+    "difficulty": 2,
+    "category": "descriptions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "gah-MAY"
+  },
+  {
+    "id": "init",
+    "word": "init",
+    "translation": {
+      "en": "hot (temperature)"
+    },
+    "difficulty": 2,
+    "category": "descriptions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "EE-neet"
+  },
+  {
+    "id": "lain",
+    "word": "lain",
+    "translation": {
+      "en": "different"
+    },
+    "difficulty": 2,
+    "category": "descriptions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "LYNE"
+  },
+  {
+    "id": "matahum",
+    "word": "matahum",
+    "translation": {
+      "en": "beautiful"
+    },
+    "difficulty": 2,
+    "category": "descriptions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "ma-TA-hoom"
+  },
+  {
+    "id": "mubo",
+    "word": "mubo",
+    "translation": {
+      "en": "short / low"
+    },
+    "difficulty": 2,
+    "category": "descriptions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "MOO-bo"
+  },
+  {
+    "id": "taas",
+    "word": "taas",
+    "translation": {
+      "en": "tall / high"
+    },
+    "difficulty": 2,
+    "category": "descriptions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "TAH-as"
+  },
+  {
+    "id": "bug-at",
+    "word": "bug-at",
+    "translation": {
+      "en": "heavy"
+    },
+    "difficulty": 3,
+    "category": "descriptions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "BOO-gat"
+  },
+  {
+    "id": "gaan",
+    "word": "gaan",
+    "translation": {
+      "en": "light (weight)"
+    },
+    "difficulty": 3,
+    "category": "descriptions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "GA-an"
+  },
+  {
+    "id": "habog",
+    "word": "habog",
+    "translation": {
+      "en": "high / elevated"
+    },
+    "difficulty": 3,
+    "category": "descriptions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "HA-bog"
+  },
+  {
+    "id": "kalahi",
+    "word": "kalahi",
+    "translation": {
+      "en": "kind / type"
+    },
+    "difficulty": 3,
+    "category": "descriptions",
+    "part_of_speech": "noun",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "ka-LA-hee"
+  },
+  {
+    "id": "pareho",
+    "word": "pareho",
+    "translation": {
+      "en": "same"
+    },
+    "difficulty": 3,
+    "category": "descriptions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "pa-RE-ho"
+  },
+  {
+    "id": "sidsid",
+    "word": "sidsid",
+    "translation": {
+      "en": "edge / side"
+    },
+    "difficulty": 3,
+    "category": "descriptions",
+    "part_of_speech": "noun",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "SEED-seed"
+  },
+  {
+    "id": "tibuok",
+    "word": "tibuok",
+    "translation": {
+      "en": "whole / complete"
+    },
+    "difficulty": 3,
+    "category": "descriptions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "tee-BWOK"
+  }
+]

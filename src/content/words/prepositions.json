@@ -1,0 +1,170 @@
+[
+  {
+    "id": "uban",
+    "word": "uban",
+    "translation": {
+      "en": "with"
+    },
+    "difficulty": 2,
+    "category": "prepositions",
+    "part_of_speech": "preposition",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "OO-ban"
+  },
+  {
+    "id": "uban-2",
+    "word": "uban",
+    "translation": {
+      "en": "with"
+    },
+    "difficulty": 2,
+    "category": "prepositions",
+    "part_of_speech": "preposition",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "OO-ban"
+  },
+  {
+    "id": "gikan",
+    "word": "gikan",
+    "translation": {
+      "en": "from"
+    },
+    "difficulty": 3,
+    "category": "prepositions",
+    "part_of_speech": "preposition",
+    "tags": [
+      "grammar"
+    ],
+    "pronunciation": "GEE-kan"
+  },
+  {
+    "id": "gikan-2",
+    "word": "gikan",
+    "translation": {
+      "en": "from"
+    },
+    "difficulty": 3,
+    "category": "prepositions",
+    "part_of_speech": "preposition",
+    "tags": [
+      "grammar"
+    ],
+    "pronunciation": "GEE-kan"
+  },
+  {
+    "id": "ibabaw-sa",
+    "word": "ibabaw sa",
+    "translation": {
+      "en": "on top of"
+    },
+    "difficulty": 3,
+    "category": "prepositions",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "ee-ba-BAW sa"
+  },
+  {
+    "id": "ilalom-sa",
+    "word": "ilalom sa",
+    "translation": {
+      "en": "underneath"
+    },
+    "difficulty": 3,
+    "category": "prepositions",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "ee-LA-lom sa"
+  },
+  {
+    "id": "padulong",
+    "word": "padulong",
+    "translation": {
+      "en": "towards"
+    },
+    "difficulty": 3,
+    "category": "prepositions",
+    "part_of_speech": "preposition",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "pah-DOONG-long"
+  },
+  {
+    "id": "padulong-2",
+    "word": "padulong",
+    "translation": {
+      "en": "towards"
+    },
+    "difficulty": 3,
+    "category": "prepositions",
+    "part_of_speech": "preposition",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "pah-DOONG-long"
+  },
+  {
+    "id": "sulod-sa",
+    "word": "sulod sa",
+    "translation": {
+      "en": "inside of"
+    },
+    "difficulty": 3,
+    "category": "prepositions",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "SOO-lod sa"
+  },
+  {
+    "id": "taliwala",
+    "word": "taliwala",
+    "translation": {
+      "en": "between"
+    },
+    "difficulty": 3,
+    "category": "prepositions",
+    "part_of_speech": "preposition",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "tah-lee-WA-la"
+  },
+  {
+    "id": "walay",
+    "word": "walay",
+    "translation": {
+      "en": "without"
+    },
+    "difficulty": 3,
+    "category": "prepositions",
+    "part_of_speech": "preposition",
+    "tags": [
+      "grammar"
+    ],
+    "pronunciation": "WAH-lay"
+  },
+  {
+    "id": "walay-2",
+    "word": "walay",
+    "translation": {
+      "en": "without"
+    },
+    "difficulty": 3,
+    "category": "prepositions",
+    "part_of_speech": "preposition",
+    "tags": [
+      "grammar"
+    ],
+    "pronunciation": "WAH-lay"
+  }
+]

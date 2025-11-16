@@ -3,9 +3,7 @@
 	import type { Store, StoreWord } from '$lib/types';
 	import type { Lexicon } from '$lib/types';
 
-	import rawLexicon from '$content/bisaya.json' assert { type: 'json' };
-
-	const lexicon: Lexicon[] = rawLexicon;
+	import { wordsById, getLearningOrder } from '$lib/data/lexicon';
 
 	function createAppStore() {
 		const store = new LocalStorage<Store>('app-store', {
@@ -26,7 +24,7 @@
 		}
 
 		function getLexiconWord(wordId: string): Lexicon | undefined {
-			return lexicon.find((w) => w.id === wordId);
+			return wordsById.get(wordId);
 		}
 
 		// ———————————————————————
@@ -48,13 +46,16 @@
 				nextReview: Date.now() + 86_400_000 // 24h
 			};
 
+			const currentLearningOrder = getLearningOrder(wordId);
+			const newNextOrder = currentLearningOrder >= 0 ? currentLearningOrder + 1 : store.value.progress.nextLearningOrder;
+
 			store.value = {
 				...store.value,
 				words: [...getRawWords(), newWord],
 				progress: {
 					...store.value.progress,
 					lastSession: Date.now(),
-					nextLearningOrder: Math.max(store.value.progress.nextLearningOrder, lexiconWord.learningOrder + 1)
+					nextLearningOrder: Math.max(store.value.progress.nextLearningOrder, newNextOrder)
 				}
 			};
 		}
