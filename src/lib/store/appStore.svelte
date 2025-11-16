@@ -12,7 +12,7 @@
 			version: '1.0.0',
 			progress: {
 				lastSession: Date.now(),
-				nextNewWordId: 10
+				nextLearningOrder: 10
 			},
 			words: []
 		});
@@ -25,7 +25,7 @@
 			return Array.isArray(store.value.words) ? store.value.words : [];
 		}
 
-		function getLexiconWord(wordId: number): Lexicon | undefined {
+		function getLexiconWord(wordId: string): Lexicon | undefined {
 			return lexicon.find((w) => w.id === wordId);
 		}
 
@@ -33,7 +33,7 @@
 		// ✅ State change
 		// ———————————————————————
 
-		function add(wordId: number) {
+		function add(wordId: string) {
 			const lexiconWord = getLexiconWord(wordId);
 			if (!lexiconWord) return;
 
@@ -54,12 +54,12 @@
 				progress: {
 					...store.value.progress,
 					lastSession: Date.now(),
-					nextNewWordId: Math.max(store.value.progress.nextNewWordId, wordId + 1)
+					nextLearningOrder: Math.max(store.value.progress.nextLearningOrder, lexiconWord.learningOrder + 1)
 				}
 			};
 		}
 
-		function update(wordId: number, updates: Partial<StoreWord>) {
+		function update(wordId: string, updates: Partial<StoreWord>) {
 			const words = getRawWords();
 
 			if (!words.find((w) => w.id === wordId)) {
@@ -99,7 +99,7 @@
 			},
 
 			getLexiconWord,
-			getStoreWord(wordId: number): StoreWord | undefined {
+			getStoreWord(wordId: string): StoreWord | undefined {
 				return this.storeWords.find((w) => w.id === wordId);
 			}
 		};

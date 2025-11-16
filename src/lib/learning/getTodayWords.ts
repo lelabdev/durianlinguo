@@ -34,11 +34,11 @@ export function getTodayWords(limit: number = 10): Lexicon[] {
 
 	// 2. If we don't have enough due words, fill the rest with new words.
 	const remainingSlots = limit - dueWords.length;
-	const nextNewWordId = appStore.progress?.nextNewWordId ?? 10;
+	const nextLearningOrder = appStore.progress?.nextLearningOrder ?? 10;
 	console.log(remainingSlots);
 
 	let newWords: Lexicon[] = lexicon.filter((word) => {
-		return !appStore.getStoreWord(word.id) && Number(word.id) < nextNewWordId;
+		return !appStore.getStoreWord(word.id) && word.learningOrder < nextLearningOrder;
 	});
 
 	// 3. Combine due and new words, then shuffle them for a mixed learning session.
