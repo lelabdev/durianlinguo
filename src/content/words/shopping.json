@@ -1,0 +1,145 @@
+[
+  {
+    "id": "peso",
+    "word": "peso",
+    "translation": {
+      "en": "peso"
+    },
+    "difficulty": 1,
+    "category": "shopping",
+    "part_of_speech": "noun",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "PEH-so"
+  },
+  {
+    "id": "bayran",
+    "word": "bayran",
+    "translation": {
+      "en": "to pay"
+    },
+    "difficulty": 2,
+    "category": "shopping",
+    "part_of_speech": "verb",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "by-RAN"
+  },
+  {
+    "id": "kwarta",
+    "word": "kwarta",
+    "translation": {
+      "en": "money"
+    },
+    "difficulty": 2,
+    "category": "shopping",
+    "part_of_speech": "noun",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "KWAR-ta"
+  },
+  {
+    "id": "pila-2",
+    "word": "pila",
+    "translation": {
+      "en": "how much / how many"
+    },
+    "difficulty": 2,
+    "category": "shopping",
+    "part_of_speech": "question_word",
+    "tags": [
+      "essential",
+      "survival"
+    ],
+    "pronunciation": "PEE-lah"
+  },
+  {
+    "id": "pila-man",
+    "word": "pila man",
+    "translation": {
+      "en": "how much is it?"
+    },
+    "difficulty": 2,
+    "category": "shopping",
+    "part_of_speech": "phrase",
+    "tags": [
+      "essential",
+      "survival"
+    ],
+    "pronunciation": "PEE-lah mahn"
+  },
+  {
+    "id": "wala-koy-kuwarta",
+    "word": "wala koy kuwarta",
+    "translation": {
+      "en": "I don't have money"
+    },
+    "difficulty": 3,
+    "category": "shopping",
+    "part_of_speech": "phrase",
+    "tags": [
+      "survival"
+    ],
+    "pronunciation": "WAH-la ko-ee koo-WAR-ta"
+  },
+  {
+    "id": "barato",
+    "word": "barato",
+    "translation": {
+      "en": "cheap"
+    },
+    "difficulty": 2,
+    "category": "shopping",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "bah-RAH-to"
+  },
+  {
+    "id": "mahal",
+    "word": "mahal",
+    "translation": {
+      "en": "expensive / love"
+    },
+    "difficulty": 2,
+    "category": "shopping",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common",
+      "dual_meaning"
+    ],
+    "pronunciation": "MAH-hal"
+  },
+  {
+    "id": "palengke",
+    "word": "palengke",
+    "translation": {
+      "en": "market"
+    },
+    "difficulty": 2,
+    "category": "shopping",
+    "part_of_speech": "noun",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "pah-LENG-ke"
+  },
+  {
+    "id": "tindahan-2",
+    "word": "tindahan",
+    "translation": {
+      "en": "store"
+    },
+    "difficulty": 2,
+    "category": "shopping",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "teen-DAH-an"
+  }
+]

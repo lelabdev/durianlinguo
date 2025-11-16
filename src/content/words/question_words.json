@@ -1,0 +1,114 @@
+[
+  {
+    "id": "diin",
+    "word": "diin",
+    "translation": {
+      "en": "where"
+    },
+    "difficulty": 2,
+    "category": "question_words",
+    "part_of_speech": "question_word",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "DEE-in"
+  },
+  {
+    "id": "kinsa",
+    "word": "kinsa",
+    "translation": {
+      "en": "who"
+    },
+    "difficulty": 2,
+    "category": "question_words",
+    "part_of_speech": "question_word",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "KEEN-sa"
+  },
+  {
+    "id": "ngano-2",
+    "word": "ngano",
+    "translation": {
+      "en": "why"
+    },
+    "difficulty": 2,
+    "category": "question_words",
+    "part_of_speech": "question_word",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "NGA-no"
+  },
+  {
+    "id": "pila",
+    "word": "pila",
+    "translation": {
+      "en": "how much"
+    },
+    "difficulty": 2,
+    "category": "question_words",
+    "part_of_speech": "question_word",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "PEE-lah"
+  },
+  {
+    "id": "unsa",
+    "word": "unsa",
+    "translation": {
+      "en": "what"
+    },
+    "difficulty": 2,
+    "category": "question_words",
+    "part_of_speech": "question_word",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "OON-sa"
+  },
+  {
+    "id": "giunsa",
+    "word": "giunsa",
+    "translation": {
+      "en": "how"
+    },
+    "difficulty": 3,
+    "category": "question_words",
+    "part_of_speech": "question_word",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "gee-OON-sah"
+  },
+  {
+    "id": "ilan",
+    "word": "ilan",
+    "translation": {
+      "en": "how many"
+    },
+    "difficulty": 3,
+    "category": "question_words",
+    "part_of_speech": "question_word",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "EE-lan"
+  },
+  {
+    "id": "kanus-a",
+    "word": "kanus-a",
+    "translation": {
+      "en": "when"
+    },
+    "difficulty": 3,
+    "category": "question_words",
+    "part_of_speech": "question_word",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "KA-noo-sah"
+  }
+]

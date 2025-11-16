@@ -1,0 +1,59 @@
+[
+  {
+    "id": "doktor",
+    "word": "doktor",
+    "translation": {
+      "en": "doctor"
+    },
+    "difficulty": 2,
+    "category": "health",
+    "part_of_speech": "noun",
+    "tags": [
+      "survival"
+    ],
+    "pronunciation": "dok-TOR"
+  },
+  {
+    "id": "masakit",
+    "word": "masakit",
+    "translation": {
+      "en": "it hurts / painful"
+    },
+    "difficulty": 2,
+    "category": "health",
+    "part_of_speech": "adjective",
+    "tags": [
+      "survival"
+    ],
+    "pronunciation": "ma-SAH-keet"
+  },
+  {
+    "id": "sakit",
+    "word": "sakit",
+    "translation": {
+      "en": "pain / sickness"
+    },
+    "difficulty": 2,
+    "category": "health",
+    "part_of_speech": "noun",
+    "tags": [
+      "survival"
+    ],
+    "pronunciation": "SAH-keet"
+  },
+  {
+    "id": "tambal",
+    "word": "tambal",
+    "translation": {
+      "en": "medicine"
+    },
+    "difficulty": 2,
+    "category": "health",
+    "part_of_speech": "noun",
+    "tags": [
+      "survival",
+      "useful"
+    ],
+    "pronunciation": "tam-BAL"
+  }
+]

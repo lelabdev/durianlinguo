@@ -1,0 +1,89 @@
+[
+  {
+    "id": "bata",
+    "word": "bata",
+    "translation": {
+      "en": "child"
+    },
+    "difficulty": 1,
+    "category": "people",
+    "part_of_speech": "noun",
+    "tags": [
+      "basic",
+      "common"
+    ],
+    "pronunciation": "BA-ta"
+  },
+  {
+    "id": "higala",
+    "word": "higala",
+    "translation": {
+      "en": "friend"
+    },
+    "difficulty": 1,
+    "category": "people",
+    "part_of_speech": "noun",
+    "tags": [
+      "basic",
+      "essential"
+    ],
+    "pronunciation": "hee-GA-la"
+  },
+  {
+    "id": "babaye",
+    "word": "babaye",
+    "translation": {
+      "en": "female / woman"
+    },
+    "difficulty": 2,
+    "category": "people",
+    "part_of_speech": "noun",
+    "tags": [
+      "basic"
+    ],
+    "pronunciation": "bah-BAY-ye"
+  },
+  {
+    "id": "lalaki",
+    "word": "lalaki",
+    "translation": {
+      "en": "male / man"
+    },
+    "difficulty": 2,
+    "category": "people",
+    "part_of_speech": "noun",
+    "tags": [
+      "basic"
+    ],
+    "pronunciation": "lah-LA-kee"
+  },
+  {
+    "id": "kauban",
+    "word": "kauban",
+    "translation": {
+      "en": "companion / someone with you"
+    },
+    "difficulty": 3,
+    "category": "people",
+    "part_of_speech": "noun",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "kow-BOON"
+  },
+  {
+    "id": "tigulang",
+    "word": "tigulang",
+    "translation": {
+      "en": "elder / old person"
+    },
+    "difficulty": 3,
+    "category": "people",
+    "part_of_speech": "noun",
+    "tags": [
+      "respect",
+      "cultural"
+    ],
+    "pronunciation": "tee-GOO-lang"
+  }
+]

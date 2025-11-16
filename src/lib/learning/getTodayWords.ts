@@ -1,6 +1,6 @@
 import { appStore } from '$lib/store/appStore.svelte';
 import type { Lexicon } from '$lib/types';
-import words from '$content/bisaya.json';
+import { getAllWords, getWordById, getLearningOrder } from '$lib/data/lexicon';
 
 /**
  * Shuffles an array in-place using the Fisher-Yates algorithm.
@@ -16,15 +16,15 @@ function shuffle<T>(array: T[]): T[] {
 }
 
 export function getTodayWords(limit: number = 10): Lexicon[] {
-	const lexicon: Lexicon[] = words;
+	const lexicon: Lexicon[] = getAllWords();
 
 	// This returns progress data {id, status, streak}, not full word objects.
 	const dueWordsFromStore = appStore.dueWords;
 
-	// We need to find the full word objects from bisaya.json using the IDs.
-	const dueWordIds = new Set(dueWordsFromStore.map((w) => w.id));
-
-	const dueWords: Lexicon[] = lexicon.filter((word) => dueWordIds.has(word.id));
+	// We need to find the full word objects using the IDs.
+	const dueWords: Lexicon[] = dueWordsFromStore
+		.map((w) => getWordById(w.id))
+		.filter((word): word is Lexicon => word !== undefined);
 
 	console.log('dueWords', dueWords);
 
@@ -34,11 +34,12 @@ export function getTodayWords(limit: number = 10): Lexicon[] {
 
 	// 2. If we don't have enough due words, fill the rest with new words.
 	const remainingSlots = limit - dueWords.length;
-	const nextNewWordId = appStore.progress?.nextNewWordId ?? 10;
+	const nextLearningOrder = appStore.progress?.nextLearningOrder ?? 10;
 	console.log(remainingSlots);
 
 	let newWords: Lexicon[] = lexicon.filter((word) => {
-		return !appStore.getStoreWord(word.id) && Number(word.id) < nextNewWordId;
+		const order = getLearningOrder(word.id);
+		return !appStore.getStoreWord(word.id) && order >= 0 && order < nextLearningOrder;
 	});
 
 	// 3. Combine due and new words, then shuffle them for a mixed learning session.

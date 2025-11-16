@@ -3,16 +3,14 @@
 	import type { Store, StoreWord } from '$lib/types';
 	import type { Lexicon } from '$lib/types';
 
-	import rawLexicon from '$content/bisaya.json' assert { type: 'json' };
-
-	const lexicon: Lexicon[] = rawLexicon;
+	import { wordsById, getLearningOrder } from '$lib/data/lexicon';
 
 	function createAppStore() {
 		const store = new LocalStorage<Store>('app-store', {
 			version: '1.0.0',
 			progress: {
 				lastSession: Date.now(),
-				nextNewWordId: 10
+				nextLearningOrder: 10
 			},
 			words: []
 		});
@@ -25,15 +23,15 @@
 			return Array.isArray(store.value.words) ? store.value.words : [];
 		}
 
-		function getLexiconWord(wordId: number): Lexicon | undefined {
-			return lexicon.find((w) => w.id === wordId);
+		function getLexiconWord(wordId: string): Lexicon | undefined {
+			return wordsById.get(wordId);
 		}
 
 		// ———————————————————————
 		// ✅ State change
 		// ———————————————————————
 
-		function add(wordId: number) {
+		function add(wordId: string) {
 			const lexiconWord = getLexiconWord(wordId);
 			if (!lexiconWord) return;
 
@@ -48,18 +46,21 @@
 				nextReview: Date.now() + 86_400_000 // 24h
 			};
 
+			const currentLearningOrder = getLearningOrder(wordId);
+			const newNextOrder = currentLearningOrder >= 0 ? currentLearningOrder + 1 : store.value.progress.nextLearningOrder;
+
 			store.value = {
 				...store.value,
 				words: [...getRawWords(), newWord],
 				progress: {
 					...store.value.progress,
 					lastSession: Date.now(),
-					nextNewWordId: Math.max(store.value.progress.nextNewWordId, wordId + 1)
+					nextLearningOrder: Math.max(store.value.progress.nextLearningOrder, newNextOrder)
 				}
 			};
 		}
 
-		function update(wordId: number, updates: Partial<StoreWord>) {
+		function update(wordId: string, updates: Partial<StoreWord>) {
 			const words = getRawWords();
 
 			if (!words.find((w) => w.id === wordId)) {
@@ -99,7 +100,7 @@
 			},
 
 			getLexiconWord,
-			getStoreWord(wordId: number): StoreWord | undefined {
+			getStoreWord(wordId: string): StoreWord | undefined {
 				return this.storeWords.find((w) => w.id === wordId);
 			}
 		};

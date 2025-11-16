@@ -1,0 +1,345 @@
+[
+  {
+    "id": "kan-on",
+    "word": "kan-on",
+    "translation": {
+      "en": "to eat / food"
+    },
+    "difficulty": 1,
+    "category": "food",
+    "part_of_speech": "verb",
+    "tags": [
+      "basic",
+      "essential"
+    ],
+    "pronunciation": "kah-NON"
+  },
+  {
+    "id": "kaon",
+    "word": "kaon",
+    "translation": {
+      "en": "eat!"
+    },
+    "difficulty": 1,
+    "category": "food",
+    "part_of_speech": "verb",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "KAW-on"
+  },
+  {
+    "id": "kape",
+    "word": "kape",
+    "translation": {
+      "en": "coffee"
+    },
+    "difficulty": 1,
+    "category": "food",
+    "part_of_speech": "noun",
+    "tags": [
+      "basic",
+      "common"
+    ],
+    "pronunciation": "KAH-pe"
+  },
+  {
+    "id": "mangga",
+    "word": "mangga",
+    "translation": {
+      "en": "mango"
+    },
+    "difficulty": 1,
+    "category": "food",
+    "part_of_speech": "noun",
+    "tags": [
+      "basic",
+      "iconic"
+    ],
+    "pronunciation": "mang-GAH"
+  },
+  {
+    "id": "saging",
+    "word": "saging",
+    "translation": {
+      "en": "banana"
+    },
+    "difficulty": 1,
+    "category": "food",
+    "part_of_speech": "noun",
+    "tags": [
+      "basic",
+      "iconic"
+    ],
+    "pronunciation": "sah-GING"
+  },
+  {
+    "id": "tubig",
+    "word": "tubig",
+    "translation": {
+      "en": "water"
+    },
+    "difficulty": 1,
+    "category": "food",
+    "part_of_speech": "noun",
+    "tags": [
+      "basic",
+      "essential",
+      "survival"
+    ],
+    "pronunciation": "TOO-big"
+  },
+  {
+    "id": "asin",
+    "word": "asin",
+    "translation": {
+      "en": "salt"
+    },
+    "difficulty": 2,
+    "category": "food",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "AH-sin"
+  },
+  {
+    "id": "bugas",
+    "word": "bugas",
+    "translation": {
+      "en": "rice"
+    },
+    "difficulty": 2,
+    "category": "food",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "BOO-gas"
+  },
+  {
+    "id": "durian",
+    "word": "durian",
+    "translation": {
+      "en": "durian"
+    },
+    "difficulty": 2,
+    "category": "food",
+    "part_of_speech": "noun",
+    "tags": [
+      "iconic",
+      "fun"
+    ],
+    "pronunciation": "DOO-ree-an"
+  },
+  {
+    "id": "gatas",
+    "word": "gatas",
+    "translation": {
+      "en": "milk"
+    },
+    "difficulty": 2,
+    "category": "food",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "GA-tas"
+  },
+  {
+    "id": "giinom",
+    "word": "giinom",
+    "translation": {
+      "en": "drink"
+    },
+    "difficulty": 2,
+    "category": "food",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "gee-ee-NOM"
+  },
+  {
+    "id": "gutom",
+    "word": "gutom",
+    "translation": {
+      "en": "hungry"
+    },
+    "difficulty": 2,
+    "category": "food",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "GOO-tom"
+  },
+  {
+    "id": "isda",
+    "word": "isda",
+    "translation": {
+      "en": "fish"
+    },
+    "difficulty": 2,
+    "category": "food",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "EES-dah"
+  },
+  {
+    "id": "itlog",
+    "word": "itlog",
+    "translation": {
+      "en": "egg"
+    },
+    "difficulty": 2,
+    "category": "food",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "EET-log"
+  },
+  {
+    "id": "kan-on-2",
+    "word": "kan-on",
+    "translation": {
+      "en": "meal / food"
+    },
+    "difficulty": 2,
+    "category": "food",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "kah-NON"
+  },
+  {
+    "id": "karne",
+    "word": "karne",
+    "translation": {
+      "en": "meat"
+    },
+    "difficulty": 2,
+    "category": "food",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "KAR-neh"
+  },
+  {
+    "id": "pan",
+    "word": "pan",
+    "translation": {
+      "en": "bread"
+    },
+    "difficulty": 2,
+    "category": "food",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "pan"
+  },
+  {
+    "id": "pinya",
+    "word": "pinya",
+    "translation": {
+      "en": "pineapple"
+    },
+    "difficulty": 2,
+    "category": "food",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "PEE-nya"
+  },
+  {
+    "id": "prutas",
+    "word": "prutas",
+    "translation": {
+      "en": "fruit"
+    },
+    "difficulty": 2,
+    "category": "food",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "PROO-tas"
+  },
+  {
+    "id": "uhaw",
+    "word": "uhaw",
+    "translation": {
+      "en": "thirsty"
+    },
+    "difficulty": 2,
+    "category": "food",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "OO-how"
+  },
+  {
+    "id": "utot",
+    "word": "utot",
+    "translation": {
+      "en": "vegetable"
+    },
+    "difficulty": 2,
+    "category": "food",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "OO-tot"
+  },
+  {
+    "id": "suka",
+    "word": "suka",
+    "translation": {
+      "en": "vinegar"
+    },
+    "difficulty": 3,
+    "category": "food",
+    "part_of_speech": "noun",
+    "tags": [
+      "local"
+    ],
+    "pronunciation": "SOO-kah"
+  },
+  {
+    "id": "tinapa",
+    "word": "tinapa",
+    "translation": {
+      "en": "smoked fish"
+    },
+    "difficulty": 3,
+    "category": "food",
+    "part_of_speech": "noun",
+    "tags": [
+      "local"
+    ],
+    "pronunciation": "tee-NAH-pah"
+  },
+  {
+    "id": "toyo",
+    "word": "toyo",
+    "translation": {
+      "en": "soy sauce"
+    },
+    "difficulty": 3,
+    "category": "food",
+    "part_of_speech": "noun",
+    "tags": [
+      "local"
+    ],
+    "pronunciation": "TOH-yo"
+  }
+]

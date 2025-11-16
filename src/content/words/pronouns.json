@@ -1,0 +1,100 @@
+[
+  {
+    "id": "ako",
+    "word": "ako",
+    "translation": {
+      "en": "I / me"
+    },
+    "difficulty": 1,
+    "category": "pronouns",
+    "part_of_speech": "pronoun",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "AH-ko"
+  },
+  {
+    "id": "ikaw",
+    "word": "ikaw",
+    "translation": {
+      "en": "you"
+    },
+    "difficulty": 1,
+    "category": "pronouns",
+    "part_of_speech": "pronoun",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "EE-kaw"
+  },
+  {
+    "id": "imo",
+    "word": "imo",
+    "translation": {
+      "en": "your"
+    },
+    "difficulty": 2,
+    "category": "pronouns",
+    "part_of_speech": "pronoun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "EE-mo"
+  },
+  {
+    "id": "nila",
+    "word": "nila",
+    "translation": {
+      "en": "they"
+    },
+    "difficulty": 2,
+    "category": "pronouns",
+    "part_of_speech": "pronoun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "NEE-lah"
+  },
+  {
+    "id": "siya",
+    "word": "siya",
+    "translation": {
+      "en": "he / she / it"
+    },
+    "difficulty": 2,
+    "category": "pronouns",
+    "part_of_speech": "pronoun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "SEE-yah"
+  },
+  {
+    "id": "kaming",
+    "word": "kaming",
+    "translation": {
+      "en": "we (inclusive)"
+    },
+    "difficulty": 3,
+    "category": "pronouns",
+    "part_of_speech": "pronoun",
+    "tags": [
+      "grammar"
+    ],
+    "pronunciation": "KA-ming"
+  },
+  {
+    "id": "kita",
+    "word": "kita",
+    "translation": {
+      "en": "we (exclusive)"
+    },
+    "difficulty": 3,
+    "category": "pronouns",
+    "part_of_speech": "pronoun",
+    "tags": [
+      "grammar"
+    ],
+    "pronunciation": "KEE-ta"
+  }
+]

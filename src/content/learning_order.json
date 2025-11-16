@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "kumusta",
+    "learningOrder": 1
+  },
+  {
+    "id": "palihug",
+    "learningOrder": 2
+  },
+  {
+    "id": "salamat",
+    "learningOrder": 3
+  },
+  {
+    "id": "ako-si",
+    "learningOrder": 4
+  },
+  {
+    "id": "unsay-ngalan-nimo",
+    "learningOrder": 5
+  },
+  {
+    "id": "abi",
+    "learningOrder": 6
+  },
+  {
+    "id": "pa",
+    "learningOrder": 7
+  },
+  {
+    "id": "asa",
+    "learningOrder": 8
+  },
+  {
+    "id": "dili",
+    "learningOrder": 9
+  },
+  {
+    "id": "oo",
+    "learningOrder": 10
+  },
+  {
+    "id": "tabang",
+    "learningOrder": 11
+  },
+  {
+    "id": "tabangi-ko",
+    "learningOrder": 12
+  },
+  {
+    "id": "didto",
+    "learningOrder": 13
+  },
+  {
+    "id": "dinhi",
+    "learningOrder": 14
+  },
+  {
+    "id": "ngano",
+    "learningOrder": 15
+  },
+  {
+    "id": "sayop",
+    "learningOrder": 16
+  },
+  {
+    "id": "tama",
+    "learningOrder": 17
+  },
+  {
+    "id": "uli",
+    "learningOrder": 18
+  },
+  {
+    "id": "aron",
+    "learningOrder": 19
+  },
+  {
+    "id": "wala-koy-kahibalo",
+    "learningOrder": 20
+  },
+  {
+    "id": "ako",
+    "learningOrder": 21
+  },
+  {
+    "id": "ikaw",
+    "learningOrder": 22
+  },
+  {
+    "id": "imo",
+    "learningOrder": 23
+  },
+  {
+    "id": "nila",
+    "learningOrder": 24
+  },
+  {
+    "id": "siya",
+    "learningOrder": 25
+  },
+  {
+    "id": "kaming",
+    "learningOrder": 26
+  },
+  {
+    "id": "kita",
+    "learningOrder": 27
+  },
+  {
+    "id": "diin",
+    "learningOrder": 28
+  },
+  {
+    "id": "kinsa",
+    "learningOrder": 29
+  },
+  {
+    "id": "ngano-2",
+    "learningOrder": 30
+  },
+  {
+    "id": "pila",
+    "learningOrder": 31
+  },
+  {
+    "id": "unsa",
+    "learningOrder": 32
+  },
+  {
+    "id": "giunsa",
+    "learningOrder": 33
+  },
+  {
+    "id": "ilan",
+    "learningOrder": 34
+  },
+  {
+    "id": "kanus-a",
+    "learningOrder": 35
+  },
+  {
+    "id": "duha",
+    "learningOrder": 36
+  },
+  {
+    "id": "lima",
+    "learningOrder": 37
+  },
+  {
+    "id": "napulo",
+    "learningOrder": 38
+  },
+  {
+    "id": "tulo",
+    "learningOrder": 39
+  },
+  {
+    "id": "upat",
+    "learningOrder": 40
+  },
+  {
+    "id": "usa",
+    "learningOrder": 41
+  },
+  {
+    "id": "pito",
+    "learningOrder": 42
+  },
+  {
+    "id": "siyam",
+    "learningOrder": 43
+  },
+  {
+    "id": "unom",
+    "learningOrder": 44
+  },
+  {
+    "id": "walo",
+    "learningOrder": 45
+  },
+  {
+    "id": "napulog-usa",
+    "learningOrder": 46
+  },
+  {
+    "id": "nanay",
+    "learningOrder": 47
+  },
+  {
+    "id": "tatay",
+    "learningOrder": 48
+  },
+  {
+    "id": "pamilya",
+    "learningOrder": 49
+  },
+  {
+    "id": "igsoon",
+    "learningOrder": 50
+  },
+  {
+    "id": "baba",
+    "learningOrder": 51
+  },
+  {
+    "id": "dila",
+    "learningOrder": 52
+  },
+  {
+    "id": "ilong",
+    "learningOrder": 53
+  },
+  {
+    "id": "kamot",
+    "learningOrder": 54
+  },
+  {
+    "id": "mata",
+    "learningOrder": 55
+  },
+  {
+    "id": "tiil",
+    "learningOrder": 56
+  },
+  {
+    "id": "ulo",
+    "learningOrder": 57
+  },
+  {
+    "id": "lawas",
+    "learningOrder": 58
+  },
+  {
+    "id": "baba-2",
+    "learningOrder": 59
+  },
+  {
+    "id": "dughan",
+    "learningOrder": 60
+  },
+  {
+    "id": "dunggan",
+    "learningOrder": 61
+  },
+  {
+    "id": "buntag",
+    "learningOrder": 62
+  },
+  {
+    "id": "gabi-i",
+    "learningOrder": 63
+  },
+  {
+    "id": "hapon",
+    "learningOrder": 64
+  },
+  {
+    "id": "kahapon",
+    "learningOrder": 65
+  },
+  {
+    "id": "karon",
+    "learningOrder": 66
+  },
+  {
+    "id": "oras",
+    "learningOrder": 67
+  },
+  {
+    "id": "ugma",
+    "learningOrder": 68
+  },
+  {
+    "id": "pila-ka-oras",
+    "learningOrder": 69
+  },
+  {
+    "id": "uban",
+    "learningOrder": 70
+  },
+  {
+    "id": "uban-2",
+    "learningOrder": 71
+  },
+  {
+    "id": "gikan",
+    "learningOrder": 72
+  },
+  {
+    "id": "gikan-2",
+    "learningOrder": 73
+  },
+  {
+    "id": "ibabaw-sa",
+    "learningOrder": 74
+  },
+  {
+    "id": "ilalom-sa",
+    "learningOrder": 75
+  },
+  {
+    "id": "padulong",
+    "learningOrder": 76
+  },
+  {
+    "id": "padulong-2",
+    "learningOrder": 77
+  },
+  {
+    "id": "sulod-sa",
+    "learningOrder": 78
+  },
+  {
+    "id": "taliwala",
+    "learningOrder": 79
+  },
+  {
+    "id": "walay",
+    "learningOrder": 80
+  },
+  {
+    "id": "walay-2",
+    "learningOrder": 81
+  },
+  {
+    "id": "adto",
+    "learningOrder": 82
+  },
+  {
+    "id": "gusto",
+    "learningOrder": 83
+  },
+  {
+    "id": "sulti",
+    "learningOrder": 84
+  },
+  {
+    "id": "nag-inom-ug-kape",
+    "learningOrder": 85
+  },
+  {
+    "id": "nag-inom-ug-tubig",
+    "learningOrder": 86
+  },
+  {
+    "id": "nagkan-on-ug-bugas",
+    "learningOrder": 87
+  },
+  {
+    "id": "anhi",
+    "learningOrder": 88
+  },
+  {
+    "id": "basa",
+    "learningOrder": 89
+  },
+  {
+    "id": "buhaton",
+    "learningOrder": 90
+  },
+  {
+    "id": "paminaw",
+    "learningOrder": 91
+  },
+  {
+    "id": "sulat",
+    "learningOrder": 92
+  },
+  {
+    "id": "naa",
+    "learningOrder": 93
+  },
+  {
+    "id": "nag-eskwela",
+    "learningOrder": 94
+  },
+  {
+    "id": "nag-inom",
+    "learningOrder": 95
+  },
+  {
+    "id": "nag-una",
+    "learningOrder": 96
+  },
+  {
+    "id": "nagbiya",
+    "learningOrder": 97
+  },
+  {
+    "id": "nagbiyahe",
+    "learningOrder": 98
+  },
+  {
+    "id": "nagbiyahe-sa-davao",
+    "learningOrder": 99
+  },
+  {
+    "id": "nagbuhat",
+    "learningOrder": 100
+  },
+  {
+    "id": "nagkan-on",
+    "learningOrder": 101
+  },
+  {
+    "id": "nagkan-on-ug-saging",
+    "learningOrder": 102
+  },
+  {
+    "id": "naglakaw",
+    "learningOrder": 103
+  },
+  {
+    "id": "naglakaw-sa-palengke",
+    "learningOrder": 104
+  },
+  {
+    "id": "naglibot",
+    "learningOrder": 105
+  },
+  {
+    "id": "naglingkod",
+    "learningOrder": 106
+  },
+  {
+    "id": "nagpabilin",
+    "learningOrder": 107
+  },
+  {
+    "id": "nagpahulay",
+    "learningOrder": 108
+  },
+  {
+    "id": "nagpangutana",
+    "learningOrder": 109
+  },
+  {
+    "id": "nagtindog",
+    "learningOrder": 110
+  },
+  {
+    "id": "nagtrabaho",
+    "learningOrder": 111
+  },
+  {
+    "id": "nakakita",
+    "learningOrder": 112
+  },
+  {
+    "id": "wala",
+    "learningOrder": 113
+  },
+  {
+    "id": "nag-eskwela-pinaagi-sa-online",
+    "learningOrder": 114
+  },
+  {
+    "id": "nag-eskwela-sa",
+    "learningOrder": 115
+  },
+  {
+    "id": "nag-eskwela-sa-unibersidad",
+    "learningOrder": 116
+  },
+  {
+    "id": "nag-inom-ug",
+    "learningOrder": 117
+  },
+  {
+    "id": "nag-una-sa-grupo",
+    "learningOrder": 118
+  },
+  {
+    "id": "nag-una-sa-inyo",
+    "learningOrder": 119
+  },
+  {
+    "id": "nagbiya-sa-balay",
+    "learningOrder": 120
+  },
+  {
+    "id": "nagbiya-sa-simbahan",
+    "learningOrder": 121
+  },
+  {
+    "id": "nagbiyahe-gikan-sa",
+    "learningOrder": 122
+  },
+  {
+    "id": "nagbiyahe-pinaagi-sa-bus",
+    "learningOrder": 123
+  },
+  {
+    "id": "nagbuhat-ug",
+    "learningOrder": 124
+  },
+  {
+    "id": "nagbuhat-ug-kaon",
+    "learningOrder": 125
+  },
+  {
+    "id": "nagbuhat-ug-panihapon",
+    "learningOrder": 126
+  },
+  {
+    "id": "nagkan-on-sa",
+    "learningOrder": 127
+  },
+  {
+    "id": "naglakaw-palibot",
+    "learningOrder": 128
+  },
+  {
+    "id": "naglakaw-sa-baybayon",
+    "learningOrder": 129
+  },
+  {
+    "id": "naglibot-sa",
+    "learningOrder": 130
+  },
+  {
+    "id": "naglibot-sa-siyudad",
+    "learningOrder": 131
+  },
+  {
+    "id": "naglingkod-sa",
+    "learningOrder": 132
+  },
+  {
+    "id": "naglingkod-sa-lingkoranan",
+    "learningOrder": 133
+  },
+  {
+    "id": "nagpabilin-sa",
+    "learningOrder": 134
+  },
+  {
+    "id": "nagpabilin-sa-hotel",
+    "learningOrder": 135
+  },
+  {
+    "id": "nagpabilin-sa-hotel-2",
+    "learningOrder": 136
+  },
+  {
+    "id": "nagpahulay-sa-balay",
+    "learningOrder": 137
+  },
+  {
+    "id": "nagpahulay-sa-kama",
+    "learningOrder": 138
+  },
+  {
+    "id": "nagtindog-sa",
+    "learningOrder": 139
+  },
+  {
+    "id": "nagtindog-sa-bus",
+    "learningOrder": 140
+  },
+  {
+    "id": "nagtrabaho-gikan-sa-balay",
+    "learningOrder": 141
+  },
+  {
+    "id": "nagtrabaho-sa",
+    "learningOrder": 142
+  },
+  {
+    "id": "nagtrabaho-sa-opisina",
+    "learningOrder": 143
+  },
+  {
+    "id": "nahibaw-an",
+    "learningOrder": 144
+  },
+  {
+    "id": "maayo",
+    "learningOrder": 145
+  },
+  {
+    "id": "bag-o",
+    "learningOrder": 146
+  },
+  {
+    "id": "bugnaw",
+    "learningOrder": 147
+  },
+  {
+    "id": "daan",
+    "learningOrder": 148
+  },
+  {
+    "id": "dagku",
+    "learningOrder": 149
+  },
+  {
+    "id": "daku",
+    "learningOrder": 150
+  },
+  {
+    "id": "daut",
+    "learningOrder": 151
+  },
+  {
+    "id": "gamay",
+    "learningOrder": 152
+  },
+  {
+    "id": "gamay-2",
+    "learningOrder": 153
+  },
+  {
+    "id": "init",
+    "learningOrder": 154
+  },
+  {
+    "id": "lain",
+    "learningOrder": 155
+  },
+  {
+    "id": "matahum",
+    "learningOrder": 156
+  },
+  {
+    "id": "mubo",
+    "learningOrder": 157
+  },
+  {
+    "id": "taas",
+    "learningOrder": 158
+  },
+  {
+    "id": "bug-at",
+    "learningOrder": 159
+  },
+  {
+    "id": "gaan",
+    "learningOrder": 160
+  },
+  {
+    "id": "habog",
+    "learningOrder": 161
+  },
+  {
+    "id": "kalahi",
+    "learningOrder": 162
+  },
+  {
+    "id": "pareho",
+    "learningOrder": 163
+  },
+  {
+    "id": "sidsid",
+    "learningOrder": 164
+  },
+  {
+    "id": "tibuok",
+    "learningOrder": 165
+  },
+  {
+    "id": "kan-on",
+    "learningOrder": 166
+  },
+  {
+    "id": "kaon",
+    "learningOrder": 167
+  },
+  {
+    "id": "kape",
+    "learningOrder": 168
+  },
+  {
+    "id": "mangga",
+    "learningOrder": 169
+  },
+  {
+    "id": "saging",
+    "learningOrder": 170
+  },
+  {
+    "id": "tubig",
+    "learningOrder": 171
+  },
+  {
+    "id": "asin",
+    "learningOrder": 172
+  },
+  {
+    "id": "bugas",
+    "learningOrder": 173
+  },
+  {
+    "id": "durian",
+    "learningOrder": 174
+  },
+  {
+    "id": "gatas",
+    "learningOrder": 175
+  },
+  {
+    "id": "giinom",
+    "learningOrder": 176
+  },
+  {
+    "id": "gutom",
+    "learningOrder": 177
+  },
+  {
+    "id": "isda",
+    "learningOrder": 178
+  },
+  {
+    "id": "itlog",
+    "learningOrder": 179
+  },
+  {
+    "id": "kan-on-2",
+    "learningOrder": 180
+  },
+  {
+    "id": "karne",
+    "learningOrder": 181
+  },
+  {
+    "id": "pan",
+    "learningOrder": 182
+  },
+  {
+    "id": "pinya",
+    "learningOrder": 183
+  },
+  {
+    "id": "prutas",
+    "learningOrder": 184
+  },
+  {
+    "id": "uhaw",
+    "learningOrder": 185
+  },
+  {
+    "id": "utot",
+    "learningOrder": 186
+  },
+  {
+    "id": "suka",
+    "learningOrder": 187
+  },
+  {
+    "id": "tinapa",
+    "learningOrder": 188
+  },
+  {
+    "id": "toyo",
+    "learningOrder": 189
+  },
+  {
+    "id": "bata",
+    "learningOrder": 190
+  },
+  {
+    "id": "higala",
+    "learningOrder": 191
+  },
+  {
+    "id": "babaye",
+    "learningOrder": 192
+  },
+  {
+    "id": "lalaki",
+    "learningOrder": 193
+  },
+  {
+    "id": "kauban",
+    "learningOrder": 194
+  },
+  {
+    "id": "tigulang",
+    "learningOrder": 195
+  },
+  {
+    "id": "balay",
+    "learningOrder": 196
+  },
+  {
+    "id": "hospital",
+    "learningOrder": 197
+  },
+  {
+    "id": "eskwela",
+    "learningOrder": 198
+  },
+  {
+    "id": "kama",
+    "learningOrder": 199
+  },
+  {
+    "id": "lamesa",
+    "learningOrder": 200
+  },
+  {
+    "id": "merkado",
+    "learningOrder": 201
+  },
+  {
+    "id": "restrawhan",
+    "learningOrder": 202
+  },
+  {
+    "id": "simbahan",
+    "learningOrder": 203
+  },
+  {
+    "id": "tindahan",
+    "learningOrder": 204
+  },
+  {
+    "id": "bintana",
+    "learningOrder": 205
+  },
+  {
+    "id": "estasyon",
+    "learningOrder": 206
+  },
+  {
+    "id": "lingkoranan",
+    "learningOrder": 207
+  },
+  {
+    "id": "palip-iran",
+    "learningOrder": 208
+  },
+  {
+    "id": "panimalay",
+    "learningOrder": 209
+  },
+  {
+    "id": "pultahan",
+    "learningOrder": 210
+  },
+  {
+    "id": "asa-ang",
+    "learningOrder": 211
+  },
+  {
+    "id": "tuo",
+    "learningOrder": 212
+  },
+  {
+    "id": "tuo-2",
+    "learningOrder": 213
+  },
+  {
+    "id": "wala-2",
+    "learningOrder": 214
+  },
+  {
+    "id": "wala-3",
+    "learningOrder": 215
+  },
+  {
+    "id": "tuo-ug-tuo",
+    "learningOrder": 216
+  },
+  {
+    "id": "duol",
+    "learningOrder": 217
+  },
+  {
+    "id": "duol-2",
+    "learningOrder": 218
+  },
+  {
+    "id": "gawas",
+    "learningOrder": 219
+  },
+  {
+    "id": "layo",
+    "learningOrder": 220
+  },
+  {
+    "id": "layo-2",
+    "learningOrder": 221
+  },
+  {
+    "id": "mapa",
+    "learningOrder": 222
+  },
+  {
+    "id": "sulod",
+    "learningOrder": 223
+  },
+  {
+    "id": "tuo-na",
+    "learningOrder": 224
+  },
+  {
+    "id": "tuo-ug-tuo-2",
+    "learningOrder": 225
+  },
+  {
+    "id": "wala-na",
+    "learningOrder": 226
+  },
+  {
+    "id": "direksyon",
+    "learningOrder": 227
+  },
+  {
+    "id": "ibaba",
+    "learningOrder": 228
+  },
+  {
+    "id": "ibabaw",
+    "learningOrder": 229
+  },
+  {
+    "id": "taliwala-2",
+    "learningOrder": 230
+  },
+  {
+    "id": "bus",
+    "learningOrder": 231
+  },
+  {
+    "id": "jeepney",
+    "learningOrder": 232
+  },
+  {
+    "id": "ticket",
+    "learningOrder": 233
+  },
+  {
+    "id": "tricycle",
+    "learningOrder": 234
+  },
+  {
+    "id": "barko",
+    "learningOrder": 235
+  },
+  {
+    "id": "estasyon-2",
+    "learningOrder": 236
+  },
+  {
+    "id": "peso",
+    "learningOrder": 237
+  },
+  {
+    "id": "bayran",
+    "learningOrder": 238
+  },
+  {
+    "id": "kwarta",
+    "learningOrder": 239
+  },
+  {
+    "id": "pila-2",
+    "learningOrder": 240
+  },
+  {
+    "id": "pila-man",
+    "learningOrder": 241
+  },
+  {
+    "id": "wala-koy-kuwarta",
+    "learningOrder": 242
+  },
+  {
+    "id": "barato",
+    "learningOrder": 243
+  },
+  {
+    "id": "mahal",
+    "learningOrder": 244
+  },
+  {
+    "id": "palengke",
+    "learningOrder": 245
+  },
+  {
+    "id": "tindahan-2",
+    "learningOrder": 246
+  },
+  {
+    "id": "gusto-2",
+    "learningOrder": 247
+  },
+  {
+    "id": "sad",
+    "learningOrder": 248
+  },
+  {
+    "id": "sad-2",
+    "learningOrder": 249
+  },
+  {
+    "id": "gusto-3",
+    "learningOrder": 250
+  },
+  {
+    "id": "gutom-2",
+    "learningOrder": 251
+  },
+  {
+    "id": "gutom-3",
+    "learningOrder": 252
+  },
+  {
+    "id": "malipayon",
+    "learningOrder": 253
+  },
+  {
+    "id": "malipayon-2",
+    "learningOrder": 254
+  },
+  {
+    "id": "uhaw-2",
+    "learningOrder": 255
+  },
+  {
+    "id": "uhaw-3",
+    "learningOrder": 256
+  },
+  {
+    "id": "dili-ganahan",
+    "learningOrder": 257
+  },
+  {
+    "id": "dili-ganahan-2",
+    "learningOrder": 258
+  },
+  {
+    "id": "gibati",
+    "learningOrder": 259
+  },
+  {
+    "id": "gibati-2",
+    "learningOrder": 260
+  },
+  {
+    "id": "gibati-ko",
+    "learningOrder": 261
+  },
+  {
+    "id": "gibati-ko-2",
+    "learningOrder": 262
+  },
+  {
+    "id": "kalipay",
+    "learningOrder": 263
+  },
+  {
+    "id": "daku-ang-kasingkasing",
+    "learningOrder": 264
+  },
+  {
+    "id": "doktor",
+    "learningOrder": 265
+  },
+  {
+    "id": "masakit",
+    "learningOrder": 266
+  },
+  {
+    "id": "sakit",
+    "learningOrder": 267
+  },
+  {
+    "id": "tambal",
+    "learningOrder": 268
+  },
+  {
+    "id": "adlaw",
+    "learningOrder": 269
+  },
+  {
+    "id": "bukid",
+    "learningOrder": 270
+  },
+  {
+    "id": "dagat",
+    "learningOrder": 271
+  },
+  {
+    "id": "init-2",
+    "learningOrder": 272
+  },
+  {
+    "id": "kahoy",
+    "learningOrder": 273
+  },
+  {
+    "id": "langit",
+    "learningOrder": 274
+  },
+  {
+    "id": "suba",
+    "learningOrder": 275
+  },
+  {
+    "id": "tubig-2",
+    "learningOrder": 276
+  },
+  {
+    "id": "ulan",
+    "learningOrder": 277
+  },
+  {
+    "id": "yuta",
+    "learningOrder": 278
+  },
+  {
+    "id": "bagyo",
+    "learningOrder": 279
+  },
+  {
+    "id": "bitoon",
+    "learningOrder": 280
+  },
+  {
+    "id": "dahon",
+    "learningOrder": 281
+  },
+  {
+    "id": "hangin",
+    "learningOrder": 282
+  },
+  {
+    "id": "panganod",
+    "learningOrder": 283
+  },
+  {
+    "id": "hotel",
+    "learningOrder": 284
+  },
+  {
+    "id": "airport",
+    "learningOrder": 285
+  },
+  {
+    "id": "lakaw",
+    "learningOrder": 286
+  },
+  {
+    "id": "pasaporte",
+    "learningOrder": 287
+  },
+  {
+    "id": "visa",
+    "learningOrder": 288
+  },
+  {
+    "id": "balik",
+    "learningOrder": 289
+  },
+  {
+    "id": "biyahe",
+    "learningOrder": 290
+  },
+  {
+    "id": "biyahe-2",
+    "learningOrder": 291
+  },
+  {
+    "id": "byahe",
+    "learningOrder": 292
+  },
+  {
+    "id": "kwarto",
+    "learningOrder": 293
+  },
+  {
+    "id": "lakaw-2",
+    "learningOrder": 294
+  },
+  {
+    "id": "suroy",
+    "learningOrder": 295
+  },
+  {
+    "id": "turista",
+    "learningOrder": 296
+  },
+  {
+    "id": "turista-2",
+    "learningOrder": 297
+  },
+  {
+    "id": "reserbasyon",
+    "learningOrder": 298
+  },
+  {
+    "id": "gusto-ko",
+    "learningOrder": 299
+  },
+  {
+    "id": "gusto-kog",
+    "learningOrder": 300
+  }
+]

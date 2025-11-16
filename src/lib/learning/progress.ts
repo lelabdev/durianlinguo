@@ -21,7 +21,7 @@ function calculateMastery(mastery: number, success: boolean): number {
 	}
 }
 
-export function updateProgress(wordId: number, success: boolean) {
+export function updateProgress(wordId: string, success: boolean) {
 	const storeWord = appStore.getStoreWord(wordId);
 
 	if (!storeWord) {

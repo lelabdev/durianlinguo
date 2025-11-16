@@ -62,18 +62,27 @@
 │   │   │   ├── Header.svelte      # App header
 │   │   │   ├── Navbar.svelte      # Bottom navigation
 │   │   │   └── Head.svelte        # SEO/meta tags
+│   │   ├── data/
+│   │   │   └── lexicon.ts         # 🎯 Vocabulary loader & API
 │   │   ├── learning/              # 🎯 Learning logic
 │   │   │   ├── getTodayWords.ts   # Word selection algorithm
 │   │   │   └── progress.ts        # Progress tracking & mastery
 │   │   ├── store/
 │   │   │   └── appStore.svelte    # 🎯 Central state (localStorage-based)
 │   │   ├── types/
-│   │   │   └── lexicon.ts         # 🎯 Core type definitions
+│   │   │   ├── lexicon.ts         # 🎯 Core type definitions
+│   │   │   └── store.ts           # Store type definitions
 │   │   ├── utils/                 # Utilities and icons
 │   │   ├── schema/                # Data schemas
 │   │   └── zod/                   # Zod validation schemas
 │   ├── content/
-│   │   ├── bisaya.json            # 🎯 300 Bisaya words database
+│   │   ├── words/                 # 🎯 Vocabulary by category (22 files)
+│   │   │   ├── _index.json        # Metadata
+│   │   │   ├── greetings.json     # 7 words
+│   │   │   ├── basic_words.json   # 13 words
+│   │   │   ├── verbs.json         # 63 words
+│   │   │   └── ... (19 more)      # Other categories
+│   │   ├── learning-sequence.json # 🎯 Learning order (300 word IDs)
 │   │   └── Why.svx                # Project manifesto (MDX)
 │   ├── app.css                    # Global styles + custom theme
 │   ├── app.html                   # HTML template
@@ -81,6 +90,7 @@
 ├── static/                        # Static assets (favicons, etc.)
 ├── messages/                      # i18n files (en.json, es.json)
 ├── project.inlang/                # Inlang i18n config
+├── ARCHITECTURE.md                # 🎯 Detailed architecture documentation
 └── Configuration files
 
 🎯 = Critical files for understanding core functionality
@@ -116,46 +126,78 @@ $zod: './src/lib/zod'
 4. Fill remaining slots with new words (never seen)
 5. Shuffle for random presentation
 
-### 2. State Management
+### 2. Data Architecture (Separated Concerns)
+
+**NEW ARCHITECTURE** - Vocabulary and learning order are now separated like SQL tables:
+
+#### Vocabulary Files (`src/content/words/`)
+- 22 category-based JSON files (greetings, verbs, food, etc.)
+- Each word has a unique **word-based ID** (e.g., `"kumusta"`, `"salamat"`)
+- IDs are **stable** and never change, even if learning order changes
+
+#### Learning Sequence (`src/content/learning-sequence.json`)
+- Array of 300 word IDs in pedagogical order
+- Defines WHAT order to learn words
+- Can be modified without affecting user data
+
+#### Vocabulary Loader (`src/lib/data/lexicon.ts`)
+- Centralized API for accessing vocabulary
+- Uses `Map` for O(1) lookup: `getWordById("kumusta")`
+- Functions:
+  - `getAllWords()` - Get all 300 words
+  - `getWordById(id)` - Fast lookup by ID
+  - `getWordByOrder(position)` - Get word at learning position
+  - `getLearningOrder(id)` - Find position of a word
+  - `getWordsByCategory(cat)` - Filter by category
+
+**Example Word Structure:**
+```json
+{
+  "id": "kumusta",           // Word-based ID (stable, never changes)
+  "word": "kumusta",
+  "translation": { "en": "hello / how are you" },
+  "pronunciation": "koo-MOOS-tah",
+  "difficulty": 1,           // 1-4 scale
+  "category": "greetings",
+  "part_of_speech": "interjection",
+  "tags": ["basic", "essential", "survival"]
+}
+```
+
+**22 Categories:**
+greetings (7), basic_words (13), pronouns (7), question_words (8), numbers (11), family (4), body (11), time (8), prepositions (12), verbs (63), descriptions (21), food (24), people (6), places (15), directions (20), transport (6), shopping (10), emotions (18), health (4), nature (15), travel (15), phrases (2)
+
+### 3. State Management
 
 **File:** `src/lib/store/appStore.svelte`
 
 - Uses Svelte 5 runes for reactivity
-- Persists to `localStorage` (key: `bisaya_progress`)
-- Tracks per-word progress:
+- Persists to `localStorage` (key: `app-store`)
+- Store structure:
   ```typescript
   {
-    wordId: string,
-    streak: number,        // Consecutive correct answers
-    mistakes: number,      // Total wrong answers
-    mastery: number,       // 0-100 score
-    nextReviewDate: string,
-    state: 'new' | 'learning' | 'known'
+    version: "1.0.0",
+    progress: {
+      lastSession: number,
+      nextLearningOrder: number  // Position in learning sequence (0-300)
+    },
+    words: [
+      {
+        id: string,           // Word ID (e.g., "kumusta")
+        word: string,
+        status: 'new' | 'learning' | 'known',
+        streak: number,       // Consecutive correct answers
+        mistakes: number,     // Total wrong answers
+        seen: number,         // Times reviewed
+        mastery: number,      // 0-100 score
+        nextReview: number    // Timestamp
+      }
+    ]
   }
   ```
-- Methods: `recordCorrect()`, `recordMistake()`, `getProgress()`
+- Methods: `add(wordId)`, `update(wordId, data)`, `getStoreWord(id)`, `getLexiconWord(id)`
 
-### 3. Word Data Model
-
-**File:** `src/content/bisaya.json`
-
-Each of 300 words contains:
-```json
-{
-  "id": "unique-uuid",
-  "bisaya": "Kumusta",
-  "translation": "How are you?",
-  "pronunciation": "koo-MOOS-tah",
-  "difficulty": 1,          // 1-5 scale
-  "category": "greetings",
-  "partOfSpeech": "phrase",
-  "tags": ["basic", "essential"],
-  "example": "Kumusta ka?"  // Optional
-}
-```
-
-**Categories:**
-- greetings, basic_words, numbers, food, family, time, directions, questions, verbs, adjectives
+**Key Benefit:** User stores word IDs (`"kumusta"`), not positions. Changing `learning-sequence.json` doesn't break user progress!
 
 ### 4. Flashcard Component
 
@@ -234,13 +276,20 @@ Defined in `src/app.css`:
 ### Common Tasks:
 
 **Adding a new word:**
-- Edit `src/content/bisaya.json`
-- Generate UUID for `id` field
-- Include all required fields
-- Choose appropriate category and difficulty
+1. Choose appropriate category
+2. Add word to `src/content/words/[category].json`
+3. Use word-based ID format: lowercase, hyphens for spaces (e.g., `"kumusta"`, `"ako-si"`)
+4. Insert word ID into `src/content/learning-sequence.json` at desired position
+5. Include all required fields (id, word, translation, pronunciation, difficulty, category, part_of_speech, tags)
+
+**Changing learning order:**
+- Simply reorder IDs in `src/content/learning-sequence.json`
+- NO impact on existing user data (users store word IDs, not positions)
+- NO migration needed
 
 **Modifying learning algorithm:**
 - See `src/lib/learning/getTodayWords.ts`
+- Use `getLearningOrder(wordId)` to get word position
 - Test changes don't break spaced repetition
 - Consider mastery calculation impact
 
@@ -253,6 +302,20 @@ Defined in `src/app.css`:
 - Check `src/app.css` for theme variables
 - Use DaisyUI component classes when possible
 - Follow Tailwind utility-first approach
+
+**Accessing vocabulary in code:**
+```typescript
+import { getAllWords, getWordById, getLearningOrder } from '$lib/data/lexicon';
+
+// Get all words
+const allWords = getAllWords();
+
+// Get specific word
+const word = getWordById("kumusta");
+
+// Get learning position
+const position = getLearningOrder("kumusta"); // Returns 0 (first word)
+```
 
 ### Testing Strategy:
 
@@ -301,8 +364,43 @@ From `src/content/Why.svx`:
 - **Bisaya Resources:** Community-sourced, local dictionaries
 - **Design:** Filipino-inspired warm color palette
 
+## Architecture Highlights
+
+**See `ARCHITECTURE.md` for detailed documentation.**
+
+### Separation of Concerns (SQL-like Design)
+
+```
+┌─────────────────────────────────────────────────────┐
+│  VOCABULARY (words/*.json)                          │
+│  - What are the words?                              │
+│  - Definitions, translations, metadata              │
+│  - 22 category files                                │
+└─────────────────────────────────────────────────────┘
+                        ↓
+┌─────────────────────────────────────────────────────┐
+│  LEARNING ORDER (learning-sequence.json)            │
+│  - In what order to learn?                          │
+│  - Array of 300 word IDs                            │
+│  - Can be changed without affecting users           │
+└─────────────────────────────────────────────────────┘
+                        ↓
+┌─────────────────────────────────────────────────────┐
+│  USER PROGRESS (localStorage)                       │
+│  - Who learned what?                                │
+│  - Stores word IDs (stable references)              │
+│  - Independent of learning order changes            │
+└─────────────────────────────────────────────────────┘
+```
+
+**Benefits:**
+- ✅ Modify learning order without breaking user data
+- ✅ Small, maintainable category files
+- ✅ O(1) word lookup with Map
+- ✅ Future: Multiple learning paths (beginner, intermediate, thematic)
+
 ---
 
-**Last Updated:** 2025-11-14
+**Last Updated:** 2025-11-16
 **Project Version:** 0.0.1
 **Status:** Active Development

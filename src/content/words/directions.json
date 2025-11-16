@@ -1,0 +1,285 @@
+[
+  {
+    "id": "asa-ang",
+    "word": "asa ang",
+    "translation": {
+      "en": "where is the..."
+    },
+    "difficulty": 1,
+    "category": "directions",
+    "part_of_speech": "phrase",
+    "tags": [
+      "essential",
+      "survival"
+    ],
+    "pronunciation": "AH-sah ang"
+  },
+  {
+    "id": "tuo",
+    "word": "tuo",
+    "translation": {
+      "en": "right"
+    },
+    "difficulty": 1,
+    "category": "directions",
+    "part_of_speech": "noun",
+    "tags": [
+      "basic",
+      "essential"
+    ],
+    "pronunciation": "TOO-oh"
+  },
+  {
+    "id": "tuo-2",
+    "word": "tuo",
+    "translation": {
+      "en": "right"
+    },
+    "difficulty": 1,
+    "category": "directions",
+    "part_of_speech": "adverb",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "TOO-oh"
+  },
+  {
+    "id": "wala-2",
+    "word": "wala",
+    "translation": {
+      "en": "left"
+    },
+    "difficulty": 1,
+    "category": "directions",
+    "part_of_speech": "noun",
+    "tags": [
+      "basic",
+      "essential"
+    ],
+    "pronunciation": "WAH-lah"
+  },
+  {
+    "id": "wala-3",
+    "word": "wala",
+    "translation": {
+      "en": "left"
+    },
+    "difficulty": 1,
+    "category": "directions",
+    "part_of_speech": "adverb",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "WAH-lah"
+  },
+  {
+    "id": "tuo-ug-tuo",
+    "word": "tuo ug tuo",
+    "translation": {
+      "en": "go straight"
+    },
+    "difficulty": 2,
+    "category": "directions",
+    "part_of_speech": "phrase",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "TOO-oh oog TOO-oh"
+  },
+  {
+    "id": "duol",
+    "word": "duol",
+    "translation": {
+      "en": "near"
+    },
+    "difficulty": 2,
+    "category": "directions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "DOO-ol"
+  },
+  {
+    "id": "duol-2",
+    "word": "duol",
+    "translation": {
+      "en": "near"
+    },
+    "difficulty": 2,
+    "category": "directions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "DOO-ol"
+  },
+  {
+    "id": "gawas",
+    "word": "gawas",
+    "translation": {
+      "en": "exit / outside"
+    },
+    "difficulty": 2,
+    "category": "directions",
+    "part_of_speech": "adverb",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "GA-was"
+  },
+  {
+    "id": "layo",
+    "word": "layo",
+    "translation": {
+      "en": "far"
+    },
+    "difficulty": 2,
+    "category": "directions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "LYE-yo"
+  },
+  {
+    "id": "layo-2",
+    "word": "layo",
+    "translation": {
+      "en": "far"
+    },
+    "difficulty": 2,
+    "category": "directions",
+    "part_of_speech": "adjective",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "LYE-yo"
+  },
+  {
+    "id": "mapa",
+    "word": "mapa",
+    "translation": {
+      "en": "map"
+    },
+    "difficulty": 2,
+    "category": "directions",
+    "part_of_speech": "noun",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "MA-pa"
+  },
+  {
+    "id": "sulod",
+    "word": "sulod",
+    "translation": {
+      "en": "inside"
+    },
+    "difficulty": 2,
+    "category": "directions",
+    "part_of_speech": "adverb",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "SOO-lod"
+  },
+  {
+    "id": "tuo-na",
+    "word": "tuo na",
+    "translation": {
+      "en": "turn right"
+    },
+    "difficulty": 2,
+    "category": "directions",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "TOO-oh nah"
+  },
+  {
+    "id": "tuo-ug-tuo-2",
+    "word": "tuo ug tuo",
+    "translation": {
+      "en": "go straight"
+    },
+    "difficulty": 2,
+    "category": "directions",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "TOO-oh oog TOO-oh"
+  },
+  {
+    "id": "wala-na",
+    "word": "wala na",
+    "translation": {
+      "en": "turn left"
+    },
+    "difficulty": 2,
+    "category": "directions",
+    "part_of_speech": "phrase",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "WAH-lah nah"
+  },
+  {
+    "id": "direksyon",
+    "word": "direksyon",
+    "translation": {
+      "en": "direction"
+    },
+    "difficulty": 3,
+    "category": "directions",
+    "part_of_speech": "noun",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "dee-rek-SYON"
+  },
+  {
+    "id": "ibaba",
+    "word": "ibaba",
+    "translation": {
+      "en": "below / underneath"
+    },
+    "difficulty": 3,
+    "category": "directions",
+    "part_of_speech": "adverb",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "ee-BA-ba"
+  },
+  {
+    "id": "ibabaw",
+    "word": "ibabaw",
+    "translation": {
+      "en": "above / on top"
+    },
+    "difficulty": 3,
+    "category": "directions",
+    "part_of_speech": "adverb",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "ee-ba-BAW"
+  },
+  {
+    "id": "taliwala-2",
+    "word": "taliwala",
+    "translation": {
+      "en": "between"
+    },
+    "difficulty": 3,
+    "category": "directions",
+    "part_of_speech": "preposition",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "tah-lee-WA-la"
+  }
+]

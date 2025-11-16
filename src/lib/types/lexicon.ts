@@ -1,5 +1,5 @@
 export type Lexicon = {
-	id: number;
+	id: string; // Word-based ID (e.g., "kumusta", "salamat")
 	word: string;
 	translation: {
 		en: string;

@@ -1,0 +1,156 @@
+[
+  {
+    "id": "duha",
+    "word": "duha",
+    "translation": {
+      "en": "two"
+    },
+    "difficulty": 1,
+    "category": "numbers",
+    "part_of_speech": "number",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "DOO-ha"
+  },
+  {
+    "id": "lima",
+    "word": "lima",
+    "translation": {
+      "en": "five"
+    },
+    "difficulty": 1,
+    "category": "numbers",
+    "part_of_speech": "number",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "LEE-ma"
+  },
+  {
+    "id": "napulo",
+    "word": "napulo",
+    "translation": {
+      "en": "ten"
+    },
+    "difficulty": 1,
+    "category": "numbers",
+    "part_of_speech": "number",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "nah-POO-lo"
+  },
+  {
+    "id": "tulo",
+    "word": "tulo",
+    "translation": {
+      "en": "three"
+    },
+    "difficulty": 1,
+    "category": "numbers",
+    "part_of_speech": "number",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "TOO-lo"
+  },
+  {
+    "id": "upat",
+    "word": "upat",
+    "translation": {
+      "en": "four"
+    },
+    "difficulty": 1,
+    "category": "numbers",
+    "part_of_speech": "number",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "OO-pat"
+  },
+  {
+    "id": "usa",
+    "word": "usa",
+    "translation": {
+      "en": "one"
+    },
+    "difficulty": 1,
+    "category": "numbers",
+    "part_of_speech": "number",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "OO-sah"
+  },
+  {
+    "id": "pito",
+    "word": "pito",
+    "translation": {
+      "en": "seven"
+    },
+    "difficulty": 2,
+    "category": "numbers",
+    "part_of_speech": "number",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "PEE-to"
+  },
+  {
+    "id": "siyam",
+    "word": "siyam",
+    "translation": {
+      "en": "nine"
+    },
+    "difficulty": 2,
+    "category": "numbers",
+    "part_of_speech": "number",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "SEE-yam"
+  },
+  {
+    "id": "unom",
+    "word": "unom",
+    "translation": {
+      "en": "six"
+    },
+    "difficulty": 2,
+    "category": "numbers",
+    "part_of_speech": "number",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "OO-nom"
+  },
+  {
+    "id": "walo",
+    "word": "walo",
+    "translation": {
+      "en": "eight"
+    },
+    "difficulty": 2,
+    "category": "numbers",
+    "part_of_speech": "number",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "WA-lo"
+  },
+  {
+    "id": "napulog-usa",
+    "word": "napulog usa",
+    "translation": {
+      "en": "eleven"
+    },
+    "difficulty": 3,
+    "category": "numbers",
+    "part_of_speech": "number",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "nah-POO-log OO-sah"
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "id": "kumusta",
+    "word": "kumusta",
+    "translation": {
+      "en": "hello / how are you"
+    },
+    "difficulty": 1,
+    "category": "greetings",
+    "part_of_speech": "interjection",
+    "tags": [
+      "basic",
+      "essential",
+      "survival"
+    ],
+    "pronunciation": "koo-MOOS-tah"
+  },
+  {
+    "id": "palihug",
+    "word": "palihug",
+    "translation": {
+      "en": "please"
+    },
+    "difficulty": 1,
+    "category": "greetings",
+    "part_of_speech": "interjection",
+    "tags": [
+      "polite",
+      "essential"
+    ],
+    "pronunciation": "pah-LEE-hoog"
+  },
+  {
+    "id": "salamat",
+    "word": "salamat",
+    "translation": {
+      "en": "thank you"
+    },
+    "difficulty": 1,
+    "category": "greetings",
+    "part_of_speech": "interjection",
+    "tags": [
+      "basic",
+      "essential",
+      "polite"
+    ],
+    "pronunciation": "sah-LAH-tam"
+  },
+  {
+    "id": "ako-si",
+    "word": "ako si",
+    "translation": {
+      "en": "I am"
+    },
+    "difficulty": 2,
+    "category": "greetings",
+    "part_of_speech": "phrase",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "AH-ko see"
+  },
+  {
+    "id": "unsay-ngalan-nimo",
+    "word": "unsay ngalan nimo",
+    "translation": {
+      "en": "what is your name?"
+    },
+    "difficulty": 2,
+    "category": "greetings",
+    "part_of_speech": "phrase",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "OON-say NGAH-lan NEE-mo"
+  },
+  {
+    "id": "abi",
+    "word": "abi",
+    "translation": {
+      "en": "excuse me / hey"
+    },
+    "difficulty": 2,
+    "category": "greetings",
+    "part_of_speech": "interjection",
+    "tags": [
+      "casual",
+      "attention"
+    ],
+    "pronunciation": "AH-bee"
+  },
+  {
+    "id": "pa",
+    "word": "pa",
+    "translation": {
+      "en": "please (after verb)"
+    },
+    "difficulty": 2,
+    "category": "greetings",
+    "part_of_speech": "particle",
+    "tags": [
+      "polite"
+    ],
+    "pronunciation": "pah"
+  }
+]

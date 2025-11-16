@@ -1,0 +1,86 @@
+[
+  {
+    "id": "bus",
+    "word": "bus",
+    "translation": {
+      "en": "bus"
+    },
+    "difficulty": 1,
+    "category": "transport",
+    "part_of_speech": "noun",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "boos"
+  },
+  {
+    "id": "jeepney",
+    "word": "jeepney",
+    "translation": {
+      "en": "jeepney"
+    },
+    "difficulty": 1,
+    "category": "transport",
+    "part_of_speech": "noun",
+    "tags": [
+      "iconic"
+    ],
+    "pronunciation": "JEEP-nee"
+  },
+  {
+    "id": "ticket",
+    "word": "ticket",
+    "translation": {
+      "en": "ticket"
+    },
+    "difficulty": 2,
+    "category": "transport",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "TIK-et"
+  },
+  {
+    "id": "tricycle",
+    "word": "tricycle",
+    "translation": {
+      "en": "tricycle"
+    },
+    "difficulty": 2,
+    "category": "transport",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "TRY-sik-el"
+  },
+  {
+    "id": "barko",
+    "word": "barko",
+    "translation": {
+      "en": "ship / boat"
+    },
+    "difficulty": 3,
+    "category": "transport",
+    "part_of_speech": "noun",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "BAR-ko"
+  },
+  {
+    "id": "estasyon-2",
+    "word": "estasyon",
+    "translation": {
+      "en": "station"
+    },
+    "difficulty": 3,
+    "category": "transport",
+    "part_of_speech": "noun",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "es-TA-shon"
+  }
+]

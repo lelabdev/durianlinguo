@@ -1,0 +1,213 @@
+[
+  {
+    "id": "balay",
+    "word": "balay",
+    "translation": {
+      "en": "house"
+    },
+    "difficulty": 1,
+    "category": "places",
+    "part_of_speech": "noun",
+    "tags": [
+      "basic",
+      "essential"
+    ],
+    "pronunciation": "BAH-lay"
+  },
+  {
+    "id": "hospital",
+    "word": "hospital",
+    "translation": {
+      "en": "hospital"
+    },
+    "difficulty": 2,
+    "category": "places",
+    "part_of_speech": "noun",
+    "tags": [
+      "essential"
+    ],
+    "pronunciation": "hos-PI-tal"
+  },
+  {
+    "id": "eskwela",
+    "word": "eskwela",
+    "translation": {
+      "en": "school"
+    },
+    "difficulty": 2,
+    "category": "places",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "es-KEH-la"
+  },
+  {
+    "id": "kama",
+    "word": "kama",
+    "translation": {
+      "en": "bed"
+    },
+    "difficulty": 2,
+    "category": "places",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "KA-ma"
+  },
+  {
+    "id": "lamesa",
+    "word": "lamesa",
+    "translation": {
+      "en": "table"
+    },
+    "difficulty": 2,
+    "category": "places",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "la-ME-sa"
+  },
+  {
+    "id": "merkado",
+    "word": "merkado",
+    "translation": {
+      "en": "market"
+    },
+    "difficulty": 2,
+    "category": "places",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "mer-KA-do"
+  },
+  {
+    "id": "restrawhan",
+    "word": "restrawhan",
+    "translation": {
+      "en": "restaurant"
+    },
+    "difficulty": 2,
+    "category": "places",
+    "part_of_speech": "noun",
+    "tags": [
+      "tourist"
+    ],
+    "pronunciation": "res-traw-HAN"
+  },
+  {
+    "id": "simbahan",
+    "word": "simbahan",
+    "translation": {
+      "en": "church"
+    },
+    "difficulty": 2,
+    "category": "places",
+    "part_of_speech": "noun",
+    "tags": [
+      "cultural"
+    ],
+    "pronunciation": "sim-BA-han"
+  },
+  {
+    "id": "tindahan",
+    "word": "tindahan",
+    "translation": {
+      "en": "store"
+    },
+    "difficulty": 2,
+    "category": "places",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "teen-DA-han"
+  },
+  {
+    "id": "bintana",
+    "word": "bintana",
+    "translation": {
+      "en": "window"
+    },
+    "difficulty": 3,
+    "category": "places",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "bin-TA-na"
+  },
+  {
+    "id": "estasyon",
+    "word": "estasyon",
+    "translation": {
+      "en": "station"
+    },
+    "difficulty": 3,
+    "category": "places",
+    "part_of_speech": "noun",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "es-TA-shon"
+  },
+  {
+    "id": "lingkoranan",
+    "word": "lingkoranan",
+    "translation": {
+      "en": "chair"
+    },
+    "difficulty": 3,
+    "category": "places",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "ling-kor-a-NAN"
+  },
+  {
+    "id": "palip-iran",
+    "word": "palip-iran",
+    "translation": {
+      "en": "airport"
+    },
+    "difficulty": 3,
+    "category": "places",
+    "part_of_speech": "noun",
+    "tags": [
+      "useful"
+    ],
+    "pronunciation": "pa-lip-EE-ran"
+  },
+  {
+    "id": "panimalay",
+    "word": "panimalay",
+    "translation": {
+      "en": "home / household"
+    },
+    "difficulty": 3,
+    "category": "places",
+    "part_of_speech": "noun",
+    "tags": [
+      "cultural"
+    ],
+    "pronunciation": "pa-nee-MA-lay"
+  },
+  {
+    "id": "pultahan",
+    "word": "pultahan",
+    "translation": {
+      "en": "door"
+    },
+    "difficulty": 3,
+    "category": "places",
+    "part_of_speech": "noun",
+    "tags": [
+      "common"
+    ],
+    "pronunciation": "pool-TA-han"
+  }
+]
