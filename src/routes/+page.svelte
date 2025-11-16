@@ -66,9 +66,9 @@
 	<footer class="py-6 text-center text-sm text-gray-600">
 		<p>
 			Made with ❤️ by
-			<a href="https://lelab.dev" class="link link-hover"> Lelab.dev </a>
+			<a href="https://lelab.dev/" class="link link-hover"> Lelab.dev </a>
 			| durianlinguo.lelab.dev - 2025 |
-			<a href="https://github.com/sulti-app" class="link link-hover">GitHub</a>
+			<a href="https://github.com/lelabdev/durianlinguo" class="link link-hover">GitHub</a>
 		</p>
 	</footer>
 </div>
