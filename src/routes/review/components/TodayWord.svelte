@@ -14,7 +14,10 @@
 	const totalWords = getTotalWords();
 	const wordIndex = (dayOfYear - 1) % totalWords;
 	const todayWord = getWordByOrder(wordIndex);
-	console.log(todayWord);
+
+	if (import.meta.env.DEV) {
+		console.log(todayWord);
+	}
 </script>
 
 <div class="mb-8">

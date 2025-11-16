@@ -74,11 +74,18 @@ export const wordsById = new Map<string, Lexicon>(
 export const learningOrder: string[] = learningSequence;
 
 /**
+ * Map of word ID → learning order index for O(1) lookup
+ */
+const orderByWordId = new Map<string, number>(
+	learningOrder.map((id, index) => [id, index])
+);
+
+/**
  * Get learning order index for a word ID
  * Returns -1 if word not found in sequence
  */
 export function getLearningOrder(wordId: string): number {
-	return learningOrder.indexOf(wordId);
+	return orderByWordId.get(wordId) ?? -1;
 }
 
 /**

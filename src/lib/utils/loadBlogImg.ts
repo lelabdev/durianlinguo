@@ -12,7 +12,7 @@ export const blogCover: Record<string, EnhancedImgModule> = import.meta.glob(
 
 export function getBlogImg(img: string) {
   const mod = blogCover[`/src/content/blog/img/${img}.jpg`];
-  if (!mod) {
+  if (!mod && import.meta.env.DEV) {
     console.warn("No image found for blog post", img);
   }
   return mod?.default ?? defaultBlog;
