@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head>
-	<title>Review | Sulti</title>
+	<title>Review | Durianlinguo</title>
 </svelte:head>
 
 <Progress />
