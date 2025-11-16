@@ -40,24 +40,24 @@ As we say in Davao: **"Durian gyud!"** (For real!)
 
 ### Prerequisites
 
-- **Node.js** 18+
+- **Node.js** 18 or higher
 - **pnpm** (recommended) or npm
 
-### Installation
+### Installation & Setup
 
 ```bash
-# Clone the repository
-git clone https://github.com/lelabdev/durianlinguo
+# 1. Clone the repository
+git clone https://github.com/lelabdev/durianlinguo/
 cd durianlinguo
 
-# Install dependencies
+# 2. Install dependencies
 pnpm install
 
-# Start development server
+# 3. Start development server
 pnpm dev
 ```
 
-The app will be available at `http://localhost:5173`
+The app will be running at **http://localhost:5173**
 
 ### Development Commands
 
@@ -156,7 +156,7 @@ Font: **Nunito Variable** - Clean, friendly, and readable
 
 ## 🤝 Contributing
 
-This project is in active development and will be open-sourced once the first version is stable. We're looking for:
+This project is in active development and contributions are welcome! We're looking for:
 
 - **🎨 Designers** - Help refine the UI/UX
 - **🗣️ Native Bisaya speakers** - Record pronunciations, verify translations
@@ -165,7 +165,9 @@ This project is in active development and will be open-sourced once the first ve
 
 ### Want to Help?
 
-Email: **contact@lelab.dev**
+- **Repository**: [github.com/lelabdev/durianlinguo](https://github.com/lelabdev/durianlinguo/)
+- **Contact**: contact@lelab.dev
+- **Website**: [lelab.dev](https://lelab.dev/)
 
 ---
 
@@ -191,6 +193,7 @@ This project will be open-sourced under the MIT License once v1.0 is released.
 ## 👨‍💻 Author
 
 **Ludo Loops** - French developer based in Davao, Philippines
+Website: [lelab.dev](https://lelab.dev/)
 
 Built with love for the people of Mindanao and anyone who wants to learn their beautiful language.
 
@@ -230,4 +233,4 @@ Because if you live somewhere, if you love a place, you should be able to speak 
 
 ---
 
-**Built with SvelteKit** | **Powered by Durian** 🍈 | **Made in Davao** 🇵🇭
+**Built with SvelteKit** | **Powered by Durian** 🍈 | **Made in Davao** 🇵🇭 | [lelab.dev](https://lelab.dev/)
