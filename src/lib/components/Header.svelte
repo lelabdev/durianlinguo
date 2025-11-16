@@ -1,5 +1,6 @@
 <script lang="ts">
 	import logo from '$lib/assets/logo.png?enhanced';
+	import InstallButton from '$components/InstallButton.svelte';
 </script>
 
 <header class="sticky flex flex-row items-center justify-between bg-transparent px-6 pt-4">
@@ -8,4 +9,6 @@
 
 		<h2 class="text-2xl font-bold text-woodBrown">Pagsulti gyud ta!</h2>
 	</a>
+
+	<InstallButton />
 </header>
